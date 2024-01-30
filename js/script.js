@@ -1848,6 +1848,7 @@ const menu = [
         price: "190UAH",
         categoryIndex: 18,
         weight: "",
+	img: "img/products/burgers/burger_havaisky.png"
     },
     {
         id: 189,
