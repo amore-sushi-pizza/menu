@@ -58,7 +58,6 @@ filterBtns.forEach((btn)=>{
             top: window.scrollY + elementPosition - 150, // Встановлюємо відстань у 150 пікселів вище від верхнього краю елемента
             behavior: 'smooth'
         });
-            //document.getElementById('recommended').scrollIntoView();
         })
 })
 liked__products.onclick=()=>{
@@ -2273,12 +2272,7 @@ function toggleSelection(itemId) {
     const selectedItems = menu.filter(item => item.selected);
     saveSelectedItemsToSessionStorage(selectedItems);
     displaySelectedItem(selectedItems);
-   /* const menuCategory = menu.filter((menuItem) => {
-        if(menuItem.selected){
-            return menuItem;
-        }});
-    // Оновіть відображення обраного елемента
-    displaySelectedItem(menuCategory);*/
+  
 }
 window.onload = function () {
     const selectedItems = getSelectedItemsFromSessionStorage();
@@ -2304,65 +2298,4 @@ if (highlightedDay) {
 
 }
 
-/*function displaySubMenusItem(menuItem, subCategory){
-    
-    let name__article;
-    let subCat = subCategory.map((category) => {
-        return `<a href="#${category}">${category}</a>`;
-    });
-    
-    subCat = subCat.join(" | ");
-    let displaySubMenusItem = menuItem.map((item)=>{
-        name__article=item.article;
-        
-        return `      
-        
-			<div class="col-sm-12 col-lg-4 col-md-6 id="${subCategory[item.categoryIndex]}" >
-				<div class="card-menu">
-					<img src=${item.img} class="card-img-top">
-					<div class="card-body">
-					  <p class="card-text">
-                        <h3 class="title">${item.title}</h3>
-                        <p class="Category">${item.description}</p>
-                        <p class="price">${item.price}</p>
-					</p>
-					</div>
-				  </div>
-			</div>`;
-    })
 
-    displaySubMenusItem = displaySubMenusItem.join("");
-    sectionCenter.innerHTML = `<h2 class="recommended__title">${subCat}<br>${name__article}</h2>${displaySubMenusItem}`;
-}
-/*<script>
-  // Отримайте всі кнопки за класом
-  var buttons = document.getElementsByClassName('main__link');
-
-  // Отримайте контейнер для підкатегорій
-  var subcategoriesContainer = document.getElementById('subcategories-container');
-
-  // Створіть обробник подій для кожної кнопки
-  Array.from(buttons).forEach(function(button) {
-    button.addEventListener('click', function() {
-      // Очистіть контейнер перед додаванням нового вмісту
-      subcategoriesContainer.innerHTML = '';
-
-      // Отримайте data-id з кнопки
-      var categoryId = button.getAttribute('data-id');
-
-      // Здійсніть дії відповідно до категорії
-      switch (categoryId) {
-        case 'roly':
-          // Додайте підкатегорії для ролів
-          subcategoriesContainer.innerHTML = '<p>Підкатегорії для Ролів</p>';
-          break;
-        case 'pizza':
-          // Додайте підкатегорії для піци
-          subcategoriesContainer.innerHTML = '<p>Підкатегорії для Піци</p>';
-          break;
-        // Додайте інші категорії, якщо потрібно
-      }
-    });
-  });
-</script>
-*/
