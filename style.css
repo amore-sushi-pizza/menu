@@ -19,7 +19,7 @@ html {
   /* #endregion */
   /* #region header */
   
-  .header {
+ .header {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
@@ -27,7 +27,7 @@ html {
     min-height: 60vh;
   }
  
- .header::before {
+  .header::before {
     content: '';
     position: absolute;
     top: 0;
@@ -36,7 +36,7 @@ html {
     height: 65%;
     background: url(img/cover.jpeg) no-repeat center center/cover;
     overflow: hidden;
-    z-index: -1; /* Помістіть псевдоелемент за реальний контент */
+    z-index: -1;
 }
 @media (max-width: 800px){
   
