@@ -1632,6 +1632,7 @@ const menu = [
         price: "150UAH",
         categoryIndex: 14,
         weight: "300г",
+	img: "img/products/bowls/bowl_salmon.png"
     },
     {
         id: 169,
