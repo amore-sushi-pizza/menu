@@ -201,32 +201,21 @@ html {
 }
   /* #endregion */
   
-  /* #region footer */
-  .footer {
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-  }
-  .footer > div{
-    
-    display: flex;
-    justify-content: space-between;
-  }
-  .social i{
-    font-size: 30px;
-    color: rgb(170, 127, 41);
-    margin-left: 30px;
-    margin-top: 5px;
-}
-.social i:hover {
-    opacity: 0.9;
-}
-  /* #endregion */
-  
+ 
 /* footer */
 footer{
   background-color: #c3ab83;
-
+}
+.end-page{
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0;
+}
+.end-page a{
+  color: #ffffff;
+}
+.end-page a:hover{
+  color: rgb(247, 237, 186);
+  font-weight: bold;
 }
 .bg-footer-dark{
   background-color: #000000;
