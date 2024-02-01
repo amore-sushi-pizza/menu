@@ -1527,7 +1527,7 @@ const menu = [
         title:"Сік в асортименті",
         Category: "drinks",
         article: "Напої",
-        description: "Яблучний/мультифруктовий/томатний/апельсиновий/персиковий",
+        description: "",
         price: "25UAH",
         categoryIndex: 7,
         weight: "200мл",
@@ -1537,7 +1537,7 @@ const menu = [
         title:"Сік в асортименті",
         Category: "drinks",
         article: "Напої",
-        description: "Яблучний/мультифруктовий/томатний/апельсиновий/персиковий",
+        description: "",
         price: "90UAH",
         categoryIndex: 7,
         weight: "1л",
@@ -1673,6 +1673,7 @@ const menu = [
         price: "150UAH",
         categoryIndex: 15,
         weight: "250г",
+        img: "img/products/bowls/carmen.png"
     },
     {
         id: 173,
