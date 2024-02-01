@@ -1673,7 +1673,7 @@ const menu = [
         price: "150UAH",
         categoryIndex: 15,
         weight: "250г",
-        img: "img/products/bowls/carmen.png"
+        img: "img/products/salads/carmen.png"
     },
     {
         id: 173,
