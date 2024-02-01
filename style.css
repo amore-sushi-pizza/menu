@@ -38,8 +38,11 @@ html {
     overflow: hidden;
     z-index: -1;
 }
-@media (max-width: 800px){
-  
+@media (max-width: 600px){
+  .header::before {
+    
+    height: 40%;
+  }
   .header {
     min-height: 35vh;
   }
