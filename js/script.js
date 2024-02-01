@@ -1,13 +1,4 @@
-btn__home.onclick=()=>{
-    let x =document.getElementById('home__menu');
-    
-    x.classList.remove("hide__menu");
-    let y=document.getElementById('recommended');
-        y.classList.remove("active");
-    let z=document.getElementById('backBtn');
-    z.classList.remove("active");
-}
-backBtn.onclick=()=>{
+const firstPage = ()=>{
     let x =document.getElementById('home__menu');
     
     x.classList.remove("hide__menu");
@@ -18,6 +9,12 @@ backBtn.onclick=()=>{
     z.classList.remove("active");
     document.body.scrollTop = 0; 
     document.documentElement.scrollTop = 0;
+}
+btn__home.onclick=()=>{
+    firstPage();
+}
+backBtn.onclick=()=>{
+    firstPage();
 }
 // Зберегти обрані товари в Session Storage
 function saveSelectedItemsToSessionStorage(selectedItems) {
