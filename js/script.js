@@ -1357,6 +1357,7 @@ const menu = [
         price: "85UAH",
         categoryIndex: 12,
         weight: "300 мл",
+        img: "img/products/drinks/blue_laguna.png"
     },
     {
         id: 142,
