@@ -630,7 +630,7 @@ const menu = [
         price: "180UAH",
         categoryIndex: 1,
         weight: "270г",
-        img: ""
+        img: "img/products/sushi/black_filadelfia.png"
     },
     {
         id: 53,
@@ -1086,6 +1086,7 @@ const menu = [
         price: "130UAH",
         categoryIndex: 1,
         weight: "260г",
+        img: "img/products/sushi/cheese_pear.png"
     },
     {
         id: 98,
