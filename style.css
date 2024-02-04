@@ -212,6 +212,7 @@ footer{
 }
 .end-page a{
   color: #ffffff;
+  font-weight: bold;
 }
 .end-page a:hover{
   color: rgb(247, 237, 186);
