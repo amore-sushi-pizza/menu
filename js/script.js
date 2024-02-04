@@ -685,6 +685,7 @@ const menu = [
         price: "190UAH",
         categoryIndex: 1,
         weight: "220г",
+        img: "img/products/sushi/california_eel.png"
     },
     {
         id: 59,
@@ -1323,6 +1324,7 @@ const menu = [
         price: "100UAH",
         categoryIndex: 12,
         weight: "250 мл",
+        img: "img/products/drinks/pina_colada.png"
     },
     {
         id: 139,
@@ -1660,6 +1662,7 @@ const menu = [
         price: "170UAH",
         categoryIndex: 15,
         weight: "350г",
+	img: "img/products/salads/salmon.png"
     },
     {
         id: 172,
