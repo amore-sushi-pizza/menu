@@ -684,7 +684,7 @@ const menu = [
         description: "Рис, норі, сир Філадельфія, огірок, авокадо, вугор, креветки, ікра Масаго",
         price: "190UAH",
         categoryIndex: 1,
-        weight: "220г",
+        weight: "260г",
         img: "img/products/sushi/california_eel.png"
     },
     {
@@ -1903,7 +1903,7 @@ const menu = [
         description: "Подається з кетчупом",
         price: "60UAH",
         categoryIndex: 19,
-        weight: "200г",
+        weight: "150г",
         img: "img/products/frytur/fri.png"
     },
     {
