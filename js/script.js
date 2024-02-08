@@ -941,6 +941,7 @@ const menu = [
         price: "150UAH",
         categoryIndex: 2,
         weight: "300г",
+        img: "img/products/sushi/cezar_warm.png"
     },
     {
         id: 83,
@@ -951,6 +952,7 @@ const menu = [
         price: "180UAH",
         categoryIndex: 2,
         weight: "350г",
+        img: "img/products/sushi/shrimp_warm.png"
     },
     {
         id: 84,
@@ -972,7 +974,7 @@ const menu = [
         price: "600UAH",
         categoryIndex: 3,
         weight: "1.2кг (40 шматків)",
-        img: "img/products/sushi/set_asorti.jpg"
+        img: "img/products/sushi/set_asorti.png"
     },
     {
         id: 86,
@@ -983,7 +985,7 @@ const menu = [
         price: "550UAH",
         categoryIndex: 3,
         weight: "980г (32 шматки)",
-        img: "img/products/sushi/set_filadelfiia.jpg"
+        img: "img/products/sushi/set_filadelfiia.png"
     },
     {
         id: 87,
@@ -994,7 +996,7 @@ const menu = [
         price: "630UAH",
         categoryIndex: 3,
         weight: "1.18кг (40 шматків)",
-        img: "img/products/sushi/set_cake.jpg"
+        img: "img/products/sushi/set_cake.png"
     },
     {
         id: 88,
@@ -1015,6 +1017,7 @@ const menu = [
         price: "400UAH",
         categoryIndex: 3,
         weight: "1.1кг (24 шматки)",
+        img: "img/products/sushi/set_warm.jpg"
     },
     {
         id: 90,
@@ -1076,6 +1079,7 @@ const menu = [
         price: "600UAH",
         categoryIndex: 3,
         weight: "1кг (32 шматки)",
+        img: "img/products/sushi/set_4dragons.png"
     },
     {
         id: 96,
