@@ -878,6 +878,7 @@ const menu = [
         price: "80UAH",
         categoryIndex: 1,
         weight: "150г",
+        img: "img/products/sushi/nori-maki.png"
     },
     {
         id: 77,
