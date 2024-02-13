@@ -641,7 +641,7 @@ const menu = [
         price: "130UAH",
         categoryIndex: 1,
         weight: "250г",
-        img: ""
+        img: "img/products/sushi/filadelfia_vega.png"
     },
     {
         id: 54,
