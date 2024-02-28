@@ -1729,7 +1729,7 @@ const menu = [
         Category: "beer-menu",
         article: "До пива",
         description: "",
-        price: "25UAH",
+        price: "50UAH",
         categoryIndex: 17,
         weight: "60г",
     },
