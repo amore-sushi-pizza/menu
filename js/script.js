@@ -1673,15 +1673,16 @@ const menu = [
         weight: "250г",
         img: "img/products/salads/carmen.png"
     },
-    {
+   {
         id: 173,
         title:"Запечений лосось",
         Category: "salads",
         article: "Салати",
-        description: "Лосось, салат, помідор, сир Філадельфія",
+        description: "Лосось, зелень, помідор, сир Філадельфія",
         price: "270UAH",
         categoryIndex: 15,
         weight: "250г",
+        img: "img/products/salads/grilled_salmon.png"
     },
     {
         id: 174,
