@@ -1773,6 +1773,7 @@ const menu = [
         price: "270UAH",
         categoryIndex: 17,
         weight: "300г",
+        img: "img/products/adds/set-to-wine.png"
     },
     {
         id: 183,
