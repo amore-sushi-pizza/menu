@@ -1979,6 +1979,7 @@ const menu = [
         price: "450UAH",
         categoryIndex: 19,
         weight: "1000г",
+        img: "img/products/frytur/set_fri_2.png"
     },
     {
         id: 201,
