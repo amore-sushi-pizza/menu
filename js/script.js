@@ -1674,7 +1674,7 @@ const menu = [
         img: "img/products/salads/carmen.png"
     },
    {
-        id: 173,
+        id: 207,
         title:"Запечений лосось",
         Category: "salads",
         article: "Салати",
@@ -1776,8 +1776,8 @@ const menu = [
         img: "img/products/adds/set-to-wine.png"
     },
     {
-        id: 183,
-        title:"Салат Цезар",
+        id: 173,
+        title:'Салат Цезар "Курка"',
         Category: "salads",
         article: "Салати",
         description: 'Айзберг, крутони, курка, помідор, яйце, соус "Цезар", пармезан',
@@ -2030,6 +2030,26 @@ const menu = [
         price: "100UAH",
         categoryIndex: 19,
         weight: "300г",
+    },
+     {
+        id: 183,
+        title:'Салат Цезар "Креветка"',
+        Category: "salads",
+        article: "Салати",
+        description: 'Айзберг, крутони, креветка, помідор, яйце, соус "Цезар", пармезан',
+        price: "190UAH",
+        categoryIndex: 15,
+        weight: "350г",
+    },
+    {
+        id: 208,
+        title:'Салат з мідіями"',
+        Category: "salads",
+        article: "Салати",
+        description: 'Зелень, помідор, перець, мідії, фета, кисло-солодкий соус',
+        price: "150UAH",
+        categoryIndex: 15,
+        weight: "220г",
     },
     
 ]
