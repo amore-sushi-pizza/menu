@@ -2040,6 +2040,7 @@ const menu = [
         price: "190UAH",
         categoryIndex: 15,
         weight: "350г",
+        img: "img/products/salads/cezar_shrimp.png"
     },
     {
         id: 208,
