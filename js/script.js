@@ -2051,6 +2051,7 @@ const menu = [
         price: "150UAH",
         categoryIndex: 15,
         weight: "220г",
+        img: "img/products/salads/midia.png"
     },
     
 ]
