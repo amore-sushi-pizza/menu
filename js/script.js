@@ -2073,7 +2073,7 @@ const menu = [
         price: "100UAH",
         categoryIndex: 22,
         weight: "300г",
-        img: "img/products/pasta/chicken_mushroom_pasta.png"
+        img: "img/products/chicken_mushroom_pasta.png"
     },
           
     {
