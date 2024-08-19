@@ -2044,7 +2044,7 @@ const menu = [
     },
     {
         id: 208,
-        title:'Салат з мідіями"',
+        title:'Салат з мідіями',
         Category: "salads",
         article: "Салати",
         description: 'Зелень, помідор, перець, мідії, фета, кисло-солодкий соус',
@@ -2052,6 +2052,40 @@ const menu = [
         categoryIndex: 15,
         weight: "220г",
         img: "img/products/salads/midia.png"
+    },
+    {
+        id: 209,
+        title:'Паста з креветкою',
+        Category: "pasta",
+        article: "Паста",
+        description: '',
+        price: "150UAH",
+        categoryIndex: 22,
+        weight: "300г",
+        img: ""
+    },
+    {
+        id: 210,
+        title:'Паста з куркою та грибами',
+        Category: "pasta",
+        article: "Паста",
+        description: '',
+        price: "100UAH",
+        categoryIndex: 22,
+        weight: "300г",
+        img: "img/products/salads/chicken_mushroom_pasta.png"
+    },
+          
+    {
+        id: 211,
+        title:'Паста 4 сира',
+        Category: "pasta",
+        article: "Паста",
+        description: '',
+        price: "120UAH",
+        categoryIndex: 22,
+        weight: "300г",
+        img: ""
     },
     
 ]
@@ -2201,6 +2235,13 @@ const sections =[
         title: "Упаковка",
         category: "sushi-pack",
         mainCategory: "rolys"
+
+    },
+    {
+        id: 22,
+        title: "Паста",
+        category: "pasta",
+        mainCategory: "pasta"
 
     },
 ]
