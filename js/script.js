@@ -693,7 +693,7 @@ const menu = [
         Category: "roly",
         article: "Роли",
         description: "Рис, норі, сир Філадельфія, огірок, мідії",
-        price: "160UAH",
+        price: "150UAH",
         categoryIndex: 1,
         weight: "180г",
         img: "img/products/sushi/pink_flamingo.png"
@@ -812,7 +812,7 @@ const menu = [
         Category: "roly",
         article: "Роли",
         description: "Рис, норі, сир Філадельфія, огірок, салат, сурімі, соус Унагі, кунжут",
-        price: "170UAH",
+        price: "150UAH",
         categoryIndex: 1,
         weight: "240г",
     },
@@ -853,7 +853,7 @@ const menu = [
         Category: "roly",
         article: "Роли",
         description: "Рис, норі, сир Філадельфія, огірок, Сурімі, кунжут",
-        price: "130UAH",
+        price: "150UAH",
         categoryIndex: 1,
         weight: "210г",
         img: "img/products/sushi/surimi_sesame.png"
