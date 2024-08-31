@@ -2062,7 +2062,7 @@ const menu = [
         price: "150UAH",
         categoryIndex: 22,
         weight: "300г",
-        img: ""
+        img: "img/products/pasta/pasta_shrimp.png"
     },
     {
         id: 210,
@@ -2085,7 +2085,7 @@ const menu = [
         price: "120UAH",
         categoryIndex: 22,
         weight: "300г",
-        img: ""
+        img: "img/products/pasta/pasta_cheese.png"
     },
     
 ]
