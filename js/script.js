@@ -2087,6 +2087,40 @@ const menu = [
         weight: "300г",
         img: "img/products/pasta/pasta_cheese.png"
     },
+    {
+        id: 212,
+        title:"Макі з копченим лососем",
+        Category: "roly",
+        article: "Роли",
+        description: "Рис, норі, копчений лосось",
+        price: "130UAH",
+        categoryIndex: 1,
+        weight: "150г",
+
+    },
+    {
+        id: 213,
+        title:"Макі з лососем",
+        Category: "roly",
+        article: "Роли",
+        description: "Рис, норі, лосось",
+        price: "100UAH",
+        categoryIndex: 1,
+        weight: "150г",
+
+    },
+    {
+        id: 214,
+        title:"Макі Філадельфія",
+        Category: "roly",
+        article: "Роли",
+        description: "Рис, норі, копчений лосось",
+        price: "60UAH",
+        categoryIndex: 1,
+        weight: "160г",
+        img: "img/products/sushi/maki_filadelfia.png"
+
+    },
     
 ]
 const sections =[
