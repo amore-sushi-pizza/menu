@@ -2161,7 +2161,7 @@ const menu = [
         title:"Вершкові креветки",
         Category: "sushi-bowl",
         article: "Суші боул",
-        description: "Креветки, часник, помідорка, зелень, вершки, фокачо",
+        description: "Креветки, часник, помідорка, зелень, вершки, фокача",
         price: "250UAH",
         categoryIndex: 14,
         weight: "300г",
