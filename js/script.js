@@ -2114,7 +2114,7 @@ const menu = [
         title:"Макі Філадельфія",
         Category: "roly",
         article: "Роли",
-        description: "Рис, норі, копчений лосось",
+        description: "Рис, норі, філадельфія",
         price: "60UAH",
         categoryIndex: 1,
         weight: "160г",
