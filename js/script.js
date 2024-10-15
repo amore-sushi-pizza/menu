@@ -2059,7 +2059,7 @@ const menu = [
         Category: "pasta",
         article: "Паста",
         description: '',
-        price: "150UAH",
+        price: "160UAH",
         categoryIndex: 22,
         weight: "300г",
         img: "img/products/pasta/pasta_shrimp.png"
@@ -2070,7 +2070,7 @@ const menu = [
         Category: "pasta",
         article: "Паста",
         description: '',
-        price: "100UAH",
+        price: "150UAH",
         categoryIndex: 22,
         weight: "300г",
         img: "img/products/pasta/chicken_mushroom_pasta.png"
@@ -2082,7 +2082,7 @@ const menu = [
         Category: "pasta",
         article: "Паста",
         description: '',
-        price: "120UAH",
+        price: "160UAH",
         categoryIndex: 22,
         weight: "300г",
         img: "img/products/pasta/pasta_cheese.png"
