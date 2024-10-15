@@ -2096,6 +2096,7 @@ const menu = [
         price: "130UAH",
         categoryIndex: 1,
         weight: "150г",
+        img: "img/products/sushi/maki_salmon.png"
 
     },
     {
@@ -2107,7 +2108,7 @@ const menu = [
         price: "100UAH",
         categoryIndex: 1,
         weight: "150г",
-
+        img: "img/products/sushi/maki_salmon.png"
     },
     {
         id: 214,
