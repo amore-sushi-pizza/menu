@@ -2122,6 +2122,51 @@ const menu = [
         img: "img/products/sushi/maki_filadelfia.png"
 
     },
+    {
+        id: 215,
+        title:"Футомакі з копченим лососем",
+        Category: "roly",
+        article: "Роли",
+        description: "Рис, норі, огірок, копчений лосось, сир Філадельфія, ікра червона, ікра оранжева",
+        price: "210UAH",
+        categoryIndex: 1,
+        weight: "220г",
+        
+    },
+    {
+        id: 216,
+        title:"Мон рол з копченим лососем",
+        Category: "roly",
+        article: "Роли",
+        description: "Рис, норі, сир Філадельфія, огірок, копчений лосось, кунжут",
+        price: "230UAH",
+        categoryIndex: 1,
+        weight: "200г",
+        img: "img/products/sushi/mon_rol.png"
+    }, 
+    
+    {
+        id: 217,
+        title:"Філадельфія Масаго з копченим лососем",
+        Category: "roly",
+        article: "Роли",
+        description: "Рис, норі, копчений лосось, сир Філадельфія, огірок, ікра Масаго",
+        price: "210UAH",
+        categoryIndex: 1,
+        weight: "220г",
+        img: "img/products/sushi/filadelfia_masaho.png"
+    },
+    {
+        id: 218,
+        title:"Вершкові креветки",
+        Category: "sushi-bowl",
+        article: "Суші боул",
+        description: "Креветки, часник, помідорка, зелень, вершки, фокачо",
+        price: "250UAH",
+        categoryIndex: 14,
+        weight: "300г",
+        
+    },
     
 ]
 const sections =[
