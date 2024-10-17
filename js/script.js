@@ -871,7 +871,7 @@ const menu = [
     },
     {
         id: 76,
-        title:"Норі макі",
+        title:"Макі з лососем",
         Category: "roly",
         article: "Роли",
         description: "Рис, норі, лосось",
@@ -2099,17 +2099,7 @@ const menu = [
         img: "img/products/sushi/maki_salmon.png"
 
     },
-    {
-        id: 213,
-        title:"Макі з лососем",
-        Category: "roly",
-        article: "Роли",
-        description: "Рис, норі, лосось",
-        price: "100UAH",
-        categoryIndex: 1,
-        weight: "150г",
-        img: "img/products/sushi/maki_salmon.png"
-    },
+    
     {
         id: 214,
         title:"Макі Філадельфія",
