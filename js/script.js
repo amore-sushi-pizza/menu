@@ -900,6 +900,7 @@ const menu = [
         price: "100UAH",
         categoryIndex: 1,
         weight: "170г",
+        img: "img/products/sushi/maki_eel.png"
     },
     {
         id: 79,
