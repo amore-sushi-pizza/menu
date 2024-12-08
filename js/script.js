@@ -390,7 +390,7 @@ const menu = [
         img: "img/products/pizza/myslyvska.png"
     },
     {
-        id: 29,
+        id: 329,
         title:"Упаковка для піци",
         Category: "pizza",
         article: "Піца",
