@@ -2160,7 +2160,7 @@ const menu = [
         price: "Діаметр 32см - 200UAH ",
         categoryIndex: 5,
         weight: "",
-        img: "img/products/pizza/pizzaCezar.png"
+        img: "img/products/pizza/cezar_pizza.png"
     },
     {
         id: 223,
