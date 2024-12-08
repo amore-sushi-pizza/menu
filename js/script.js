@@ -2256,16 +2256,7 @@ const menu = [
         weight: "300г",
         img: "img/products/sushi/tokio.png"
     },
-    {
-        id: 329,
-        title:"Упаковка для піци",
-        Category: "pizza",
-        article: "Піца",
-        description:"",
-        price: "Діаметр 32см - 15UAH <br>Діаметр 50см - 20UAH",
-        categoryIndex: 5,
-        weight: "",
-    },
+  
 ]
 const sections =[
     {
