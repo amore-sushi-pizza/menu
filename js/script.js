@@ -2252,7 +2252,7 @@ const menu = [
         price: "160UAH",
         categoryIndex: 1,
         weight: "230г",
-        img: ""
+        img: "img/products/sushi/creamy_midia.png"
     },
     {
         id: 232,
