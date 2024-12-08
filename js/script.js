@@ -2263,7 +2263,7 @@ const menu = [
         article: "Піца",
         description:"",
         price: "Діаметр 32см - 15UAH <br>Діаметр 50см - 20UAH",
-        categoryIndex: 5,
+        categoryIndex: 23,
         weight: "",
     },
   
@@ -2421,6 +2421,13 @@ const sections =[
         title: "Паста",
         category: "pasta",
         mainCategory: "pasta"
+
+    },
+    {
+        id: 23,
+        title: "Упаковка піца",
+        category: "pizza-pack",
+        mainCategory: "pizza"
 
     },
 ]
