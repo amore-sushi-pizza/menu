@@ -903,6 +903,7 @@ const menu = [
         price: "100UAH",
         categoryIndex: 1,
         weight: "190г",
+        img: "img/products/sushi/tiger_shrimp.png"
     },
     {
         id: 80,
@@ -2104,11 +2105,7 @@ const menu = [
         weight: "160г",
         img: "img/products/sushi/maki_filadelfia.png"
 
-    },
-   
-    
-    
-    
+    },    
     {
         id: 218,
         title:"Вершкові креветки",
@@ -2118,6 +2115,7 @@ const menu = [
         price: "250UAH",
         categoryIndex: 14,
         weight: "300г",
+        img: "img/products/bowls/creamy_shrimp.png"
         
     },
     {
@@ -2140,7 +2138,7 @@ const menu = [
         price: "Діаметр 22см - 120UAH <br> Діаметр 32см - 220UAH <br> Діаметр 50см - 300UAH",
         categoryIndex: 5,
         weight: "",
-        img: ""
+        img: "img/products/pizza/camamber_pizza.png"
     },
     {
         id: 221,
