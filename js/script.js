@@ -647,11 +647,11 @@ const menu = [
     },
     {
         id: 55,
-        title:"Філадельфія Масаго",
+        title:'Філадельфія Масаго/ з <strong style="color:red;">копченим</strong> лососем',
         Category: "roly",
         article: "Роли",
-        description: "Рис, норі, лосось, сир Філадельфія, огірок, ікра Масаго",
-        price: "170UAH",
+        description: "Рис, норі, лосось/копчений лосось, сир Філадельфія, огірок, ікра Масаго",
+        price: "170/210UAH",
         categoryIndex: 1,
         weight: "220г",
         img: "img/products/sushi/filadelfia_masaho.png"
@@ -789,14 +789,15 @@ const menu = [
     },
     {
         id: 69,
-        title:"Футомакі",
+        title:'Футомакі/з <strong style="color:red;">копченим</strong> лососем',
         Category: "roly",
         article: "Роли",
-        description: "Рис, норі, огірок, лосось, сир Філадельфія, ікра Масаго",
-        price: "180UAH",
+        description: "Рис, норі, огірок, лосось/копчений лосось, сир Філадельфія, ікра Масаго",
+        price: "180/210UAH",
         categoryIndex: 1,
         weight: "220г",
     },
+    
     {
         id: 70,
         title:"Футомакі з крабом сурімі",
@@ -819,11 +820,11 @@ const menu = [
     },
     {
         id: 72,
-        title:"Мон рол",
+        title:"Мон рол/з <strong style='color:red'>копченим</strong> лососем",
         Category: "roly",
         article: "Роли",
-        description: "Рис, норі, сир Філадельфія, огірок, лосось, кунжут",
-        price: "180UAH",
+        description: "Рис, норі, сир Філадельфія, огірок, лосось/копчений лосось, кунжут",
+        price: "180/230UAH",
         categoryIndex: 1,
         weight: "200г",
         img: "img/products/sushi/mon_rol.png"
@@ -1979,7 +1980,7 @@ const menu = [
         Category: "drinks",
         article: "Послуга відкоркуй",
         description: 'За вашу пляшку та наші склянки',
-        price: "70UAH",
+        price: "100UAH",
         categoryIndex: 20,
         weight: "",
     },
@@ -2104,40 +2105,10 @@ const menu = [
         img: "img/products/sushi/maki_filadelfia.png"
 
     },
-    {
-        id: 215,
-        title:"Футомакі з копченим лососем",
-        Category: "roly",
-        article: "Роли",
-        description: "Рис, норі, огірок, копчений лосось, сир Філадельфія, ікра червона, ікра оранжева",
-        price: "210UAH",
-        categoryIndex: 1,
-        weight: "220г",
-        
-    },
-    {
-        id: 216,
-        title:"Мон рол з копченим лососем",
-        Category: "roly",
-        article: "Роли",
-        description: "Рис, норі, сир Філадельфія, огірок, копчений лосось, кунжут",
-        price: "230UAH",
-        categoryIndex: 1,
-        weight: "200г",
-        img: "img/products/sushi/mon_rol.png"
-    }, 
+   
     
-    {
-        id: 217,
-        title:"Філадельфія Масаго з копченим лососем",
-        Category: "roly",
-        article: "Роли",
-        description: "Рис, норі, копчений лосось, сир Філадельфія, огірок, ікра Масаго",
-        price: "210UAH",
-        categoryIndex: 1,
-        weight: "220г",
-        img: "img/products/sushi/filadelfia_masaho.png"
-    },
+    
+    
     {
         id: 218,
         title:"Вершкові креветки",
@@ -2262,6 +2233,39 @@ const menu = [
         price: "80UAH",
         categoryIndex: 12,
         weight: "230 мл",
+    },
+    {
+        id: 230,
+        title:"Рол Сакура",
+        Category: "roly",
+        article: "Роли",
+        description: "Рис, сир Філадельфія, огірок, копчений лосось, рисові кульки",
+        price: "230UAH",
+        categoryIndex: 1,
+        weight: "230г",
+        img: "img/products/sushi/sakura.png"
+    },
+    {
+        id: 231,
+        title:"Вершковий з мідією",
+        Category: "roly",
+        article: "Роли",
+        description: "Рис, норі, сурімі, сир Філадельфія, огірок, мідія, соус Унагі",
+        price: "160UAH",
+        categoryIndex: 1,
+        weight: "230г",
+        img: ""
+    },
+    {
+        id: 232,
+        title:"Рол Токіо",
+        Category: "roly",
+        article: "Роли",
+        description: "Рис, норі, сир Філадельфія, огірок, копчений лосось, креветка, ікра тобіко",
+        price: "250UAH",
+        categoryIndex: 1,
+        weight: "300г",
+        img: "img/products/sushi/tokio.png"
     },
     
 ]
