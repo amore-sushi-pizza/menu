@@ -2015,6 +2015,7 @@ const menu = [
         price: "100UAH",
         categoryIndex: 19,
         weight: "300г",
+        img: "img/products/frytur/cheese_potato.png"
     },
      {
         id: 183,
