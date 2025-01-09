@@ -2257,6 +2257,17 @@ const menu = [
         weight: "300г",
         img: "img/products/sushi/tokio.png"
     },
+    {
+        id: 233,
+        title:'Картопля з мисливською ковбаскою',
+        Category: "frytur",
+        article: "Фритюр",
+        description: "Картопля, мисливські ковбаски, квашений огірок, сирний соус, кукурудза, цибулеві кріспі",
+        price: "125UAH",
+        categoryIndex: 19,
+        weight: "350г",
+        img: "img/products/frytur/potato-myslyvski-kovbasky.png"
+    },
       {
         id: 329,
         title:"Упаковка для піци",
