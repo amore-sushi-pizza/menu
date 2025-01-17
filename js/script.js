@@ -1939,7 +1939,7 @@ const menu = [
         Category: "frytur",
         article: "Фритюр",
         description: "Гомілки 5 шт. подаються з соусом Айолі",
-        price: "150UAH",
+        price: "200UAH",
         categoryIndex: 19,
         weight: "400г",
         img: "img/products/frytur/homilky_crispy.png"
