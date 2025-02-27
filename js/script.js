@@ -2278,6 +2278,17 @@ const menu = [
         categoryIndex: 23,
         weight: "",
     },
+      {
+        id: 234,
+        title:'Кільця кальмару',
+        Category: "frytur",
+        article: "Фритюр",
+        description: "Подаються з соусом Айолі",
+        price: "200UAH",
+        categoryIndex: 19,
+        weight: "8шт",
+        img: "img/products/frytur/squid_rings.png"
+    },
   
 ]
 const sections =[
