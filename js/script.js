@@ -2284,7 +2284,7 @@ const menu = [
         Category: "frytur",
         article: "Фритюр",
         description: "Подаються з соусом Айолі",
-        price: "200UAH",
+        price: "80UAH",
         categoryIndex: 19,
         weight: "8шт",
         img: "img/products/frytur/squid_rings.png"
