@@ -1931,7 +1931,7 @@ const menu = [
         price: "120UAH",
         categoryIndex: 19,
         weight: "350г",
-        img: "img/products/frytur/potato-po-seliansky.png"
+        img: "img/products/frytur/potato_sausage.png"
     },
     {
         id: 198,
@@ -2005,6 +2005,7 @@ const menu = [
         price: "90UAH",
         categoryIndex: 19,
         weight: "300г",
+        img: "img/products/frytur/potato_village.png"
     },
     {
         id: 205,
