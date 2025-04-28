@@ -135,7 +135,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Курка, креветки, болгарський перець, сир",
-        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 230UAH",
+        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 300UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/paza.png"
@@ -675,7 +675,7 @@ const menu = [
         Category: "roly",
         article: "Роли",
         description: "Рис, норі, сир Філадельфія, огірок, мідії",
-        price: "150UAH",
+        price: "160UAH",
         categoryIndex: 1,
         weight: "180г",
         img: "img/products/sushi/pink_flamingo.png"
