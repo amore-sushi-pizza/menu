@@ -1669,6 +1669,28 @@ const menu = [
         img: "img/products/bowls/bowl_shrimp.png"
     },
     {
+        id: 306,
+        title:"Бенто-суші торт з креветкою",
+        Category: "sushi-bowl",
+        article: "Суші боул",
+        description: "Рис, норі, креветка, сир Філадельфія, сурімі, огірок, майонез, ікра, рол макі з лососем",
+        price: "600UAH",
+        categoryIndex: 14,
+        weight: "780г",
+        img: ""
+    },
+    {
+        id: 307,
+        title:"Бенто-суші торт з лососем",
+        Category: "sushi-bowl",
+        article: "Суші боул",
+        description: "Рис, норі, сир Філадельфія, огірок, авокадо, лосось, ікра",
+        price: "550UAH",
+        categoryIndex: 14,
+        weight: "620г",
+        img: ""
+    },
+    {
         id: 170,
         title:"Грецький",
         Category: "salads",
