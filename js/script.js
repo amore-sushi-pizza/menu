@@ -1677,7 +1677,7 @@ const menu = [
         price: "600UAH",
         categoryIndex: 14,
         weight: "780г",
-        img: ""
+        img: "img/products/bowls/bento-shrimp.png"
     },
     {
         id: 307,
@@ -1688,7 +1688,7 @@ const menu = [
         price: "550UAH",
         categoryIndex: 14,
         weight: "620г",
-        img: "img/products/bowls/bento-shrimp.png"
+        img: ""
     },
     {
         id: 170,
