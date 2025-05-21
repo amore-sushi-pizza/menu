@@ -1972,7 +1972,7 @@ const menu = [
         price: "120UAH",
         categoryIndex: 19,
         weight: "150г",
-        img: ""
+        img: "img/products/frytur/free-batat.png"
     },
     {
         id: 194,
@@ -2240,7 +2240,7 @@ const menu = [
         price: "Діаметр 22см - 120UAH <br> Діаметр 32см - 220UAH <br> Діаметр 50см - 300UAH",
         categoryIndex: 5,
         weight: "",
-        img: ""
+        img: "img/products/pizza/4-cheese-phistashka.png"
     },
     {
         id: 220,
