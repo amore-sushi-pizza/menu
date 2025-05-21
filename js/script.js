@@ -398,7 +398,7 @@ const menu = [
         price: "Діаметр 32см - 240UAH",
         categoryIndex: 5,
         weight: "",
-        img: ""
+        img: "img/products/pizza/hachapuri.png"
     },
     {
         id: 30,
@@ -1688,7 +1688,7 @@ const menu = [
         price: "550UAH",
         categoryIndex: 14,
         weight: "620г",
-        img: ""
+        img: "img/products/bowls/bento-shrimp.png"
     },
     {
         id: 170,
@@ -2027,7 +2027,7 @@ const menu = [
         price: "180UAH",
         categoryIndex: 19,
         weight: "400г",
-        img: ""
+        img: "img/products/frytur/chicken_sweet.png"
     },
     {
         id: 199,
@@ -2168,7 +2168,7 @@ const menu = [
         price: "220UAH",
         categoryIndex: 22,
         weight: "320г",
-        img: ""
+        img: "img/products/pasta/pasta-seafood.png"
     },
     {
         id: 212,
@@ -2260,6 +2260,7 @@ const menu = [
         price: "160UAH",
         categoryIndex: 15,
         weight: "160г",
+        img: "img/products/salads/tartar.png"
     },
     {
         id: 224,
