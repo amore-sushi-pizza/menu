@@ -2019,6 +2019,39 @@ const menu = [
         img: "img/products/frytur/potato_sausage.png"
     },
     {
+        id: 204,
+        title:'Картопля по-селянськи',
+        Category: "frytur",
+        article: "Фритюр",
+        description: "З часником, солінням та кетчупом",
+        price: "90UAH",
+        categoryIndex: 19,
+        weight: "300г",
+        img: "img/products/frytur/potato_village.png"
+    },
+    {
+        id: 205,
+        title:'Картопля сирна по-селянськи',
+        Category: "frytur",
+        article: "Фритюр",
+        description: "Вершковий соус, пармезан",
+        price: "100UAH",
+        categoryIndex: 19,
+        weight: "300г",
+        img: "img/products/frytur/cheese_potato.png"
+    },
+    {
+        id: 233,
+        title:'Картопля з мисливською ковбаскою',
+        Category: "frytur",
+        article: "Фритюр",
+        description: "Картопля, мисливські ковбаски, квашений огірок, сирний соус, кукурудза, цибулеві кріспі",
+        price: "125UAH",
+        categoryIndex: 19,
+        weight: "350г",
+        img: "img/products/frytur/potato-myslyvski-kovbasky.png"
+    },
+    {
         id: 198,
         title:'Курка в кисло-солодкому соусі',
         Category: "frytur",
@@ -2029,6 +2062,18 @@ const menu = [
         weight: "400г",
         img: "img/products/frytur/chicken_sweet.png"
     },
+    {
+        id: 234,
+        title:'Кільця кальмару',
+        Category: "frytur",
+        article: "Фритюр",
+        description: "Подаються з соусом Айолі",
+        price: "100UAH",
+        categoryIndex: 19,
+        weight: "8шт",
+        img: "img/products/frytur/squid_rings.png"
+    },
+  
     {
         id: 199,
         title:'Сет Фрі',
@@ -2081,28 +2126,7 @@ const menu = [
         categoryIndex: 21,
         weight: "",
     },
-    {
-        id: 204,
-        title:'Картопля по-селянськи',
-        Category: "frytur",
-        article: "Фритюр",
-        description: "З часником, солінням та кетчупом",
-        price: "90UAH",
-        categoryIndex: 19,
-        weight: "300г",
-        img: "img/products/frytur/potato_village.png"
-    },
-    {
-        id: 205,
-        title:'Картопля сирна по-селянськи',
-        Category: "frytur",
-        article: "Фритюр",
-        description: "Вершковий соус, пармезан",
-        price: "100UAH",
-        categoryIndex: 19,
-        weight: "300г",
-        img: "img/products/frytur/cheese_potato.png"
-    },
+    
      {
         id: 183,
         title:'Салат Цезар "Креветка"',
@@ -2355,17 +2379,7 @@ const menu = [
         weight: "300г",
         img: "img/products/sushi/tokio.png"
     },
-    {
-        id: 233,
-        title:'Картопля з мисливською ковбаскою',
-        Category: "frytur",
-        article: "Фритюр",
-        description: "Картопля, мисливські ковбаски, квашений огірок, сирний соус, кукурудза, цибулеві кріспі",
-        price: "125UAH",
-        categoryIndex: 19,
-        weight: "350г",
-        img: "img/products/frytur/potato-myslyvski-kovbasky.png"
-    },
+    
       {
         id: 329,
         title:"Упаковка для піци",
@@ -2376,18 +2390,7 @@ const menu = [
         categoryIndex: 23,
         weight: "",
     },
-      {
-        id: 234,
-        title:'Кільця кальмару',
-        Category: "frytur",
-        article: "Фритюр",
-        description: "Подаються з соусом Айолі",
-        price: "100UAH",
-        categoryIndex: 19,
-        weight: "8шт",
-        img: "img/products/frytur/squid_rings.png"
-    },
-  
+      
 ]
 const sections =[
     {
