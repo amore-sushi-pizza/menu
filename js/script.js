@@ -335,6 +335,7 @@ const menu = [
         price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 280UAH",
         categoryIndex: 5,
         weight: "",
+        img: "img/products/pizza/polermo.png"
     },
     {
         id: 24,
