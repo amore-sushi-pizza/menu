@@ -314,6 +314,7 @@ const menu = [
         price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 280UAH",
         categoryIndex: 5,
         weight: "",
+        img: "img/products/pizza/chiken_pizza.png"
     },
     {
         id: 22,
@@ -1689,7 +1690,7 @@ const menu = [
         price: "550UAH",
         categoryIndex: 14,
         weight: "620г",
-        img: ""
+        img: "img/products/bowls/salmon_bento.png"
     },
     {
         id: 170,
@@ -1700,6 +1701,7 @@ const menu = [
         price: "150UAH",
         categoryIndex: 15,
         weight: "300г",
+        img: "img/products/salads/greg_salad.png"
     },
     {
         id: 171,
