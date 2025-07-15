@@ -1826,17 +1826,7 @@ const menu = [
         categoryIndex: 17,
         weight: "50г",
     },
-    {
-        id: 182,
-        title:'Сет до вина',
-        Category: "beer-menu",
-        article: "До пива",
-        description: "Мікс італійських сирів: дор Блю, камамбер, пармезан, салямі, мікс оливок, грецький горіх, груша, солодкий соус",
-        price: "270UAH",
-        categoryIndex: 17,
-        weight: "300г",
-        img: "img/products/adds/set-to-wine.png"
-    },
+    
     {
         id: 173,
         title:'Салат Цезар "Курка"',
