@@ -91,7 +91,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Салямі, шинка, курка, помідор, сир, яйце (може бути без) ",
-        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 280UAH",
+        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 300UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/amore.png",
@@ -102,7 +102,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Помідор, салямі, печериці, перець, кукурудза, сир",
-        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 280UAH",
+        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 300UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/montana.png",
@@ -113,7 +113,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Курка, печериці, кукурудза, перець, цибуля, сир",
-        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 280UAH",
+        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 300UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/tachino.png",
@@ -124,7 +124,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Шинка, печериці, болгарський перець, сир",
-        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 280UAH",
+        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 300UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/capricha.png"
@@ -135,7 +135,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Курка, креветки, болгарський перець, сир",
-        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 220UAH <br> Діаметр 50см - 300UAH",
+        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 220UAH <br> Діаметр 50см - 320UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/paza.png"
@@ -146,7 +146,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Моцарела, ементаль, горгонзола, пармезан, спеції",
-        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 300UAH",
+        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/fourCheese.png"
@@ -157,7 +157,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Курочка, моцарела, помідор, кукурудза",
-        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 280UAH",
+        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 300UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/polo.png"
@@ -168,7 +168,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Курка, ананас, болгарський перець, сир",
-        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 290UAH",
+        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 300UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/mexykanska.png"
@@ -179,7 +179,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Курка, печериці, помідор, цибуля, пекінська капуста, сир",
-        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 280UAH",
+        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 300UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/domashnia.png"
@@ -190,7 +190,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Сир, бекон, печериці, яйце, пармезан",
-        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 280UAH",
+        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 300UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/carbonara.png"
@@ -201,7 +201,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Салямі, сир",
-        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 170UAH <br> Діаметр 50см - 270UAH",
+        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 170UAH <br> Діаметр 50см - 300UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/saliami.png"
@@ -212,7 +212,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Філе лосося, перець, соус вершковий, сир",
-        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 210UAH <br> Діаметр 50см - 310UAH",
+        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 210UAH <br> Діаметр 50см - 340UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/majore.png"
@@ -223,7 +223,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Тунець, цибуля, болгарський перець, кукурудза, сир",
-        price: "Діаметр 32см - 190UAH <br> Діаметр 50см - 290UAH",
+        price: "Діаметр 32см - 190UAH <br> Діаметр 50см - 300UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/tune.png"
@@ -256,7 +256,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Морепродукти, лимон, перець, сир",
-        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 190UAH <br> Діаметр 50см - 290UAH",
+        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 190UAH <br> Діаметр 50см - 300UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/seaCocktail.png"
@@ -267,7 +267,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Вершкова основа, печериці, оливки, прошутто, помідор, сир, пармезан",
-        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 220UAH <br> Діаметр 50см - 320UAH",
+        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 220UAH <br> Діаметр 50см - 340UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/proshuto.png"
@@ -278,7 +278,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Чілі, салямі, оливки, помідор, сир",
-        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 280UAH",
+        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 300UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/podyhDragon.png"
@@ -289,7 +289,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Шинка, печериці, квашений огірок, цибуля, сир",
-        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 280UAH",
+        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 300UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/primavera.png"
@@ -300,7 +300,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Олія, печериці, часник, сир, пармезан",
-        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 280UAH",
+        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 300UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/mashroom.png"
@@ -311,7 +311,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Курка, шинка, болгарський перець, сир",
-        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 280UAH",
+        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 300UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/chiken_pizza.png"
@@ -322,7 +322,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Мисливські ковбаски, курка, в'ялені помідори, оливки зелені, сир",
-        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 300UAH",
+        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/salsa.png"
@@ -333,7 +333,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Курка, салямі, помідор, сир",
-        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 280UAH",
+        price: "Діаметр 22см - 90UAH <br> Діаметр 32см - 180UAH <br> Діаметр 50см - 300UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/polermo.png"
@@ -344,7 +344,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Шинка, курка, салямі, бочок, мисливська ковбаска, часник, помідор, сир",
-        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 300UAH",
+        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
         categoryIndex: 5,
         weight: "",
     },
@@ -354,7 +354,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Грибна/Салямі/Капріча/Домашня",
-        price: "Діаметр 50см - 300UAH",
+        price: "Діаметр 50см - 320UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/asorti.png"
@@ -375,7 +375,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Вершковий соус, курка, печериці, дор Блю, моцарела, кукурудза, помідор",
-        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 300UAH",
+        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/bianka.png"
@@ -386,7 +386,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Вершковий соус, мисливська ковбаска, часник, печериці, моцарела, квашений огірок",
-        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 190UAH <br> Діаметр 50см - 280UAH",
+        price: "Діаметр 22см - 100UAH <br> Діаметр 32см - 190UAH <br> Діаметр 50см - 300UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/myslyvska.png"
@@ -2230,7 +2230,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Моцарела, фета, дор блю, пармезан, фісташки, груша",
-        price: "Діаметр 22см - 120UAH <br> Діаметр 32см - 220UAH <br> Діаметр 50см - 300UAH",
+        price: "Діаметр 22см - 120UAH <br> Діаметр 32см - 220UAH <br> Діаметр 50см - 320UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/4-cheese-phistashka.png"
@@ -2241,7 +2241,7 @@ const menu = [
         Category: "pizza",
         article: "Піца",
         description: "Вершковий соус, моцарела, камамбер, журавлиний соус",
-        price: "Діаметр 22см - 120UAH <br> Діаметр 32см - 220UAH <br> Діаметр 50см - 300UAH",
+        price: "Діаметр 22см - 120UAH <br> Діаметр 32см - 220UAH <br> Діаметр 50см - 320UAH",
         categoryIndex: 5,
         weight: "",
         img: "img/products/pizza/camamber_pizza.png"
@@ -2685,5 +2685,6 @@ if (highlightedDay) {
     highlightedDay.style.fontWeight = 'bold';
 
 }
+
 
 
