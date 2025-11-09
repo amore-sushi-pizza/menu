@@ -1709,7 +1709,7 @@ const menu = [
         Category: "salads",
         article: "Салати",
         description: 'Лосось, мікс салату, огірок, помідор, сир пармезан, авокадо, заправляється соусом "Тартар" та соусом Унагі',
-        price: "170UAH",
+        price: "220UAH",
         categoryIndex: 15,
         weight: "350г",
         img: "img/products/salads/salmon.png"
@@ -2685,6 +2685,7 @@ if (highlightedDay) {
     highlightedDay.style.fontWeight = 'bold';
 
 }
+
 
 
 
