@@ -1033,7 +1033,7 @@ const menu = [
         Category: "roly",
         article: "Сети",
         description: "Рол Чікен/рол Сурімі в кунжуті/рол Макі з огірком",
-        price: "350UAH",
+        price: "400UAH",
         categoryIndex: 3,
         weight: "640г (24 шматки)",
         img: "img/products/sushi/set_asorti_lite.jpg"
@@ -1044,7 +1044,7 @@ const menu = [
         Category: "roly",
         article: "Сети",
         description: "Макі з лососем/Макі з вугрем/Макі з тигровою креветкою/Макі з мідіями",
-        price: "400UAH",
+        price: "450UAH",
         categoryIndex: 3,
         weight: "710г (32 шматки)",
     },
@@ -2685,6 +2685,7 @@ if (highlightedDay) {
     highlightedDay.style.fontWeight = 'bold';
 
 }
+
 
 
 
