@@ -2372,6 +2372,41 @@ const menu = [
         weight: "300г",
         img: "img/products/sushi/tokio.png"
     },
+    {
+        id: 240,
+        title:"Буріто з лососем",
+        Category: "roly",
+        article: "Роли",
+        description: "Норі,рис, філадельфія , лосось, сурімі, огірок,темпура, поливається соусом Унагі",
+        price: "220UAH",
+        categoryIndex: 1,
+        weight: "",
+        img: "img/products/sushi/burito_salmon.png"
+    },
+
+    {
+        id: 241,
+        title:"Буріто з куркою",
+        Category: "roly",
+        article: "Роли",
+        description: "Норі,рис, курка, філадельфія, айзберг,огірок, айсберг,подається з горіховим соусом",
+        price: "200UAH",
+        categoryIndex: 1,
+        weight: "",
+        img: "img/products/sushi/burito_chicken.png"
+    },
+{
+        id: 242,
+        title:"Буріто з сурімі",
+        Category: "roly",
+        article: "Роли",
+        description: "Норі, рис, сурімі, огірок, філадельфія, айсберг, подається з горіхоаим соусом",
+        price: "180UAH",
+        categoryIndex: 1,
+        weight: "",
+        img: " "
+    },
+    
     
       {
         id: 329,
@@ -2383,6 +2418,7 @@ const menu = [
         categoryIndex: 23,
         weight: "",
     },
+    
       
 ]
 const sections =[
@@ -2685,6 +2721,7 @@ if (highlightedDay) {
     highlightedDay.style.fontWeight = 'bold';
 
 }
+
 
 
 
