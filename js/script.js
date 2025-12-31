@@ -1047,6 +1047,7 @@ const menu = [
         price: "450UAH",
         categoryIndex: 3,
         weight: "710г (32 шматки)",
+        img: "img/products/sushi/set_futumaki.png"
     },
     {
         id: 93,
@@ -2720,6 +2721,7 @@ if (highlightedDay) {
     highlightedDay.style.fontWeight = 'bold';
 
 }
+
 
 
 
