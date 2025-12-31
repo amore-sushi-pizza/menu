@@ -2404,7 +2404,6 @@ const menu = [
         price: "180UAH",
         categoryIndex: 1,
         weight: "",
-        img: " "
     },
     
     
@@ -2721,6 +2720,7 @@ if (highlightedDay) {
     highlightedDay.style.fontWeight = 'bold';
 
 }
+
 
 
 
