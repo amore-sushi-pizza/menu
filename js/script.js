@@ -1144,6 +1144,7 @@ const menu = [
         price: "180UAH",
         categoryIndex: 4,
         weight: "120г",
+        img: "img/products/sushi/spring_shrimp.png"
     },
     {
         id: 103,
@@ -2721,6 +2722,7 @@ if (highlightedDay) {
     highlightedDay.style.fontWeight = 'bold';
 
 }
+
 
 
 
