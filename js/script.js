@@ -1700,7 +1700,7 @@ const menu = [
         Category: "salads",
         article: "Салати",
         description: "Помідор, огірок, перець, оливки, сир Фета, оливкова олія",
-        price: "150UAH",
+        price: "170UAH",
         categoryIndex: 15,
         weight: "300г",
         img: "img/products/salads/greg_salad.png"
@@ -1711,7 +1711,7 @@ const menu = [
         Category: "salads",
         article: "Салати",
         description: 'Лосось, мікс салату, огірок, помідор, сир пармезан, авокадо, заправляється соусом "Тартар" та соусом Унагі',
-        price: "220UAH",
+        price: "250UAH",
         categoryIndex: 15,
         weight: "350г",
         img: "img/products/salads/salmon.png"
@@ -1722,7 +1722,7 @@ const menu = [
         Category: "salads",
         article: "Салати",
         description: "Філе курки, шинка, помідор, огірок, сухарики, майонез, часник",
-        price: "150UAH",
+        price: "160UAH",
         categoryIndex: 15,
         weight: "250г",
         img: "img/products/salads/carmen.png"
@@ -1835,7 +1835,7 @@ const menu = [
         Category: "salads",
         article: "Салати",
         description: 'Айзберг, крутони, курка, помідор, яйце, соус "Цезар", пармезан',
-        price: "160UAH",
+        price: "180UAH",
         categoryIndex: 15,
         weight: "350г",
         img: "img/products/salads/cezar.png"
@@ -1846,7 +1846,7 @@ const menu = [
         Category: "salads",
         article: "Салати",
         description: 'Зелень, груша, хамон, помідор, сир дор-Блю, соус гірчично-медовий',
-        price: "200UAH",
+        price: "220UAH",
         categoryIndex: 15,
         weight: "300г",
         img: "img/products/salads/hamon.png"
@@ -1867,7 +1867,7 @@ const menu = [
         Category: "burgers",
         article: "Бургери",
         description: "М'яка булочка з грилю, зелень, котлета свинно-яловича, бекон, цибулеві кільця, сир Чеддер, моцарела, маринована цибуля, помідор, квашений огірок",
-        price: "220UAH",
+        price: "250UAH",
         categoryIndex: 18,
         weight: "",
         img: "img/products/burgers/burger_rancho.png"
@@ -1878,7 +1878,7 @@ const menu = [
         Category: "burgers",
         article: "Бургери",
         description: "М'яка булочка з грилю, зелень, котлета куряча, сир Чеддер, моцарела, маринована цибуля, помідор, квашений огірок",
-        price: "210UAH",
+        price: "240UAH",
         categoryIndex: 18,
         weight: "",
         img: "img/products/burgers/burger_chicken.png"
@@ -1889,7 +1889,7 @@ const menu = [
         Category: "burgers",
         article: "Бургери",
         description: "М'яка булочка з грилю, зелень, котлета куряча, сир Чеддер, помідор",
-        price: "200UAH",
+        price: "220UAH",
         categoryIndex: 18,
         weight: "",
         img: "img/products/burgers/burger_kid.png"
@@ -1900,7 +1900,7 @@ const menu = [
         Category: "burgers",
         article: "Бургери",
         description: "М'яка булочка з грилю, зелень, котлета куряча, ананас, сир Чеддер, помідор, соус Унагі",
-        price: "220UAH",
+        price: "240UAH",
         categoryIndex: 18,
         weight: "",
         img: "img/products/burgers/burger_havaisky.png"
@@ -1911,29 +1911,19 @@ const menu = [
         Category: "burgers",
         article: "Бургери",
         description: "М'яка булочка з грилю, зелень, котлета свинно-яловича, камамбер, маринована цибуля, соус Унагі, соус бальзамік",
-        price: "240UAH",
+        price: "250UAH",
         categoryIndex: 18,
         weight: "",
         img: "img/products/burgers/burger_camamber.png"
     },
-    {
-        id: 190,
-        title:'Запечений "КАМАМБЕР"',
-        Category: "burgers",
-        article: "Бургери",
-        description: "Запікається з помідопами, оливками, часником, подається з Фокачою та зеленню",
-        price: "220UAH",
-        categoryIndex: 18,
-        weight: "",
-        img: "img/products/burgers/warm_camamber.png"
-    },
+
     {
         id: 191,
         title:'Сирна ванна',
         Category: "burgers",
         article: "Бургери",
         description: "Подається до бургера",
-        price: "60UAH",
+        price: "70UAH",
         categoryIndex: 18,
         weight: "",
     },
@@ -1953,7 +1943,7 @@ const menu = [
         Category: "frytur",
         article: "Фритюр",
         description: "Подається з кетчупом",
-        price: "70UAH",
+        price: "100UAH",
         categoryIndex: 19,
         weight: "150г",
         img: "img/products/frytur/fri.png"
@@ -1964,7 +1954,7 @@ const menu = [
         Category: "frytur",
         article: "Фритюр",
         description: "Подається з гірчичним соусом",
-        price: "120UAH",
+        price: "130UAH",
         categoryIndex: 19,
         weight: "150г",
         img: "img/products/frytur/free-batat.png"
@@ -1975,7 +1965,7 @@ const menu = [
         Category: "frytur",
         article: "Фритюр",
         description: "Подається з кетчупом",
-        price: "85UAH",
+        price: "100UAH",
         categoryIndex: 19,
         weight: "8шт",
         img: "img/products/frytur/nagetsy.png"
@@ -1986,7 +1976,7 @@ const menu = [
         Category: "frytur",
         article: "Фритюр",
         description: "Подається з солодким соусом",
-        price: "100UAH",
+        price: "150UAH",
         categoryIndex: 19,
         weight: "6шт",
         img: "img/products/frytur/cheese_sticks.png"
@@ -2008,7 +1998,7 @@ const menu = [
         Category: "frytur",
         article: "Фритюр",
         description: "З ковбаскою, часником, солінням та кетчупом",
-        price: "120UAH",
+        price: "150UAH",
         categoryIndex: 19,
         weight: "350г",
         img: "img/products/frytur/potato_sausage.png"
@@ -2019,7 +2009,7 @@ const menu = [
         Category: "frytur",
         article: "Фритюр",
         description: "З часником, солінням та кетчупом",
-        price: "90UAH",
+        price: "120UAH",
         categoryIndex: 19,
         weight: "300г",
         img: "img/products/frytur/potato_village.png"
@@ -2030,7 +2020,7 @@ const menu = [
         Category: "frytur",
         article: "Фритюр",
         description: "Вершковий соус, пармезан",
-        price: "100UAH",
+        price: "130UAH",
         categoryIndex: 19,
         weight: "300г",
         img: "img/products/frytur/cheese_potato.png"
@@ -2041,7 +2031,7 @@ const menu = [
         Category: "frytur",
         article: "Фритюр",
         description: "Картопля, мисливські ковбаски, квашений огірок, сирний соус, кукурудза, цибулеві кріспі",
-        price: "125UAH",
+        price: "150UAH",
         categoryIndex: 19,
         weight: "350г",
         img: "img/products/frytur/potato-myslyvski-kovbasky.png"
@@ -2063,7 +2053,7 @@ const menu = [
         Category: "frytur",
         article: "Фритюр",
         description: "Подаються з соусом Айолі",
-        price: "100UAH",
+        price: "130UAH",
         categoryIndex: 19,
         weight: "8шт",
         img: "img/products/frytur/squid_rings.png"
@@ -2075,7 +2065,7 @@ const menu = [
         Category: "frytur",
         article: "Фритюр",
         description: 'Ковбаски міні 6 шт., цибулеві кільця 5 шт., нагетси 8 шт., картопля по-селянськи, гомілки "Crispy" 5 шт., соус "Айолі", соління, маринована цибуля, соус гірчичний, кетчуп',
-        price: "600UAH",
+        price: "700UAH",
         categoryIndex: 19,
         weight: "1400г",
         img: "img/products/frytur/set-fri-1.png"
@@ -2086,7 +2076,7 @@ const menu = [
         Category: "frytur",
         article: "Фритюр",
         description: 'Фрі, сирні палички 6 шт., цибулеві кільця 6 шт., нагетси 6 шт., соус "Айолі", соління, кетчуп',
-        price: "450UAH",
+        price: "550UAH",
         categoryIndex: 19,
         weight: "1000г",
         img: "img/products/frytur/set_fri_2.png"
@@ -2128,7 +2118,7 @@ const menu = [
         Category: "salads",
         article: "Салати",
         description: 'Айзберг, крутони, креветка, помідор, яйце, соус "Цезар", пармезан',
-        price: "190UAH",
+        price: "220UAH",
         categoryIndex: 15,
         weight: "350г",
         img: "img/products/salads/cezar_shrimp.png"
@@ -2722,6 +2712,7 @@ if (highlightedDay) {
     highlightedDay.style.fontWeight = 'bold';
 
 }
+
 
 
 
