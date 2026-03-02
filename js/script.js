@@ -925,7 +925,7 @@ const menu = [
         Category: "roly",
         article: "Теплі роли",
         description: "Рис, сир Філадельфія, огірок, лосось, соус Унагі, соус для запікання, кунжут",
-        price: "200UAH",
+        price: "230UAH",
         categoryIndex: 2,
         weight: "350г",
         img: "img/products/sushi/warm_role_salmon.png"
@@ -936,7 +936,7 @@ const menu = [
         Category: "roly",
         article: "Теплі роли",
         description: "Рис, сир Філадельфія, огірок, копчена курка, салата, соус Унагі, соус для запікання, кунжут",
-        price: "190UAH",
+        price: "210UAH",
         categoryIndex: 2,
         weight: "300г",
         img: "img/products/sushi/cezar_warm.png"
@@ -947,7 +947,7 @@ const menu = [
         Category: "roly",
         article: "Теплі роли",
         description: "Рис, сир Філадельфія, огірок, креветки, соус для запікання",
-        price: "200UAH",
+        price: "230UAH",
         categoryIndex: 2,
         weight: "350г",
         img: "img/products/sushi/shrimp_warm.png"
@@ -958,7 +958,7 @@ const menu = [
         Category: "roly",
         article: "Теплі роли",
         description: "Рис, сир Філадельфія, огірок, мідії, соус для запікання",
-        price: "180UAH",
+        price: "200UAH",
         categoryIndex: 2,
         weight: "300г",
         img: "img/products/sushi/warm_midia.png"
@@ -1131,7 +1131,7 @@ const menu = [
         Category: "roly",
         article: "Спрінг роли",
         description: "Рисовий папір, лосось, сир Філадельфія, зелень, огірок, ікра тобіко, соус Теріякі",
-        price: "180UAH",
+        price: "200UAH",
         categoryIndex: 4,
         weight: "120г",
     },
@@ -1141,7 +1141,7 @@ const menu = [
         Category: "roly",
         article: "Спрінг роли",
         description: "Рисовий папір, креветка, сир Філадельфія, зелень, огірок, ікра тобіко, соус Теріякі",
-        price: "180UAH",
+        price: "200UAH",
         categoryIndex: 4,
         weight: "120г",
         img: "img/products/sushi/spring_shrimp.png"
@@ -1152,7 +1152,7 @@ const menu = [
         Category: "roly",
         article: "Спрінг роли",
         description: "Рисовий папір, перець, курка, сир Філадельфія, зелень, огірок, кунжут, соус Теріякі",
-        price: "170UAH",
+        price: "190UAH",
         categoryIndex: 4,
         weight: "120г",
     },
@@ -1656,7 +1656,7 @@ const menu = [
         Category: "sushi-bowl",
         article: "Суші боул",
         description: "Рис, лосось, сир Філадельфія, авокадо, ананас, огірок, салат, імбир, соєвий соус",
-        price: "180UAH",
+        price: "220UAH",
         categoryIndex: 14,
         weight: "300г",
         img: "img/products/bowls/bowl_salmon.png"
@@ -1667,7 +1667,7 @@ const menu = [
         Category: "sushi-bowl",
         article: "Суші боул",
         description: "Рис, креветка, сир Філадельфія, авокадо, ананас, огірок, кукурудза, салат, імбир, соєвий соус",
-        price: "180UAH",
+        price: "220UAH",
         categoryIndex: 14,
         weight: "300г",
         img: "img/products/bowls/bowl_shrimp.png"
@@ -2266,7 +2266,7 @@ const menu = [
         Category: "salads",
         article: "Салати",
         description: "Лосось, огірок, авокадо, філадельфія, соус Теріякі, рисові чипси",
-        price: "160UAH",
+        price: "200UAH",
         categoryIndex: 15,
         weight: "160г",
         img: "img/products/salads/tartar.png"
@@ -2712,6 +2712,7 @@ if (highlightedDay) {
     highlightedDay.style.fontWeight = 'bold';
 
 }
+
 
 
 
