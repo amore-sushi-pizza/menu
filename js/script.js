@@ -599,7 +599,7 @@ const menu = [
         Category: "roly",
         article: "Роли",
         description: "Рис, норі, лосось, авокадо, огірок, сир Філадельфія",
-        price: "200UAH",
+        price: "220UAH",
         categoryIndex: 1,
         weight: "260г",
         img: "img/products/sushi/filadelfia.png"
@@ -610,7 +610,7 @@ const menu = [
         Category: "roly",
         article: "Роли",
         description: "Рис, норі, лосось, сир Філадельфія, креветки",
-        price: "210UAH",
+        price: "230UAH",
         categoryIndex: 1,
         weight: "250г",
         img: "img/products/sushi/filadelfia_shrimp.png"
@@ -654,7 +654,7 @@ const menu = [
         Category: "roly",
         article: "Роли",
         description: "Рис, норі, лосось/копчений лосось, сир Філадельфія, огірок, ікра Масаго",
-        price: "170/210UAH",
+        price: "180/210UAH",
         categoryIndex: 1,
         weight: "220г",
         img: "img/products/sushi/filadelfia_masaho.png"
@@ -698,7 +698,7 @@ const menu = [
         Category: "roly",
         article: "Роли",
         description: "Рис, норі, сир Філадельфія, вугор, авокадо, соус Унагі, кунжут",
-        price: "200UAH",
+        price: "220UAH",
         categoryIndex: 1,
         weight: "250г",
         img: "img/products/sushi/green_dragon.png"
@@ -709,7 +709,7 @@ const menu = [
         Category: "roly",
         article: "Роли",
         description: "Рис, норі, сир Філадельфія, огірок, авокадо, креветки, соус Унагі, кунжут",
-        price: "200UAH",
+        price: "220UAH",
         categoryIndex: 1,
         weight: "260г",
         img: "img/products/sushi/green_dragon_shrimp.png"
@@ -720,7 +720,7 @@ const menu = [
         Category: "roly",
         article: "Роли",
         description: "Рис, норі, сир Філадельфія, лосось, тостерний сир, кунжут, соус Унагі",
-        price: "200UAH",
+        price: "220UAH",
         categoryIndex: 1,
         weight: "260г",
         img: "img/products/sushi/white_dragon.png"
@@ -731,7 +731,7 @@ const menu = [
         Category: "roly",
         article: "Роли",
         description: "Рис, норі, сир Філадельфія, лосось, огірок, ікра Масаго",
-        price: "200UAH",
+        price: "220UAH",
         categoryIndex: 1,
         weight: "250г",
         img: "img/products/sushi/red_dragon.png"
@@ -752,7 +752,7 @@ const menu = [
         Category: "roly",
         article: "Роли",
         description: "Рис, норі, сир Філадельфія, сир Чеддер, кунжут",
-        price: "130UAH",
+        price: "140UAH",
         categoryIndex: 1,
         weight: "260г",
         img: "img/products/sushi/cheese.png"
@@ -763,7 +763,7 @@ const menu = [
         Category: "roly",
         article: "Роли",
         description: "Рис, норі, сир Філадельфія, огірок, вугор, сир Чедер, соус Унагі, кунжут",
-        price: "200UAH",
+        price: "220UAH",
         categoryIndex: 1,
         weight: "260г",
         img: "img/products/sushi/cheese_eel.png"
@@ -774,7 +774,7 @@ const menu = [
         Category: "roly",
         article: "Роли",
         description: "Рис, норі, огірок, креветки, сир Філадельфія, тостерний сир, пармезан, соус Унагі",
-        price: "180UAH",
+        price: "190UAH",
         categoryIndex: 1,
         weight: "260г",
         img: "img/products/sushi/cheese_shrimp.png"
@@ -785,7 +785,7 @@ const menu = [
         Category: "roly",
         article: "Роли",
         description: "Рис, норі, сир Філадельфія, лосось, груша, кунжут",
-        price: "180UAH",
+        price: "190UAH",
         categoryIndex: 1,
         weight: "240г",
         img: "img/products/sushi/bonito.png"
@@ -796,7 +796,7 @@ const menu = [
         Category: "roly",
         article: "Роли",
         description: "Рис, норі, огірок, лосось/копчений лосось, сир Філадельфія, ікра Масаго",
-        price: "180/210UAH",
+        price: "180/220UAH",
         categoryIndex: 1,
         weight: "220г",
     },
@@ -827,7 +827,7 @@ const menu = [
         Category: "roly",
         article: "Роли",
         description: "Рис, норі, сир Філадельфія, огірок, лосось/копчений лосось, кунжут",
-        price: "180/230UAH",
+        price: "200/230UAH",
         categoryIndex: 1,
         weight: "200г",
         img: "img/products/sushi/mon_rol.png"
@@ -859,7 +859,7 @@ const menu = [
         Category: "roly",
         article: "Роли",
         description: "Рис, норі, сир Філадельфія, курка, огірок, салат, ікра Масаго",
-        price: "150UAH",
+        price: "180UAH",
         categoryIndex: 1,
         weight: "230г",
         img: "img/products/sushi/chicken_rol.png"
@@ -969,7 +969,7 @@ const menu = [
         Category: "roly",
         article: "Сети",
         description: "Рол Філадельфія/Філадельфія з креветками/Каліфорнія/Чікен/Боніто/Сирний/Норі макі/Макі Сурімі/Городина кунжут/Макі з огірком",
-        price: "700UAH",
+        price: "750UAH",
         categoryIndex: 3,
         weight: "1.2кг (40 шматків)",
         img: "img/products/sushi/set_asorti.png"
@@ -980,7 +980,7 @@ const menu = [
         Category: "roly",
         article: "Сети",
         description: "Філадельфія з лососем/Філадельфія з креветкою/Філадельфія вега/Філадельфія масаго",
-        price: "650UAH",
+        price: "670UAH",
         categoryIndex: 3,
         weight: "980г (32 шматки)",
         img: "img/products/sushi/set_filadelfiia.png"
@@ -1002,7 +1002,7 @@ const menu = [
         Category: "roly",
         article: "Сети",
         description: "Рол Філадельфія/рол Філадельфія з вугрем/Філадельфія Масаго/Мон рол/Білий дракон/рол Боніто",
-        price: "500UAH",
+        price: "540UAH",
         categoryIndex: 3,
         weight: "720г (24 шматки)",
     },
@@ -1012,7 +1012,7 @@ const menu = [
         Category: "roly",
         article: "Сети",
         description: 'Запечений з лососем/Запечений з креветкою/Запечений "Цезар"',
-        price: "550UAH",
+        price: "620UAH",
         categoryIndex: 3,
         weight: "1.1кг (24 шматки)",
         img: "img/products/sushi/set_warm.jpg"
@@ -1023,7 +1023,7 @@ const menu = [
         Category: "roly",
         article: "Сети",
         description: "Рол Філадельфія/рол Городина кунжут/рол Рожевий Фламінго/рол Боніто",
-        price: "550UAH",
+        price: "600UAH",
         categoryIndex: 3,
         weight: "900г (32 шматки)",
     },
@@ -1044,7 +1044,7 @@ const menu = [
         Category: "roly",
         article: "Сети",
         description: "Макі з лососем/Макі з вугрем/Макі з тигровою креветкою/Макі з мідіями",
-        price: "450UAH",
+        price: "400UAH",
         categoryIndex: 3,
         weight: "710г (32 шматки)",
         img: "img/products/sushi/set_fishmaki.png"
@@ -1075,7 +1075,7 @@ const menu = [
         Category: "roly",
         article: "Сети",
         description: "Рол Зелений дракон/рол Білий дракон/рол Червоний дракон/рол Чорний дракон",
-        price: "750UAH",
+        price: "790UAH",
         categoryIndex: 3,
         weight: "1кг (32 шматки)",
         img: "img/products/sushi/set_4dragons.png"
@@ -1086,7 +1086,7 @@ const menu = [
         Category: "roly",
         article: "Роли",
         description: "Рис, норі, груша, сир Філадельфія, горгонзола, тостерний сир, пармезан, соус Унагі",
-        price: "150UAH",
+        price: "160UAH",
         categoryIndex: 1,
         weight: "260г",
         img: "img/products/sushi/cheese_pear.png"
@@ -1097,7 +1097,7 @@ const menu = [
         Category: "roly",
         article: "Роли",
         description: "Рис, норі, мідія, сир Філадельфія, тостерний сир, пармезан, соус Унагі",
-        price: "150UAH",
+        price: "180UAH",
         categoryIndex: 1,
         weight: "260г",
         img: "img/products/sushi/cheese_midia.png"
@@ -1109,7 +1109,7 @@ const menu = [
         Category: "roly",
         article: "Роли",
         description: "Рис, чорнило каракатиці, норі, огірок, сир Філадельфія, лосось, кунжут",
-        price: "190UAH",
+        price: "200UAH",
         categoryIndex: 1,
         weight: "250г",
         img: "img/products/sushi/filadelfia_salmon.png"
@@ -2712,6 +2712,7 @@ if (highlightedDay) {
     highlightedDay.style.fontWeight = 'bold';
 
 }
+
 
 
 
