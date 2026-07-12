@@ -37,7 +37,7 @@ filterBtns.forEach((btn)=>{
         let y = document.getElementById('home__menu');
         y.className += " hide__menu";
         let z=document.getElementById('backBtn');
-        z.className +=" active";*/
+        z.className +=" active";
         const Category=e.currentTarget.dataset.id;
         const sectionCategory = sections.filter((sectionItem)=>Category.includes(sectionItem.mainCategory));
         const sectionCategoryIndexes = sectionCategory.map(category => category.id);
@@ -2658,7 +2658,7 @@ window.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-function displayMenusItem(sectionItem, menuItems) {
+/*function displayMenusItem(sectionItem, menuItems) {
     let subMenu;
     
     let subMenuContainer = document.createElement('div');
@@ -2706,6 +2706,50 @@ function displayMenusItem(sectionItem, menuItems) {
     displayTitle = displayTitle.join("");
     sectionCenter.innerHTML = `<nav class="d-flex justify-content-center">${subMenuContainer.outerHTML}</nav><br>${displayTitle}`;
     
+}*/
+function displayMenusItem(sectionItem, menuItems) {
+    let subMenuContainer = document.createElement('div');
+    if(sectionItem.length > 1) {
+        let subMenu = sectionItem.map((item) => {
+            return `<a class="btn btn-coffee" href="#${item.category}">${item.title}</a>`;
+        }).join(" ");
+        subMenuContainer.classList.add('sub-menu-container');
+        subMenuContainer.innerHTML = subMenu;
+    }
+
+    let displayTitle = sectionItem.map((item) => {
+        // Фільтруємо страви для поточної категорії
+        const filteredMenuItems = menuItems.filter(m => String(m.categoryIndex) === String(item.id));
+        
+        if (filteredMenuItems.length === 0) return ""; // Якщо страв немає, нічого не малюємо
+
+        let displayMenusItems = filteredMenuItems.map((menuItem) => {
+            return `      
+                <div class="col-sm-12 col-lg-4 col-md-6">
+                    <div class="card-menu">
+                        <img src="${menuItem.img || 'img/icons/logoTab.png'}" class="${menuItem.img ? '' : 'card-img-logo'} mx-auto d-block card-img-top">
+                        <div class="card-body flex-grow-1">
+                            <p class="card-text">
+                                <p class="display-6">${menuItem.title}</p>
+                                <p class="small text-muted"><em>${menuItem.weight || ""}</em></p>
+                                <!-- ТЕПЕР МИ БЕРЕМО НАЗВУ КАТЕГОРІЇ З 'item.title' -->
+                                <p class="Category">${item.title}</p> 
+                                <p class="price">${menuItem.price || ""}</p>
+                            </p>
+                            <div class="d-flex justify-content-end align-items-center" id="select__btn">
+                                <button class="btn" onclick="toggleSelectionMenu('${menuItem.id}')">
+                                    <i class="${menuItem.selected ? 'fas' : 'far'} fa-heart fa-2x p-2"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>`;
+        }).join("");
+
+        return `<div id="${item.category}"></div><h2 class="recommended__title" style="margin-top:50px;">${item.title}</h2>${displayMenusItems}<br>`;
+    }).join("");
+
+    sectionCenter.innerHTML = `<nav class="d-flex justify-content-center">${subMenuContainer.outerHTML}</nav><br>${displayTitle}`;
 }
 function toggleSelectionMenu(itemId) {
     
@@ -2756,50 +2800,7 @@ function displaySelectedItem(menuItems){
     displayMenusItem = displayMenusItem.join("");
     sectionCenter.innerHTML = `<h2 class="recommended__title" style="margin-top:50px;">Обране</h2><br>${displayMenusItem}`;
 }
-/*function displayMenusItem(sectionItem, menuItems) {
-    let subMenuContainer = document.createElement('div');
-    if(sectionItem.length > 1) {
-        let subMenu = sectionItem.map((item) => {
-            return `<a class="btn btn-coffee" href="#${item.category}">${item.title}</a>`;
-        }).join(" ");
-        subMenuContainer.classList.add('sub-menu-container');
-        subMenuContainer.innerHTML = subMenu;
-    }
 
-    let displayTitle = sectionItem.map((item) => {
-        // Фільтруємо страви для поточної категорії
-        const filteredMenuItems = menuItems.filter(m => String(m.categoryIndex) === String(item.id));
-        
-        if (filteredMenuItems.length === 0) return ""; // Якщо страв немає, нічого не малюємо
-
-        let displayMenusItems = filteredMenuItems.map((menuItem) => {
-            return `      
-                <div class="col-sm-12 col-lg-4 col-md-6">
-                    <div class="card-menu">
-                        <img src="${menuItem.img || 'img/icons/logoTab.png'}" class="${menuItem.img ? '' : 'card-img-logo'} mx-auto d-block card-img-top">
-                        <div class="card-body flex-grow-1">
-                            <p class="card-text">
-                                <p class="display-6">${menuItem.title}</p>
-                                <p class="small text-muted"><em>${menuItem.weight || ""}</em></p>
-                                <!-- ТЕПЕР МИ БЕРЕМО НАЗВУ КАТЕГОРІЇ З 'item.title' -->
-                                <p class="Category">${item.title}</p> 
-                                <p class="price">${menuItem.price || ""}</p>
-                            </p>
-                            <div class="d-flex justify-content-end align-items-center" id="select__btn">
-                                <button class="btn" onclick="toggleSelectionMenu('${menuItem.id}')">
-                                    <i class="${menuItem.selected ? 'fas' : 'far'} fa-heart fa-2x p-2"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>`;
-        }).join("");
-
-        return `<div id="${item.category}"></div><h2 class="recommended__title" style="margin-top:50px;">${item.title}</h2>${displayMenusItems}<br>`;
-    }).join("");
-
-    sectionCenter.innerHTML = `<nav class="d-flex justify-content-center">${subMenuContainer.outerHTML}</nav><br>${displayTitle}`;
-}*/
 function toggleSelection(itemId) {
     
     // Знайдіть об'єкт меню за ідентифікатором
