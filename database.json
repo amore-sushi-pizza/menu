@@ -12,14 +12,14 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/montana.png",
+      "img": "img/products/pizza/polo.png",
       "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
       "categoryIndex": 5,
       "article": "Піца",
-      "title": "Монтана",
+      "title": "Полло",
       "weight": "",
-      "id": 2,
-      "description": "Помідор, салямі, печериці, перець, кукурудза, сир",
+      "id": 7,
+      "description": "Курочка, моцарела, помідор, кукурудза",
       "Category": "pizza"
     },
     {
@@ -45,58 +45,14 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/paza.png",
-      "price": "Діаметр 22см - 120UAH <br> Діаметр 32см - 250UAH <br> Діаметр 50см - 320UAH",
-      "categoryIndex": 5,
-      "article": "Піца",
-      "title": "Паза",
-      "weight": "",
-      "id": 5,
-      "description": "Курка, креветки, болгарський перець, сир",
-      "Category": "pizza"
-    },
-    {
-      "img": "img/products/pizza/fourCheese.png",
-      "price": "Діаметр 22см - 120UAH <br> Діаметр 32см - 220UAH <br> Діаметр 50см - 320UAH",
-      "categoryIndex": 5,
-      "article": "Піца",
-      "title": "IV сири (з грушею)",
-      "weight": "",
-      "id": 6,
-      "description": "Моцарела, ементаль, горгонзола, пармезан, спеції",
-      "Category": "pizza"
-    },
-    {
-      "img": "img/products/pizza/polo.png",
+      "img": "img/products/pizza/primavera.png",
       "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
       "categoryIndex": 5,
       "article": "Піца",
-      "title": "Полло",
+      "title": "Прімавера",
       "weight": "",
-      "id": 7,
-      "description": "Курочка, моцарела, помідор, кукурудза",
-      "Category": "pizza"
-    },
-    {
-      "img": "img/products/pizza/mexykanska.png",
-      "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 210UAH <br> Діаметр 50см - 320UAH",
-      "categoryIndex": 5,
-      "article": "Піца",
-      "title": "Мексиканська",
-      "weight": "",
-      "id": 8,
-      "description": "Курка, ананас, болгарський перець, сир",
-      "Category": "pizza"
-    },
-    {
-      "img": "img/products/pizza/domashnia.png",
-      "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
-      "categoryIndex": 5,
-      "article": "Піца",
-      "title": "Домашня",
-      "weight": "",
-      "id": 9,
-      "description": "Курка, печериці, помідор, цибуля, пекінська капуста, сир",
+      "id": 19,
+      "description": "Шинка, печериці, квашений огірок, цибуля, сир",
       "Category": "pizza"
     },
     {
@@ -111,6 +67,17 @@
       "Category": "pizza"
     },
     {
+      "img": "img/products/pizza/domashnia.png",
+      "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
+      "categoryIndex": 5,
+      "article": "Піца",
+      "title": "Домашня",
+      "weight": "",
+      "id": 9,
+      "description": "Курка, печериці, помідор, цибуля, пекінська капуста, сир",
+      "Category": "pizza"
+    },
+    {
       "img": "img/products/pizza/saliami.png",
       "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 190UAH <br> Діаметр 50см - 320UAH",
       "categoryIndex": 5,
@@ -119,94 +86,6 @@
       "weight": "",
       "id": 11,
       "description": "Салямі, сир",
-      "Category": "pizza"
-    },
-    {
-      "img": "img/products/pizza/majore.png",
-      "price": "Діаметр 22см - 120UAH <br> Діаметр 32см - 300UAH <br> Діаметр 50см - 360UAH",
-      "categoryIndex": 5,
-      "article": "Піца",
-      "title": "Маджоре",
-      "weight": "",
-      "id": 12,
-      "description": "Філе лосося, перець, соус вершковий, сир",
-      "Category": "pizza"
-    },
-    {
-      "img": "img/products/pizza/tune.png",
-      "price": "Діаметр 32см - 220UAH <br> Діаметр 50см - 320UAH",
-      "categoryIndex": 5,
-      "article": "Піца",
-      "title": "Тунець",
-      "weight": "",
-      "id": 13,
-      "description": "Тунець, цибуля, болгарський перець, кукурудза, сир",
-      "Category": "pizza"
-    },
-    {
-      "img": "img/products/pizza/liguriia.png",
-      "price": "Діаметр 32см - 200UAH ",
-      "categoryIndex": 5,
-      "article": "Піца",
-      "title": "Лігурія",
-      "weight": "",
-      "id": 14,
-      "description": "Шинка, печериці, болгарський перець, цибуля, сир + вершковий соус",
-      "Category": "pizza"
-    },
-    {
-      "img": "img/products/pizza/calcone.jpg",
-      "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH ",
-      "categoryIndex": 5,
-      "article": "Піца",
-      "title": "Кальцоне (закрита піца)",
-      "weight": "",
-      "id": 15,
-      "description": "Курка, шинка, печериці, болгарський перець, сир + пармезан",
-      "Category": "pizza"
-    },
-    {
-      "img": "img/products/pizza/seaCocktail.png",
-      "price": "Діаметр 22см - 120UAH <br> Діаметр 32см - 260UAH <br> Діаметр 50см - 320UAH",
-      "categoryIndex": 5,
-      "article": "Піца",
-      "title": "Морський коктейль",
-      "weight": "",
-      "id": 16,
-      "description": "Морепродукти, лимон, перець, сир",
-      "Category": "pizza"
-    },
-    {
-      "img": "img/products/pizza/proshuto.png",
-      "price": "Діаметр 22см - 120UAH <br> Діаметр 32см - 260UAH <br> Діаметр 50см - 360UAH",
-      "categoryIndex": 5,
-      "article": "Піца",
-      "title": "Прошутто",
-      "weight": "",
-      "id": 17,
-      "description": "Вершкова основа, печериці, оливки, прошутто, помідор, сир, пармезан",
-      "Category": "pizza"
-    },
-    {
-      "img": "img/products/pizza/podyhDragon.png",
-      "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
-      "categoryIndex": 5,
-      "article": "Піца",
-      "title": "Подих дракона <strong style='color: red;'>(ГОСТРА)</strong>",
-      "weight": "",
-      "id": 18,
-      "description": "Чілі, салямі, оливки, помідор, сир",
-      "Category": "pizza"
-    },
-    {
-      "img": "img/products/pizza/primavera.png",
-      "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
-      "categoryIndex": 5,
-      "article": "Піца",
-      "title": "Прімавера",
-      "weight": "",
-      "id": 19,
-      "description": "Шинка, печериці, квашений огірок, цибуля, сир",
       "Category": "pizza"
     },
     {
@@ -232,6 +111,17 @@
       "Category": "pizza"
     },
     {
+      "img": "img/products/pizza/mexykanska.png",
+      "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 210UAH <br> Діаметр 50см - 320UAH",
+      "categoryIndex": 5,
+      "article": "Піца",
+      "title": "Мексиканська",
+      "weight": "",
+      "id": 8,
+      "description": "Курка, ананас, болгарський перець, сир",
+      "Category": "pizza"
+    },
+    {
       "img": "img/products/pizza/salsa.png",
       "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 210UAH <br> Діаметр 50см - 350UAH",
       "categoryIndex": 5,
@@ -254,6 +144,83 @@
       "Category": "pizza"
     },
     {
+      "img": "img/products/pizza/fourCheese.png",
+      "price": "Діаметр 22см - 120UAH <br> Діаметр 32см - 220UAH <br> Діаметр 50см - 320UAH",
+      "categoryIndex": 5,
+      "article": "Піца",
+      "title": "IV сири (з грушею)",
+      "weight": "",
+      "id": 6,
+      "description": "Моцарела, ементаль, горгонзола, пармезан, спеції",
+      "Category": "pizza"
+    },
+    {
+      "img": "img/products/pizza/4-cheese-phistashka.png",
+      "price": "Діаметр 22см - 120UAH <br> Діаметр 32см - 240UAH <br> Діаметр 50см - 340UAH",
+      "categoryIndex": 5,
+      "article": "Піца",
+      "title": "IV сири (з грушею та фісташками)",
+      "weight": "",
+      "id": 219,
+      "description": "Моцарела, фета, дор блю, пармезан, фісташки, груша",
+      "Category": "pizza"
+    },
+    {
+      "img": "img/products/pizza/camamber_pizza.png",
+      "price": "Діаметр 22см - 120UAH <br> Діаметр 32см - 270UAH <br> Діаметр 50см - 350UAH",
+      "categoryIndex": 5,
+      "article": "Піца",
+      "title": "Камамбер",
+      "weight": "",
+      "id": 220,
+      "description": "Вершковий соус, моцарела, камамбер, журавлиний соус",
+      "Category": "pizza"
+    },
+    {
+      "img": "img/products/pizza/paza.png",
+      "price": "Діаметр 22см - 120UAH <br> Діаметр 32см - 250UAH <br> Діаметр 50см - 320UAH",
+      "categoryIndex": 5,
+      "article": "Піца",
+      "title": "Паза",
+      "weight": "",
+      "id": 5,
+      "description": "Курка, креветки, болгарський перець, сир",
+      "Category": "pizza"
+    },
+    {
+      "img": "img/products/pizza/podyhDragon.png",
+      "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
+      "categoryIndex": 5,
+      "article": "Піца",
+      "title": "Подих дракона <strong style='color: red;'>(ГОСТРА)</strong>",
+      "weight": "",
+      "id": 18,
+      "description": "Чілі, салямі, оливки, помідор, сир",
+      "Category": "pizza"
+    },
+    {
+      "img": "img/products/pizza/majore.png",
+      "price": "Діаметр 22см - 120UAH <br> Діаметр 32см - 300UAH <br> Діаметр 50см - 360UAH",
+      "categoryIndex": 5,
+      "article": "Піца",
+      "title": "Маджоре",
+      "weight": "",
+      "id": 12,
+      "description": "Філе лосося, перець, соус вершковий, сир",
+      "Category": "pizza"
+    },
+    {
+      "img": "img/products/pizza/seaCocktail.png",
+      "price": "Діаметр 22см - 120UAH <br> Діаметр 32см - 260UAH <br> Діаметр 50см - 320UAH",
+      "categoryIndex": 5,
+      "article": "Піца",
+      "title": "Морський коктейль",
+      "weight": "",
+      "id": 16,
+      "description": "Морепродукти, лимон, перець, сир",
+      "Category": "pizza"
+    },
+    {
       "id": 24,
       "title": "М'ясна",
       "Category": "pizza",
@@ -264,6 +231,28 @@
       "weight": ""
     },
     {
+      "img": "img/products/pizza/proshuto.png",
+      "price": "Діаметр 22см - 120UAH <br> Діаметр 32см - 260UAH <br> Діаметр 50см - 360UAH",
+      "categoryIndex": 5,
+      "article": "Піца",
+      "title": "Прошутто",
+      "weight": "",
+      "id": 17,
+      "description": "Вершкова основа, печериці, оливки, прошутто, помідор, сир, пармезан",
+      "Category": "pizza"
+    },
+    {
+      "img": "img/products/pizza/tune.png",
+      "price": "Діаметр 32см - 220UAH <br> Діаметр 50см - 320UAH",
+      "categoryIndex": 5,
+      "article": "Піца",
+      "title": "Тунець",
+      "weight": "",
+      "id": 13,
+      "description": "Тунець, цибуля, болгарський перець, кукурудза, сир",
+      "Category": "pizza"
+    },
+    {
       "img": "img/products/pizza/asorti.png",
       "price": "Діаметр 50см - 350UAH",
       "categoryIndex": 5,
@@ -272,6 +261,28 @@
       "weight": "",
       "id": 25,
       "description": "Грибна/Салямі/Капріча/Домашня",
+      "Category": "pizza"
+    },
+    {
+      "img": "img/products/pizza/liguriia.png",
+      "price": "Діаметр 32см - 200UAH ",
+      "categoryIndex": 5,
+      "article": "Піца",
+      "title": "Лігурія",
+      "weight": "",
+      "id": 14,
+      "description": "Шинка, печериці, болгарський перець, цибуля, сир + вершковий соус",
+      "Category": "pizza"
+    },
+    {
+      "img": "img/products/pizza/calcone.jpg",
+      "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH ",
+      "categoryIndex": 5,
+      "article": "Піца",
+      "title": "Кальцоне (закрита піца)",
+      "weight": "",
+      "id": 15,
+      "description": "Курка, шинка, печериці, болгарський перець, сир + пармезан",
       "Category": "pizza"
     },
     {
@@ -307,6 +318,49 @@
       "Category": "pizza"
     },
     {
+      "img": "img/products/pizza/child.png",
+      "price": "Діаметр 32см - 170UAH ",
+      "categoryIndex": 5,
+      "article": "Піца",
+      "title": "Дитяча (Angry birds)",
+      "weight": "",
+      "id": 221,
+      "description": "Салямі, моцарела, сир тостерний",
+      "Category": "pizza"
+    },
+    {
+      "img": "img/products/pizza/montana.png",
+      "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
+      "categoryIndex": 5,
+      "article": "Піца",
+      "title": "Монтана",
+      "weight": "",
+      "id": 2,
+      "description": "Помідор, салямі, печериці, перець, кукурудза, сир",
+      "Category": "pizza"
+    },
+    {
+      "img": "img/products/pizza/cezar_pizza.png",
+      "price": "Діаметр 32см - 240UAH ",
+      "categoryIndex": 5,
+      "article": "Піца",
+      "title": "Цезар",
+      "weight": "",
+      "id": 222,
+      "description": "Вершковий соус, курочка, моцарела, помідор, айзберг, яєчко, пармезан, соус цезар",
+      "Category": "pizza"
+    },
+    {
+      "id": 400,
+      "title": "Піца IV сезони",
+      "Category": "pizza",
+      "article": "Піца",
+      "description": "сир, шинка, салямі, помідор, печериці",
+      "price": "Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
+      "categoryIndex": 5,
+      "weight": ""
+    },
+    {
       "img": "img/products/pizza/hachapuri.png",
       "price": "Діаметр 32см - 250UAH",
       "categoryIndex": 5,
@@ -316,6 +370,16 @@
       "id": 29,
       "description": "",
       "Category": "pizza"
+    },
+    {
+      "id": 329,
+      "title": "Упаковка для піци",
+      "Category": "pizza",
+      "article": "Упаковка",
+      "description": "",
+      "price": "Діаметр 32см - 15UAH <br>Діаметр 50см - 20UAH",
+      "categoryIndex": 23,
+      "weight": ""
     },
     {
       "id": 30,
@@ -509,7 +573,7 @@
     },
     {
       "img": "img/products/sushi/filadelfia.png",
-      "price": "220UAH",
+      "price": "230UAH",
       "categoryIndex": 1,
       "article": "Роли",
       "title": "Філадельфія",
@@ -523,7 +587,7 @@
       "price": "230UAH",
       "categoryIndex": 1,
       "article": "Роли",
-      "title": "Філадельфія з креветкою",
+      "title": "Філадельфія з креветками",
       "weight": "250г",
       "id": 51,
       "description": "Рис, норі, лосось, сир Філадельфія, креветки",
@@ -531,7 +595,7 @@
     },
     {
       "img": "img/products/sushi/black_filadelfia.png",
-      "price": "200UAH",
+      "price": "230UAH",
       "categoryIndex": 1,
       "article": "Роли",
       "title": "Black Філадельфія",
@@ -542,7 +606,7 @@
     },
     {
       "img": "img/products/sushi/filadelfia_vega.png",
-      "price": "150UAH",
+      "price": "190UAH",
       "categoryIndex": 1,
       "article": "Роли",
       "title": "Філадельфія вега",
@@ -553,7 +617,7 @@
     },
     {
       "img": "img/products/sushi/filadelfia_eel.png",
-      "price": "200UAH",
+      "price": "230UAH",
       "categoryIndex": 1,
       "article": "Роли",
       "title": "Філадельфія з Вугрем",
@@ -564,7 +628,7 @@
     },
     {
       "img": "img/products/sushi/filadelfia_masaho.png",
-      "price": "180/210UAH",
+      "price": "200/210UAH",
       "categoryIndex": 1,
       "article": "Роли",
       "title": "Філадельфія Масаго/ з <strong style=\"color:red;\">копченим</strong> лососем",
@@ -574,8 +638,19 @@
       "Category": "roly"
     },
     {
+      "img": "img/products/sushi/filadelfia_salmon.png",
+      "price": "200UAH",
+      "categoryIndex": 1,
+      "article": "Роли",
+      "title": "Філадельфія з лососем в кунжуті",
+      "weight": "250г",
+      "id": 99,
+      "description": "Рис, чорнило каракатиці, норі, огірок, сир Філадельфія, лосось, кунжут",
+      "Category": "roly"
+    },
+    {
       "img": "img/products/sushi/californiia.png",
-      "price": "180UAH",
+      "price": "200UAH",
       "categoryIndex": 1,
       "article": "Роли",
       "title": "Каліфорнія",
@@ -1013,17 +1088,6 @@
       "weight": "260г",
       "id": 98,
       "description": "Рис, норі, мідія, сир Філадельфія, тостерний сир, пармезан, соус Унагі",
-      "Category": "roly"
-    },
-    {
-      "img": "img/products/sushi/filadelfia_salmon.png",
-      "price": "200UAH",
-      "categoryIndex": 1,
-      "article": "Роли",
-      "title": "Філадельфія з лососем в кунжуті",
-      "weight": "250г",
-      "id": 99,
-      "description": "Рис, чорнило каракатиці, норі, огірок, сир Філадельфія, лосось, кунжут",
       "Category": "roly"
     },
     {
@@ -2117,60 +2181,6 @@
       "Category": "sushi-bowl"
     },
     {
-      "img": "img/products/pizza/4-cheese-phistashka.png",
-      "price": "Діаметр 22см - 120UAH <br> Діаметр 32см - 240UAH <br> Діаметр 50см - 340UAH",
-      "categoryIndex": 5,
-      "article": "Піца",
-      "title": "IV сири (з грушею та фісташками)",
-      "weight": "",
-      "id": 219,
-      "description": "Моцарела, фета, дор блю, пармезан, фісташки, груша",
-      "Category": "pizza"
-    },
-    {
-      "img": "img/products/pizza/camamber_pizza.png",
-      "price": "Діаметр 22см - 120UAH <br> Діаметр 32см - 270UAH <br> Діаметр 50см - 350UAH",
-      "categoryIndex": 5,
-      "article": "Піца",
-      "title": "Камамбер",
-      "weight": "",
-      "id": 220,
-      "description": "Вершковий соус, моцарела, камамбер, журавлиний соус",
-      "Category": "pizza"
-    },
-    {
-      "img": "img/products/pizza/child.png",
-      "price": "Діаметр 32см - 170UAH ",
-      "categoryIndex": 5,
-      "article": "Піца",
-      "title": "Дитяча (Angry birds)",
-      "weight": "",
-      "id": 221,
-      "description": "Салямі, моцарела, сир тостерний",
-      "Category": "pizza"
-    },
-    {
-      "img": "img/products/pizza/cezar_pizza.png",
-      "price": "Діаметр 32см - 240UAH ",
-      "categoryIndex": 5,
-      "article": "Піца",
-      "title": "Цезар",
-      "weight": "",
-      "id": 222,
-      "description": "Вершковий соус, курочка, моцарела, помідор, айзберг, яєчко, пармезан, соус цезар",
-      "Category": "pizza"
-    },
-    {
-      "id": 400,
-      "title": "Піца IV сезони",
-      "Category": "pizza",
-      "article": "Піца",
-      "description": "сир, шинка, салямі, помідор, печериці",
-      "price": "Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
-      "categoryIndex": 5,
-      "weight": ""
-    },
-    {
       "img": "img/products/salads/tartar.png",
       "price": "200UAH",
       "categoryIndex": 15,
@@ -2304,16 +2314,6 @@
       "description": "Норі, рис, сурімі, огірок, філадельфія, айсберг, подається з горіхоаим соусом",
       "price": "180UAH",
       "categoryIndex": 1,
-      "weight": ""
-    },
-    {
-      "id": 329,
-      "title": "Упаковка для піци",
-      "Category": "pizza",
-      "article": "Упаковка",
-      "description": "",
-      "price": "Діаметр 32см - 15UAH <br>Діаметр 50см - 20UAH",
-      "categoryIndex": 23,
       "weight": ""
     }
   ]
