@@ -1,139 +1,139 @@
 {
   "items": [
     {
-        "id": 1,
+        "id": "1",
         "title": "Роли",
         "category": "roly",
         "mainCategory": "rolys"
     },
     {
-        "id": 2,
+        "id": "2",
         "title": "Теплі роли",
         "category": "warm-roly",
         "mainCategory": "rolys"
     },
     {
-        "id": 3,
+        "id": "3",
         "title": "Сети",
         "category": "sety",
         "mainCategory": "rolys"
     },
     {
-        "id": 4,
+        "id": "4",
         "title": "Спрінг роли",
         "category": "spring-roly",
         "mainCategory": "rolys"
     },
     {
-        "id": 5,
+        "id": "5",
         "title": "Піца",
         "category": "pizza",
         "mainCategory": "pizza"
     },
     {
-        "id": 6,
+        "id": "6",
         "title": "Склади свою піцу",
         "category": "own-pizza",
         "mainCategory": "pizza"
     },
     {
-        "id": 7,
+        "id": "7",
         "title": "Безалкогольні напої",
         "category": "free-alcohol-drinks",
         "mainCategory": "drinks"
     },
     {
-        "id": 8,
+        "id": "8",
         "title": "Гарячі напої",
         "category": "warm-drinks",
         "mainCategory": "drinks"
     },
     {
-        "id": 9,
+        "id": "9",
         "title": "Безалкогольні коктейлі",
         "category": "free-alcohol-cocteils",
         "mainCategory": "drinks"
     },
     {
-        "id": 10,
+        "id": "10",
         "title": "Молочні коктейлі",
         "category": "milk-cocteils",
         "mainCategory": "drinks"
     },
     {
-        "id": 11,
+        "id": "11",
         "title": "Алкогольні напої",
         "category": "alcohol-drinks",
         "mainCategory": "drinks"
     },
     {
-        "id": 12,
+        "id": "12",
         "title": "Алкогольні коктейлі",
         "category": "alcohol-cocteils",
         "mainCategory": "drinks"
     },
     {
-        "id": 13,
+        "id": "13",
         "title": "Холодні напої",
         "category": "cold-drinks",
         "mainCategory": "drinks"
     },
     {
-        "id": 14,
+        "id": "14",
         "title": "Sushi bowl",
         "category": "sushi-bowl",
         "mainCategory": "sushi-bowl"
     },
     {
-        "id": 15,
+        "id": "15",
         "title": "Салати",
         "category": "salads",
         "mainCategory": "salads"
     },
     {
-        "id": 16,
+        "id": "16",
         "title": "Морозиво",
         "category": "ice-cream",
         "mainCategory": "ice-cream"
     },
     {
-        "id": 17,
+        "id": "17",
         "title": "До пива",
         "category": "beer-menu",
         "mainCategory": "beer-menu"
     },
     {
-        "id": 18,
+        "id": "18",
         "title": "Бургери",
         "category": "burgers",
         "mainCategory": "burgers"
     },
     {
-        "id": 19,
+        "id": "19",
         "title": "Фритюр",
         "category": "frytur",
         "mainCategory": "frytur"
     },
     {
-        "id": 20,
+        "id": "20",
         "title": "Послуга відкоркуй",
         "category": "open-service",
         "mainCategory": "drinks"
     },
     {
-        "id": 21,
+        "id": "21",
         "title": "Упаковка",
         "category": "sushi-pack",
         "mainCategory": "rolys"
     },
     {
-        "id": 22,
+        "id": "22",
         "title": "Паста",
         "category": "pasta",
         "mainCategory": "pasta"
     },
     {
-        "id": 23,
+        "id": "23",
         "title": "Упаковка",
         "category": "pizza-pack",
         "mainCategory": "pizza"
