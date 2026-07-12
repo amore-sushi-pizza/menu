@@ -2662,7 +2662,7 @@ function displayMenusItem(sectionItem, menuItems) {
                                 <p class="price">${menuItem.price}</p>
                             </p>
                             <div class="d-flex justify-content-end align-items-center" id="select__btn">
-                            <button class="btn" onclick="toggleSelectionMenu(${menuItem.id})">
+                            <button class="btn" onclick="toggleSelectionMenu('${menuItem.id}')">
                             <i class="${menuItem.selected ? 'fas' : 'far'} fa-heart fa-2x p-2"></i>
                             </button>
                             </div>
@@ -2681,7 +2681,8 @@ function displayMenusItem(sectionItem, menuItems) {
 function toggleSelectionMenu(itemId) {
     
     // Знайдіть об'єкт меню за ідентифікатором
-    const menuItem = menu.find(item => item.id === itemId);
+    const menuItem = menu.find(item => String(item.id) === String(itemId));
+	if (!menuItem) return;
     // Змініть значення властивості selected
     menuItem.selected = !menuItem.selected;
     
@@ -2715,7 +2716,7 @@ function displaySelectedItem(menuItems){
                     <div class="d-flex justify-content-center align-items-center p-2" style="max-width: 27%;"><img src=${menuItem.img ? menuItem.img : "img/icons/logoTab.png"} class="card-img-top"></div>
                     </div>
                     <div class="d-flex justify-content-end align-items-center" id="select__btn">
-                    <button class="btn" onclick="toggleSelection(${menuItem.id})">
+                    <button class="btn" onclick="toggleSelection('${menuItem.id}')">
                     <i class="fas fa-heart fa-2x p-2"></i>
                 </button>
             </div>
@@ -2729,7 +2730,8 @@ function displaySelectedItem(menuItems){
 function toggleSelection(itemId) {
     
     // Знайдіть об'єкт меню за ідентифікатором
-    const menuItem = menu.find(item => item.id === itemId);
+    const menuItem = menu.find(item => String(item.id) === String(itemId));
+	if (!menuItem) return;
 
     // Змініть значення властивості selected
     menuItem.selected = !menuItem.selected;
