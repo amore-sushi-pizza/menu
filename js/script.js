@@ -2739,10 +2739,6 @@ function toggleSelection(itemId) {
   
 }
 window.onload = function () {
-    const selectedItems = getSelectedItemsFromSessionStorage();
-    menu.forEach(item => {
-      item.selected = selectedItems.some(selectedItem => selectedItem.id === item.id);
-    });
     
     document.body.scrollTop = 0; 
     document.documentElement.scrollTop = 0;
