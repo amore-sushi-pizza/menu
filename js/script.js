@@ -2727,7 +2727,7 @@ saveSelectedItemsToSessionStorage(selectedItems);
 
        
 }
-/*function displaySelectedItem(menuItems){
+function displaySelectedItem(menuItems){
     let displayMenusItem = menuItems.map((menuItem) => {
         return `      
             <div class="col-sm-12 col-lg-6 col-md-12">
@@ -2755,8 +2755,8 @@ saveSelectedItemsToSessionStorage(selectedItems);
     });
     displayMenusItem = displayMenusItem.join("");
     sectionCenter.innerHTML = `<h2 class="recommended__title" style="margin-top:50px;">Обране</h2><br>${displayMenusItem}`;
-}*/
-function displayMenusItem(sectionItem, menuItems) {
+}
+/*function displayMenusItem(sectionItem, menuItems) {
     let subMenuContainer = document.createElement('div');
     if(sectionItem.length > 1) {
         let subMenu = sectionItem.map((item) => {
@@ -2799,7 +2799,7 @@ function displayMenusItem(sectionItem, menuItems) {
     }).join("");
 
     sectionCenter.innerHTML = `<nav class="d-flex justify-content-center">${subMenuContainer.outerHTML}</nav><br>${displayTitle}`;
-}
+}*/
 function toggleSelection(itemId) {
     
     // Знайдіть об'єкт меню за ідентифікатором
