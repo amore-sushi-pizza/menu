@@ -2659,7 +2659,7 @@ window.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-/*function displayMenusItem(sectionItem, menuItems) {
+function displayMenusItem(sectionItem, menuItems) {
     let subMenu;
     
     let subMenuContainer = document.createElement('div');
@@ -2707,8 +2707,8 @@ window.addEventListener("DOMContentLoaded", () => {
     displayTitle = displayTitle.join("");
     sectionCenter.innerHTML = `<nav class="d-flex justify-content-center">${subMenuContainer.outerHTML}</nav><br>${displayTitle}`;
     
-}*/
-function displayMenusItem(sectionItem, menuItems) {
+}
+/*function displayMenusItem(sectionItem, menuItems) {
     let subMenuContainer = document.createElement('div');
     if(sectionItem.length > 1) {
         let subMenu = sectionItem.map((item) => {
@@ -2751,7 +2751,7 @@ function displayMenusItem(sectionItem, menuItems) {
     }).join("");
 
     sectionCenter.innerHTML = `<nav class="d-flex justify-content-center">${subMenuContainer.outerHTML}</nav><br>${displayTitle}`;
-}
+}*/
 function toggleSelectionMenu(itemId) {
     
     // Знайдіть об'єкт меню за ідентифікатором
