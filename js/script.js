@@ -32,6 +32,7 @@ const filterBtns = document.querySelectorAll('.main__link');
 const filterBtnsBaner = document.querySelectorAll('.nav__link');
 
 filterBtns.forEach((btn)=>{
+	btn.addEventListener("click", (e)=>{
     	let x=document.getElementById('recommended');
         x.className += " active";
         let y = document.getElementById('home__menu');
