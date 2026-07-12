@@ -84,7 +84,7 @@ filterBtnsBaner.forEach((btn)=>{
         
     })
 })
-const menu = [
+/*const menu = [
     {
         id: 1,
         title:"Аморе",
@@ -2584,10 +2584,49 @@ const sections =[
         mainCategory: "pizza"
 
     },
-]
+]*/
 
-window.addEventListener("DOMContentLoaded", ()=>{
+/*window.addEventListener("DOMContentLoaded", ()=>{
     displayMenusItem(sections, menu);
+});*/
+// Оголошуємо глобальну змінну для меню
+let menu = [];
+let sections = [];
+
+// 2. Логіка завантаження при відкритті сторінки
+window.addEventListener("DOMContentLoaded", () => {
+    // Promise.all запускає завантаження обох файлів одночасно
+    Promise.all([
+        fetch('categories.json').then(response => {
+            if (!response.ok) throw new Error("Помилка завантаження категорій");
+            return response.json();
+        }),
+        fetch('database.json').then(response => {
+            if (!response.ok) throw new Error("Помилка завантаження меню");
+            return response.json();
+        })
+    ])
+    .then(([categoriesData, menuData]) => {
+        // Універсальний код: дістаємо масиви з поля items (або беремо сам масив)
+        sections = categoriesData.items || categoriesData || [];
+        menu = menuData.items || menuData || [];
+
+        // Підстраховка: якщо файли порожні, створюємо пусті масиви
+        if (!Array.isArray(sections)) sections = [];
+        if (!Array.isArray(menu)) menu = [];
+
+        // Відновлюємо обрані товари (сердечка) з Session Storage
+        const selectedItems = getSelectedItemsFromSessionStorage();
+        menu.forEach(item => {
+            item.selected = selectedItems.some(selectedItem => selectedItem.id === item.id);
+        });
+
+        // Відмальовуємо категорії та меню на сайті
+        displayMenusItem(sections, menu);
+    })
+    .catch(error => {
+        console.error("Сталася помилка при завантаженні даних:", error);
+    });
 });
 
 function displayMenusItem(sectionItem, menuItems) {
