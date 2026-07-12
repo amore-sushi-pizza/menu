@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main # Якщо ваша головна гілка називається master, змініть на master
+  branch: main  
 
 media_folder: "img/products" # Папка, куди зберігатимуться нові фото
 public_folder: "img/products"
