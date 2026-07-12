@@ -31,18 +31,14 @@ const sectionCenter = document.querySelector('.recommended');
 const filterBtns = document.querySelectorAll('.main__link');
 const filterBtnsBaner = document.querySelectorAll('.nav__link');
 
-/*filterBtns.forEach((btn)=>{
-    btn.addEventListener("click", (e)=>{
-        document.getElementById('recommended').classList.add("active");
-		document.getElementById('home__menu').classList.add("hide__menu");
-		document.getElementById('backBtn').classList.add("active");
-		/*let x=document.getElementById('recommended');
+filterBtns.forEach((btn)=>{
+    	let x=document.getElementById('recommended');
         x.className += " active";
         let y = document.getElementById('home__menu');
         y.className += " hide__menu";
         let z=document.getElementById('backBtn');
         z.className +=" active";*/
-       /* const Category=e.currentTarget.dataset.id;
+        const Category=e.currentTarget.dataset.id;
         const sectionCategory = sections.filter((sectionItem)=>Category.includes(sectionItem.mainCategory));
         const sectionCategoryIndexes = sectionCategory.map(category => category.id);
 
@@ -59,8 +55,8 @@ const filterBtnsBaner = document.querySelectorAll('.nav__link');
             behavior: 'smooth'
         });
         })
-})*/
-filterBtns.forEach((btn)=>{
+})
+/*filterBtns.forEach((btn)=>{
     btn.addEventListener("click", (e)=>{
         let x = document.getElementById('recommended');
         x.classList.add("active"); // Використовуємо classList для надійності
@@ -90,7 +86,7 @@ filterBtns.forEach((btn)=>{
             behavior: 'smooth'
         });
     })
-})
+})*/
 liked__products.onclick=()=>{
     let x=document.getElementById('recommended');
     x.className += " active";
