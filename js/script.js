@@ -2593,42 +2593,6 @@ const sections =[
 let menu = [];
 let sections = [];
 
-// 2. Логіка завантаження при відкритті сторінки
-window.addEventListener("DOMContentLoaded", () => {
-    // Promise.all запускає завантаження обох файлів одночасно
-    Promise.all([
-        fetch('categories.json').then(response => {
-            if (!response.ok) throw new Error("Помилка завантаження категорій");
-            return response.json();
-        }),
-        fetch('database.json').then(response => {
-            if (!response.ok) throw new Error("Помилка завантаження меню");
-            return response.json();
-        })
-    ])
-    .then(([categoriesData, menuData]) => {
-        // Універсальний код: дістаємо масиви з поля items (або беремо сам масив)
-        sections = categoriesData.items || categoriesData || [];
-        menu = menuData.items || menuData || [];
-
-        // Підстраховка: якщо файли порожні, створюємо пусті масиви
-        if (!Array.isArray(sections)) sections = [];
-        if (!Array.isArray(menu)) menu = [];
-
-        // Відновлюємо обрані товари (сердечка) з Session Storage
-        const selectedItems = getSelectedItemsFromSessionStorage();
-        menu.forEach(item => {
-            item.selected = selectedItems.some(selectedItem => selectedItem.id === item.id);
-        });
-
-        // Відмальовуємо категорії та меню на сайті
-        displayMenusItem(sections, menu);
-    })
-    .catch(error => {
-        console.error("Сталася помилка при завантаженні даних:", error);
-    });
-});
-
 function displayMenusItem(sectionItem, menuItems) {
     let subMenu;
     
@@ -2642,6 +2606,7 @@ function displayMenusItem(sectionItem, menuItems) {
     subMenuContainer.classList.add('sub-menu-container');
     subMenuContainer.innerHTML = subMenu;
 }
+
 
     let displayTitle = sectionItem.map((item) => {
         const filteredMenuItems = menuItems.filter((oneItem) => {
@@ -2681,8 +2646,9 @@ function displayMenusItem(sectionItem, menuItems) {
 function toggleSelectionMenu(itemId) {
     
     // Знайдіть об'єкт меню за ідентифікатором
-    const menuItem = menu.find(item => String(item.id) === String(itemId));
+	const menuItem = menu.find(item => String(item.id) === String(itemId));
 	if (!menuItem) return;
+   // const menuItem = menu.find(item => item.id === itemId);
     // Змініть значення властивості selected
     menuItem.selected = !menuItem.selected;
     
@@ -2730,22 +2696,27 @@ function displaySelectedItem(menuItems){
 function toggleSelection(itemId) {
     
     // Знайдіть об'єкт меню за ідентифікатором
-    const menuItem = menu.find(item => String(item.id) === String(itemId));
+	const menuItem = menu.find(item => String(item.id) === String(itemId));
 	if (!menuItem) return;
+   // const menuItem = menu.find(item => item.id === itemId);
 
     // Змініть значення властивості selected
     menuItem.selected = !menuItem.selected;
     const selectedItems = menu.filter(item => item.selected);
     saveSelectedItemsToSessionStorage(selectedItems);
     displaySelectedItem(selectedItems);
-  
+   /* const menuCategory = menu.filter((menuItem) => {
+        if(menuItem.selected){
+            return menuItem;
+        }});
+    // Оновіть відображення обраного елемента
+    displaySelectedItem(menuCategory);*/
 }
+
 window.onload = function () {
-    
     document.body.scrollTop = 0; 
     document.documentElement.scrollTop = 0;
-    
-  };
+};
 // Отримати поточний день тижня (від 0 до 6, де 0 - неділя, 1 - понеділок, і так далі)
 const currentDay = new Date().getDay();
 
