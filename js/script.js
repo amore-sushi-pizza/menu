@@ -60,30 +60,37 @@ const filterBtnsBaner = document.querySelectorAll('.nav__link');
         });
         })
 })*/
-filterBtns.forEach((btn) => {
-    btn.addEventListener("click", (e) => {
-        // Очищаємо класи перед додаванням
-        document.getElementById('recommended').classList.add("active");
-        document.getElementById('home__menu').classList.add("hide__menu");
-        document.getElementById('backBtn').classList.add("active");
-
-        const categoryFilter = e.currentTarget.dataset.id;
+filterBtns.forEach((btn)=>{
+    btn.addEventListener("click", (e)=>{
+        let x = document.getElementById('recommended');
+        x.classList.add("active"); // Використовуємо classList для надійності
         
-        // Фільтруємо за категоріями
-        const sectionCategory = sections.filter((s) => categoryFilter.includes(s.mainCategory));
-        const sectionCategoryIndexes = sectionCategory.map(s => s.id);
-        const menuCategory = menu.filter(m => sectionCategoryIndexes.includes(m.categoryIndex));
+        let y = document.getElementById('home__menu');
+        y.classList.add("hide__menu");
+        
+        let z = document.getElementById('backBtn');
+        z.classList.add("active");
+
+        // --- ОСЬ ТУТ ВСТАВЛЯЄМО ВАШ КОД ---
+        const categoryFilter = e.currentTarget.dataset.id.toLowerCase();
+        
+        const sectionCategory = sections.filter((s) => 
+            categoryFilter.includes(s.mainCategory.toLowerCase())
+        );
+        // ----------------------------------
+
+        const sectionCategoryIndexes = sectionCategory.map(category => category.id);
+        const menuCategory = menu.filter(menuItem => sectionCategoryIndexes.includes(menuItem.categoryIndex));
 
         displayMenusItem(sectionCategory, menuCategory);
         
-        // Плавна прокрутка
-        const target = document.getElementById('recommended');
+        const elementPosition = document.getElementById('recommended').getBoundingClientRect().top;
         window.scrollTo({
-            top: target.offsetTop - 150, 
+            top: window.scrollY + elementPosition - 150,
             behavior: 'smooth'
         });
-    });
-});
+    })
+})
 liked__products.onclick=()=>{
     let x=document.getElementById('recommended');
     x.className += " active";
