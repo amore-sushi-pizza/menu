@@ -1,0 +1,53 @@
+backend:
+  name: git-gateway
+  branch: main # Якщо ваша головна гілка називається master, змініть на master
+
+media_folder: "img/products" # Папка, куди зберігатимуться нові фото
+public_folder: "img/products"
+
+collections:
+  - name: "categories_list"
+    label: "Категорії"
+    files:
+      - label: "Налаштування категорій"
+        name: "categories"
+        file: "categories.json"
+        fields:
+          - label: "Список категорій"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "ID (генерується автоматично)", name: "id", widget: "uuid"}
+              - {label: "Назва (напр. Піца)", name: "title", widget: "string"}
+              - {label: "Посилання (напр. drinks)", name: "category", widget: "string"}
+              - {label: "Головна група (напр. free-alcohol-drinks)", name: "mainCategory", widget: "string"}
+
+  - name: "menu"
+    label: "Меню закладу"
+    files:
+      - label: "Усі страви"
+        name: "database"
+        file: "database.json"
+        fields:
+          - label: "Список страв"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.article}} : {{fields.title}}"
+            fields:
+              - {label: "ID (генерується автоматично)", name: "id", widget: "uuid"}
+              - {label: "Назва", name: "title", widget: "string"}
+              - {label: "Категорія (англ, напр. pizza)", name: "Category", widget: "string"}
+              - {label: "Тег (напр. Піца, Роли)", name: "article", widget: "string"}
+              - {label: "Опис", name: "description", widget: "text", required: false}
+              - {label: "Ціна", name: "price", widget: "string"}
+              - label: "Розділ меню (ID категорії)"
+                name: "categoryIndex"
+                widget: "relation"
+                collection: "categories_list"
+                file: "categories"
+                search_fields: ["items.*.title"]
+                display_fields: ["items.*.title"]
+                value_field: "items.*.id"
+              - {label: "Вага", name: "weight", widget: "string", required: false}
+              - {label: "Фото", name: "img", widget: "image", required: false}
