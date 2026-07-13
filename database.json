@@ -1729,7 +1729,7 @@
     },
     {
       "img": "img/products/bowls/bowl_salmon.png",
-      "price": "220UAH",
+      "price": "250UAH",
       "categoryIndex": "14",
       "article": "Суші боул",
       "title": "Боул з лососем",
@@ -1740,7 +1740,7 @@
     },
     {
       "img": "img/products/bowls/bowl_shrimp.png",
-      "price": "220UAH",
+      "price": "250UAH",
       "categoryIndex": "14",
       "article": "Суші боул",
       "title": "Боул з креветкою",
@@ -2275,7 +2275,7 @@
     },
     {
       "img": "img/products/bowls/creamy_shrimp.png",
-      "price": "250UAH",
+      "price": "320UAH",
       "categoryIndex": "14",
       "article": "Суші боул",
       "title": "Вершкові креветки",
@@ -2287,13 +2287,13 @@
     {
       "img": "img/products/salads/tartar.png",
       "price": "200UAH",
-      "categoryIndex": "15",
-      "article": "Салати",
+      "categoryIndex": "14",
+      "article": "Суші боул",
       "title": "Тартар з лососем",
       "weight": "160г",
       "id": "223",
       "description": "Лосось, огірок, авокадо, філадельфія, соус Теріякі, рисові чипси",
-      "Category": "salads"
+      "Category": "sushi-bowl"
     },
     {
       "id": "224",
@@ -2357,35 +2357,57 @@
     },
     {
       "img": "img/products/sushi/sakura.png",
-      "price": "230UAH",
+      "price": "250UAH",
       "categoryIndex": "1",
       "article": "Роли",
       "title": "Рол Сакура",
-      "weight": "230г",
+      "weight": "270г",
       "id": "230",
       "description": "Рис, сир Філадельфія, огірок, копчений лосось, рисові кульки",
       "Category": "roly"
     },
     {
       "img": "img/products/sushi/creamy_midia.png",
-      "price": "160UAH",
+      "price": "180UAH",
       "categoryIndex": "1",
       "article": "Роли",
       "title": "Вершковий з мідією",
-      "weight": "230г",
+      "weight": "260г",
       "id": "231",
       "description": "Рис, норі, сурімі, сир Філадельфія, огірок, мідія, соус Унагі",
       "Category": "roly"
     },
     {
       "img": "img/products/sushi/tokio.png",
-      "price": "250UAH",
+      "price": "280UAH",
       "categoryIndex": "1",
       "article": "Роли",
       "title": "Рол Токіо",
-      "weight": "300г",
+      "weight": "330г",
       "id": "232",
       "description": "Рис, норі, сир Філадельфія, огірок, копчений лосось, креветка, ікра тобіко",
+      "Category": "roly"
+    },
+    {
+      
+      "price": "180UAH",
+      "categoryIndex": "1",
+      "article": "Роли",
+      "title": "Спайсі рол",
+      "weight": "300г",
+      "id": "1232",
+      "description": "Рис, печений лосось, норі, сир Філадельфія, огірок, кунжут, спайсі соус",
+      "Category": "roly"
+    },
+    {
+      
+      "price": "180UAH",
+      "categoryIndex": "1",
+      "article": "Роли",
+      "title": "Ебі рол",
+      "weight": "250г",
+      "id": "1233",
+      "description": "Рис, печений лосось, норі, сир Філадельфія, огірок, кунжут",
       "Category": "roly"
     },
    
