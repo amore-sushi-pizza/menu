@@ -20,8 +20,8 @@ collections:
             fields:
               - {label: "ID (генерується автоматично)", name: "id", widget: "uuid"}
               - {label: "Назва (напр. Піца)", name: "title", widget: "string"}
-              - {label: "Посилання (напр. drinks)", name: "category", widget: "string"}
-              - {label: "Головна група (напр. free-alcohol-drinks)", name: "mainCategory", widget: "string"}
+              - {label: "Посилання (напр. free-alcohol-drinks)", name: "category", widget: "string"}
+              - {label: "Головна група (напр. drinks)", name: "mainCategory", widget: "string"}
 
   - name: "menu"
     label: "Меню закладу"
