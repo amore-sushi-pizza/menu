@@ -3,7 +3,7 @@ backend:
   branch: main  
 
 media_folder: "img/products" # Папка, куди зберігатимуться нові фото
-public_folder: "/img/products"
+public_folder: "../img/products"
 
 collections:
   - name: "categories_list"
