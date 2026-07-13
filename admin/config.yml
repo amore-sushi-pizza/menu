@@ -37,7 +37,7 @@ collections:
             fields:
               - {label: "ID", name: "id", widget: "uuid"}
               - {label: "Назва", name: "title", widget: "string"}
-              - {label: "Ціна", name: "price", widget: "string"}
+              - {label: "Ціна", name: "price", widget: "string", required: false}
               - label: "Розділ меню (ID категорії)"
                 name: "categoryIndex"
                 widget: "relation"
