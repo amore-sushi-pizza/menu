@@ -43,8 +43,9 @@ collections:
                 widget: "relation"
                 collection: "categories_list"
                 file: "categories"
-                search_fields: ["items.*.title"]
-                display_fields: ["items.*.title"]
-                value_field: "items.*.id"
+                # Вказуємо шлях до масиву 'items', а потім до полів всередині нього
+                search_fields: ["items.title"]
+                display_fields: ["items.title"]
+                value_field: "items.id"
               - {label: "Вага", name: "weight", widget: "string", required: false}
               - {label: "Фото", name: "img", widget: "image", required: false}
