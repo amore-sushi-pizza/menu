@@ -2682,7 +2682,7 @@ function displayMenusItem(sectionItem, menuItems) {
         return `
             <div class="col-sm-12 col-lg-4 col-md-6">
                 <div class="card-menu">
-                    <img src="${menuItem.img ? menuItem.img : 'img/icons/logoTab.png'}" class="${menuItem.img ? '' : 'card-img-logo'} mx-auto d-block card-img-top">
+                    <img src="${menuItem.img ? menuItem.img : '/img/icons/logoTab.png'}" class="${menuItem.img ? '' : 'card-img-logo'} mx-auto d-block card-img-top">
                     <div class="card-body flex-grow-1">
                         <div class="card-text">
                             <h3 class="display-6">${menuItem.title}</h3>
