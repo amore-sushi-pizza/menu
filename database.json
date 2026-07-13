@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "img": "img/products/pizza/amore.png",
+      "img": "/img/products/pizza/amore.png",
       "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -12,7 +12,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/polo.png",
+      "img": "/img/products/pizza/polo.png",
       "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -23,7 +23,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/tachino.png",
+      "img": "/img/products/pizza/tachino.png",
       "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -34,7 +34,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/capricha.png",
+      "img": "/img/products/pizza/capricha.png",
       "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -45,7 +45,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/primavera.png",
+      "img": "/img/products/pizza/primavera.png",
       "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -56,7 +56,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/carbonara.png",
+      "img": "/img/products/pizza/carbonara.png",
       "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -67,7 +67,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/domashnia.png",
+      "img": "/img/products/pizza/domashnia.png",
       "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -78,7 +78,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/saliami.png",
+      "img": "/img/products/pizza/saliami.png",
       "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 190UAH <br> Діаметр 50см - 320UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -89,7 +89,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/mashroom.png",
+      "img": "/img/products/pizza/mashroom.png",
       "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -100,7 +100,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/chiken_pizza.png",
+      "img": "/img/products/pizza/chiken_pizza.png",
       "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -111,7 +111,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/mexykanska.png",
+      "img": "/img/products/pizza/mexykanska.png",
       "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 210UAH <br> Діаметр 50см - 320UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -122,7 +122,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/salsa.png",
+      "img": "/img/products/pizza/salsa.png",
       "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 210UAH <br> Діаметр 50см - 350UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -133,7 +133,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/polermo.png",
+      "img": "/img/products/pizza/polermo.png",
       "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -144,7 +144,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/fourCheese.png",
+      "img": "/img/products/pizza/fourCheese.png",
       "price": "Діаметр 22см - 120UAH <br> Діаметр 32см - 220UAH <br> Діаметр 50см - 320UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -155,7 +155,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/4-cheese-phistashka.png",
+      "img": "/img/products/pizza/4-cheese-phistashka.png",
       "price": "Діаметр 22см - 120UAH <br> Діаметр 32см - 240UAH <br> Діаметр 50см - 340UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -166,7 +166,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/camamber_pizza.png",
+      "img": "/img/products/pizza/camamber_pizza.png",
       "price": "Діаметр 22см - 120UAH <br> Діаметр 32см - 270UAH <br> Діаметр 50см - 350UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -177,7 +177,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/paza.png",
+      "img": "/img/products/pizza/paza.png",
       "price": "Діаметр 22см - 120UAH <br> Діаметр 32см - 250UAH <br> Діаметр 50см - 320UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -188,7 +188,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/podyhDragon.png",
+      "img": "/img/products/pizza/podyhDragon.png",
       "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -199,7 +199,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/majore.png",
+      "img": "/img/products/pizza/majore.png",
       "price": "Діаметр 22см - 120UAH <br> Діаметр 32см - 300UAH <br> Діаметр 50см - 360UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -210,7 +210,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/seaCocktail.png",
+      "img": "/img/products/pizza/seaCocktail.png",
       "price": "Діаметр 22см - 120UAH <br> Діаметр 32см - 260UAH <br> Діаметр 50см - 320UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -231,7 +231,7 @@
       "weight": ""
     },
     {
-      "img": "img/products/pizza/proshuto.png",
+      "img": "/img/products/pizza/proshuto.png",
       "price": "Діаметр 22см - 120UAH <br> Діаметр 32см - 260UAH <br> Діаметр 50см - 360UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -242,7 +242,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/tune.png",
+      "img": "/img/products/pizza/tune.png",
       "price": "Діаметр 32см - 220UAH <br> Діаметр 50см - 320UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -253,7 +253,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/asorti.png",
+      "img": "/img/products/pizza/asorti.png",
       "price": "Діаметр 50см - 350UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -264,7 +264,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/liguriia.png",
+      "img": "/img/products/pizza/liguriia.png",
       "price": "Діаметр 32см - 200UAH ",
       "categoryIndex": "5",
       "article": "Піца",
@@ -275,7 +275,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/calcone.jpg",
+      "img": "/img/products/pizza/calcone.jpg",
       "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH ",
       "categoryIndex": "5",
       "article": "Піца",
@@ -296,7 +296,7 @@
       "weight": ""
     },
     {
-      "img": "img/products/pizza/bianka.png",
+      "img": "/img/products/pizza/bianka.png",
       "price": "Діаметр 22см - 110UAH <br> Діаметр 32см - 210UAH <br> Діаметр 50см - 340UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -307,7 +307,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/myslyvska.png",
+      "img": "/img/products/pizza/myslyvska.png",
       "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 210UAH <br> Діаметр 50см - 320UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -318,7 +318,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/child.png",
+      "img": "/img/products/pizza/child.png",
       "price": "Діаметр 32см - 170UAH ",
       "categoryIndex": "5",
       "article": "Піца",
@@ -329,7 +329,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/montana.png",
+      "img": "/img/products/pizza/montana.png",
       "price": "Діаметр 22см - 100UAH <br> Діаметр 32см - 200UAH <br> Діаметр 50см - 320UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -340,7 +340,7 @@
       "Category": "pizza"
     },
     {
-      "img": "img/products/pizza/cezar_pizza.png",
+      "img": "/img/products/pizza/cezar_pizza.png",
       "price": "Діаметр 32см - 240UAH ",
       "categoryIndex": "5",
       "article": "Піца",
@@ -361,7 +361,7 @@
       "weight": ""
     },
     {
-      "img": "img/products/pizza/hachapuri.png",
+      "img": "/img/products/pizza/hachapuri.png",
       "price": "Діаметр 32см - 250UAH",
       "categoryIndex": "5",
       "article": "Піца",
@@ -572,7 +572,7 @@
       "weight": "10 грам"
     },
     {
-      "img": "img/products/sushi/filadelfia.png",
+      "img": "/img/products/sushi/filadelfia.png",
       "price": "230UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -583,7 +583,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/filadelfia_shrimp.png",
+      "img": "/img/products/sushi/filadelfia_shrimp.png",
       "price": "230UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -594,7 +594,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/black_filadelfia.png",
+      "img": "/img/products/sushi/black_filadelfia.png",
       "price": "230UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -605,7 +605,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/filadelfia_vega.png",
+      "img": "/img/products/sushi/filadelfia_vega.png",
       "price": "190UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -616,7 +616,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/filadelfia_eel.png",
+      "img": "/img/products/sushi/filadelfia_eel.png",
       "price": "230UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -627,7 +627,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/filadelfia_masaho.png",
+      "img": "/img/products/sushi/filadelfia_masaho.png",
       "price": "200/210UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -638,7 +638,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/filadelfia_salmon.png",
+      "img": "/img/products/sushi/filadelfia_salmon.png",
       "price": "200UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -649,7 +649,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/californiia.png",
+      "img": "/img/products/sushi/californiia.png",
       "price": "200UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -660,7 +660,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/california_eel.png",
+      "img": "/img/products/sushi/california_eel.png",
       "price": "200UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -671,7 +671,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/pink_flamingo.png",
+      "img": "/img/products/sushi/pink_flamingo.png",
       "price": "160UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -682,7 +682,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/green_dragon.png",
+      "img": "/img/products/sushi/green_dragon.png",
       "price": "220UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -693,7 +693,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/green_dragon_shrimp.png",
+      "img": "/img/products/sushi/green_dragon_shrimp.png",
       "price": "220UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -704,7 +704,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/white_dragon.png",
+      "img": "/img/products/sushi/white_dragon.png",
       "price": "220UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -715,7 +715,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/red_dragon.png",
+      "img": "/img/products/sushi/red_dragon.png",
       "price": "220UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -736,7 +736,7 @@
       "weight": "230г"
     },
     {
-      "img": "img/products/sushi/cheese.png",
+      "img": "/img/products/sushi/cheese.png",
       "price": "140UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -747,7 +747,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/cheese_eel.png",
+      "img": "/img/products/sushi/cheese_eel.png",
       "price": "220UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -758,7 +758,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/cheese_shrimp.png",
+      "img": "/img/products/sushi/cheese_shrimp.png",
       "price": "190UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -769,7 +769,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/bonito.png",
+      "img": "/img/products/sushi/bonito.png",
       "price": "190UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -810,7 +810,7 @@
       "weight": "250г"
     },
     {
-      "img": "img/products/sushi/mon_rol.png",
+      "img": "/img/products/sushi/mon_rol.png",
       "price": "200/230UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -831,7 +831,7 @@
       "weight": "190г"
     },
     {
-      "img": "img/products/sushi/surimi_sesame.png",
+      "img": "/img/products/sushi/surimi_sesame.png",
       "price": "150UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -842,7 +842,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/chicken_rol.png",
+      "img": "/img/products/sushi/chicken_rol.png",
       "price": "180UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -853,7 +853,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/nori-maki.png",
+      "img": "/img/products/sushi/nori-maki.png",
       "price": "100UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -864,7 +864,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/maky_cucumber.png",
+      "img": "/img/products/sushi/maky_cucumber.png",
       "price": "80UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -875,7 +875,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/maki_eel.png",
+      "img": "/img/products/sushi/maki_eel.png",
       "price": "100UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -886,7 +886,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/tiger_shrimp.png",
+      "img": "/img/products/sushi/tiger_shrimp.png",
       "price": "100UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -897,7 +897,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/maky_surimi.png",
+      "img": "/img/products/sushi/maky_surimi.png",
       "price": "80UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -908,7 +908,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/warm_role_salmon.png",
+      "img": "/img/products/sushi/warm_role_salmon.png",
       "price": "230UAH",
       "categoryIndex": "2",
       "article": "Теплі роли",
@@ -919,7 +919,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/cezar_warm.png",
+      "img": "/img/products/sushi/cezar_warm.png",
       "price": "210UAH",
       "categoryIndex": "2",
       "article": "Теплі роли",
@@ -930,7 +930,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/shrimp_warm.png",
+      "img": "/img/products/sushi/shrimp_warm.png",
       "price": "230UAH",
       "categoryIndex": "2",
       "article": "Теплі роли",
@@ -941,7 +941,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/warm_midia.png",
+      "img": "/img/products/sushi/warm_midia.png",
       "price": "200UAH",
       "categoryIndex": "2",
       "article": "Теплі роли",
@@ -952,7 +952,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/set_asorti.png",
+      "img": "/img/products/sushi/set_asorti.png",
       "price": "750UAH",
       "categoryIndex": "3",
       "article": "Сети",
@@ -963,7 +963,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/set_filadelfiia.png",
+      "img": "/img/products/sushi/set_filadelfiia.png",
       "price": "670UAH",
       "categoryIndex": "3",
       "article": "Сети",
@@ -974,7 +974,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/set_cake.png",
+      "img": "/img/products/sushi/set_cake.png",
       "price": "750UAH",
       "categoryIndex": "3",
       "article": "Сети",
@@ -995,7 +995,7 @@
       "weight": "720г (24 шматки)"
     },
     {
-      "img": "img/products/sushi/set_warm.jpg",
+      "img": "/img/products/sushi/set_warm.jpg",
       "price": "620UAH",
       "categoryIndex": "3",
       "article": "Сети",
@@ -1016,7 +1016,7 @@
       "weight": "900г (32 шматки)"
     },
     {
-      "img": "img/products/sushi/set_asorti_lite.jpg",
+      "img": "/img/products/sushi/set_asorti_lite.jpg",
       "price": "400UAH",
       "categoryIndex": "3",
       "article": "Сети",
@@ -1027,7 +1027,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/set_fishmaki.png",
+      "img": "/img/products/sushi/set_fishmaki.png",
       "price": "400UAH",
       "categoryIndex": "3",
       "article": "Сети",
@@ -1058,7 +1058,7 @@
       "weight": "730г (24 шматки)"
     },
     {
-      "img": "img/products/sushi/set_4dragons.png",
+      "img": "/img/products/sushi/set_4dragons.png",
       "price": "790UAH",
       "categoryIndex": "3",
       "article": "Сети",
@@ -1069,7 +1069,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/cheese_pear.png",
+      "img": "/img/products/sushi/cheese_pear.png",
       "price": "160UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -1080,7 +1080,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/cheese_midia.png",
+      "img": "/img/products/sushi/cheese_midia.png",
       "price": "180UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -1091,7 +1091,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/origami.png",
+      "img": "/img/products/sushi/origami.png",
       "price": "200UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -1112,7 +1112,7 @@
       "weight": "120г"
     },
     {
-      "img": "img/products/sushi/spring_shrimp.png",
+      "img": "/img/products/sushi/spring_shrimp.png",
       "price": "200UAH",
       "categoryIndex": "4",
       "article": "Спрінг роли",
@@ -1233,7 +1233,7 @@
       "weight": "250 мл"
     },
     {
-      "img": "img/products/drinks/oreo_ice.png",
+      "img": "/img/products/drinks/oreo_ice.png",
       "price": "80UAH",
       "categoryIndex": "8",
       "article": "Гарячі напої",
@@ -1264,7 +1264,7 @@
       "weight": "120 мл"
     },
     {
-      "img": "img/products/drinks/cacao.png",
+      "img": "/img/products/drinks/cacao.png",
       "price": "50UAH",
       "categoryIndex": "8",
       "article": "Гарячі напої",
@@ -1295,7 +1295,7 @@
       "weight": "5г/50г"
     },
     {
-      "img": "img/products/drinks/pina_colada.png",
+      "img": "/img/products/drinks/pina_colada.png",
       "price": "110UAH",
       "categoryIndex": "12",
       "article": "Алкогольні коктейлі",
@@ -1316,7 +1316,7 @@
       "weight": "300 мл"
     },
     {
-      "img": "img/products/drinks/mohito.png",
+      "img": "/img/products/drinks/mohito.png",
       "price": "95UAH",
       "categoryIndex": "12",
       "article": "Алкогольні коктейлі",
@@ -1327,7 +1327,7 @@
       "Category": "drinks"
     },
     {
-      "img": "img/products/drinks/blue_laguna.png",
+      "img": "/img/products/drinks/blue_laguna.png",
       "price": "110UAH",
       "categoryIndex": "12",
       "article": "Алкогольні коктейлі",
@@ -1338,7 +1338,7 @@
       "Category": "drinks"
     },
     {
-      "img": "img/products/drinks/enjoy.png",
+      "img": "/img/products/drinks/enjoy.png",
       "price": "120UAH",
       "categoryIndex": "12",
       "article": "Алкогольні коктейлі",
@@ -1349,7 +1349,7 @@
       "Category": "drinks"
     },
     {
-      "img": "img/products/drinks/violet_aperol.png",
+      "img": "/img/products/drinks/violet_aperol.png",
       "price": "130UAH",
       "categoryIndex": "12",
       "article": "Алкогольні коктейлі",
@@ -1392,7 +1392,7 @@
       "weight": "300 мл"
     },
     {
-      "img": "img/products/drinks/mohito.png",
+      "img": "/img/products/drinks/mohito.png",
       "price": "60UAH",
       "categoryIndex": "9",
       "article": "Безалкогольні коктейлі",
@@ -1413,7 +1413,7 @@
       "weight": "300 мл"
     },
     {
-      "img": "img/products/drinks/barbie.png",
+      "img": "/img/products/drinks/barbie.png",
       "price": "70UAH",
       "categoryIndex": "9",
       "article": "Безалкогольні коктейлі",
@@ -1624,7 +1624,7 @@
       "weight": "50мл"
     },
     {
-      "img": "img/products/bowls/bowl_salmon.png",
+      "img": "/img/products/bowls/bowl_salmon.png",
       "price": "220UAH",
       "categoryIndex": "14",
       "article": "Суші боул",
@@ -1635,7 +1635,7 @@
       "Category": "sushi-bowl"
     },
     {
-      "img": "img/products/bowls/bowl_shrimp.png",
+      "img": "/img/products/bowls/bowl_shrimp.png",
       "price": "220UAH",
       "categoryIndex": "14",
       "article": "Суші боул",
@@ -1646,7 +1646,7 @@
       "Category": "sushi-bowl"
     },
     {
-      "img": "img/products/bowls/bento-shrimp.png",
+      "img": "/img/products/bowls/bento-shrimp.png",
       "price": "600UAH",
       "categoryIndex": "14",
       "article": "Суші боул",
@@ -1657,7 +1657,7 @@
       "Category": "sushi-bowl"
     },
     {
-      "img": "img/products/bowls/salmon_bento.png",
+      "img": "/img/products/bowls/salmon_bento.png",
       "price": "550UAH",
       "categoryIndex": "14",
       "article": "Суші боул",
@@ -1668,7 +1668,7 @@
       "Category": "sushi-bowl"
     },
     {
-      "img": "img/products/salads/greg_salad.png",
+      "img": "/img/products/salads/greg_salad.png",
       "price": "170UAH",
       "categoryIndex": "15",
       "article": "Салати",
@@ -1679,7 +1679,7 @@
       "Category": "salads"
     },
     {
-      "img": "img/products/salads/salmon.png",
+      "img": "/img/products/salads/salmon.png",
       "price": "250UAH",
       "categoryIndex": "15",
       "article": "Салати",
@@ -1690,7 +1690,7 @@
       "Category": "salads"
     },
     {
-      "img": "img/products/salads/carmen.png",
+      "img": "/img/products/salads/carmen.png",
       "price": "180UAH",
       "categoryIndex": "15",
       "article": "Салати",
@@ -1701,7 +1701,7 @@
       "Category": "salads"
     },
     {
-      "img": "img/products/salads/grilled_salmon.png",
+      "img": "/img/products/salads/grilled_salmon.png",
       "price": "270UAH",
       "categoryIndex": "15",
       "article": "Салати",
@@ -1802,7 +1802,7 @@
       "weight": "50г"
     },
     {
-      "img": "img/products/salads/cezar.png",
+      "img": "/img/products/salads/cezar.png",
       "price": "180UAH",
       "categoryIndex": "15",
       "article": "Салати",
@@ -1813,7 +1813,7 @@
       "Category": "salads"
     },
     {
-      "img": "img/products/salads/hamon.png",
+      "img": "/img/products/salads/hamon.png",
       "price": "220UAH",
       "categoryIndex": "15",
       "article": "Салати",
@@ -1834,7 +1834,7 @@
       "weight": "300 мл"
     },
     {
-      "img": "img/products/burgers/burger_rancho.png",
+      "img": "/img/products/burgers/burger_rancho.png",
       "price": "250UAH",
       "categoryIndex": "18",
       "article": "Бургери",
@@ -1845,7 +1845,7 @@
       "Category": "burgers"
     },
     {
-      "img": "img/products/burgers/burger_chicken.png",
+      "img": "/img/products/burgers/burger_chicken.png",
       "price": "240UAH",
       "categoryIndex": "18",
       "article": "Бургери",
@@ -1856,7 +1856,7 @@
       "Category": "burgers"
     },
     {
-      "img": "img/products/burgers/burger_kid.png",
+      "img": "/img/products/burgers/burger_kid.png",
       "price": "220UAH",
       "categoryIndex": "18",
       "article": "Бургери",
@@ -1867,7 +1867,7 @@
       "Category": "burgers"
     },
     {
-      "img": "img/products/burgers/burger_havaisky.png",
+      "img": "/img/products/burgers/burger_havaisky.png",
       "price": "240UAH",
       "categoryIndex": "18",
       "article": "Бургери",
@@ -1878,7 +1878,7 @@
       "Category": "burgers"
     },
     {
-      "img": "img/products/burgers/burger_camamber.png",
+      "img": "/img/products/burgers/burger_camamber.png",
       "price": "250UAH",
       "categoryIndex": "18",
       "article": "Бургери",
@@ -1909,7 +1909,7 @@
       "weight": ""
     },
     {
-      "img": "img/products/frytur/fri.png",
+      "img": "/img/products/frytur/fri.png",
       "price": "100UAH",
       "categoryIndex": "19",
       "article": "Фритюр",
@@ -1920,7 +1920,7 @@
       "Category": "frytur"
     },
     {
-      "img": "img/products/frytur/free-batat.png",
+      "img": "/img/products/frytur/free-batat.png",
       "price": "130UAH",
       "categoryIndex": "19",
       "article": "Фритюр",
@@ -1931,7 +1931,7 @@
       "Category": "frytur"
     },
     {
-      "img": "img/products/frytur/nagetsy.png",
+      "img": "/img/products/frytur/nagetsy.png",
       "price": "100UAH",
       "categoryIndex": "19",
       "article": "Фритюр",
@@ -1942,7 +1942,7 @@
       "Category": "frytur"
     },
     {
-      "img": "img/products/frytur/cheese_sticks.png",
+      "img": "/img/products/frytur/cheese_sticks.png",
       "price": "150UAH",
       "categoryIndex": "19",
       "article": "Фритюр",
@@ -1953,7 +1953,7 @@
       "Category": "frytur"
     },
     {
-      "img": "img/products/frytur/onion_rings.png",
+      "img": "/img/products/frytur/onion_rings.png",
       "price": "80UAH",
       "categoryIndex": "19",
       "article": "Фритюр",
@@ -1964,7 +1964,7 @@
       "Category": "frytur"
     },
     {
-      "img": "img/products/frytur/potato_sausage.png",
+      "img": "/img/products/frytur/potato_sausage.png",
       "price": "150UAH",
       "categoryIndex": "19",
       "article": "Фритюр",
@@ -1975,7 +1975,7 @@
       "Category": "frytur"
     },
     {
-      "img": "img/products/frytur/potato_village.png",
+      "img": "/img/products/frytur/potato_village.png",
       "price": "120UAH",
       "categoryIndex": "19",
       "article": "Фритюр",
@@ -1986,7 +1986,7 @@
       "Category": "frytur"
     },
     {
-      "img": "img/products/frytur/cheese_potato.png",
+      "img": "/img/products/frytur/cheese_potato.png",
       "price": "130UAH",
       "categoryIndex": "19",
       "article": "Фритюр",
@@ -1997,7 +1997,7 @@
       "Category": "frytur"
     },
     {
-      "img": "img/products/frytur/potato-myslyvski-kovbasky.png",
+      "img": "/img/products/frytur/potato-myslyvski-kovbasky.png",
       "price": "150UAH",
       "categoryIndex": "19",
       "article": "Фритюр",
@@ -2008,7 +2008,7 @@
       "Category": "frytur"
     },
     {
-      "img": "img/products/frytur/chicken_sweet.png",
+      "img": "/img/products/frytur/chicken_sweet.png",
       "price": "180UAH",
       "categoryIndex": "19",
       "article": "Фритюр",
@@ -2019,7 +2019,7 @@
       "Category": "frytur"
     },
     {
-      "img": "img/products/frytur/squid_rings.png",
+      "img": "/img/products/frytur/squid_rings.png",
       "price": "130UAH",
       "categoryIndex": "19",
       "article": "Фритюр",
@@ -2030,7 +2030,7 @@
       "Category": "frytur"
     },
     {
-      "img": "img/products/frytur/set-fri-1.png",
+      "img": "/img/products/frytur/set-fri-1.png",
       "price": "700UAH",
       "categoryIndex": "19",
       "article": "Фритюр",
@@ -2041,7 +2041,7 @@
       "Category": "frytur"
     },
     {
-      "img": "img/products/frytur/set_fri_2.png",
+      "img": "/img/products/frytur/set_fri_2.png",
       "price": "550UAH",
       "categoryIndex": "19",
       "article": "Фритюр",
@@ -2082,7 +2082,7 @@
       "weight": ""
     },
     {
-      "img": "img/products/salads/cezar_shrimp.png",
+      "img": "/img/products/salads/cezar_shrimp.png",
       "price": "220UAH",
       "categoryIndex": "15",
       "article": "Салати",
@@ -2093,7 +2093,7 @@
       "Category": "salads"
     },
     {
-      "img": "img/products/salads/midia.png",
+      "img": "/img/products/salads/midia.png",
       "price": "150UAH",
       "categoryIndex": "15",
       "article": "Салати",
@@ -2104,7 +2104,7 @@
       "Category": "salads"
     },
     {
-      "img": "img/products/pasta/pasta_shrimp.png",
+      "img": "/img/products/pasta/pasta_shrimp.png",
       "price": "200UAH",
       "categoryIndex": "22",
       "article": "Паста",
@@ -2115,7 +2115,7 @@
       "Category": "pasta"
     },
     {
-      "img": "img/products/pasta/chicken_mushroom_pasta.png",
+      "img": "/img/products/pasta/chicken_mushroom_pasta.png",
       "price": "170UAH",
       "categoryIndex": "22",
       "article": "Паста",
@@ -2126,7 +2126,7 @@
       "Category": "pasta"
     },
     {
-      "img": "img/products/pasta/pasta_cheese.png",
+      "img": "/img/products/pasta/pasta_cheese.png",
       "price": "170UAH",
       "categoryIndex": "22",
       "article": "Паста",
@@ -2137,7 +2137,7 @@
       "Category": "pasta"
     },
     {
-      "img": "img/products/pasta/pasta-seafood.png",
+      "img": "/img/products/pasta/pasta-seafood.png",
       "price": "220UAH",
       "categoryIndex": "22",
       "article": "Паста",
@@ -2148,7 +2148,7 @@
       "Category": "pasta"
     },
     {
-      "img": "img/products/sushi/maki_salmon.png",
+      "img": "/img/products/sushi/maki_salmon.png",
       "price": "130UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -2159,7 +2159,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/maki_filadelfia.png",
+      "img": "/img/products/sushi/maki_filadelfia.png",
       "price": "60UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -2170,7 +2170,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/bowls/creamy_shrimp.png",
+      "img": "/img/products/bowls/creamy_shrimp.png",
       "price": "250UAH",
       "categoryIndex": "14",
       "article": "Суші боул",
@@ -2181,7 +2181,7 @@
       "Category": "sushi-bowl"
     },
     {
-      "img": "img/products/salads/tartar.png",
+      "img": "/img/products/salads/tartar.png",
       "price": "200UAH",
       "categoryIndex": "15",
       "article": "Салати",
@@ -2252,7 +2252,7 @@
       "weight": "230 мл"
     },
     {
-      "img": "img/products/sushi/sakura.png",
+      "img": "/img/products/sushi/sakura.png",
       "price": "230UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -2263,7 +2263,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/creamy_midia.png",
+      "img": "/img/products/sushi/creamy_midia.png",
       "price": "160UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -2274,7 +2274,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/tokio.png",
+      "img": "/img/products/sushi/tokio.png",
       "price": "250UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -2285,7 +2285,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/burito_salmon.png",
+      "img": "/img/products/sushi/burito_salmon.png",
       "price": "220UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -2296,7 +2296,7 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/burito_chicken.png",
+      "img": "/img/products/sushi/burito_chicken.png",
       "price": "200UAH",
       "categoryIndex": "1",
       "article": "Роли",
