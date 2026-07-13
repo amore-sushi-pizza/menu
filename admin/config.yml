@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main  
 
-media_folder: "../img/products" # Папка, куди зберігатимуться нові фото
+media_folder: "img/products" # Папка, куди зберігатимуться нові фото
 public_folder: "img/products"
 
 collections:
