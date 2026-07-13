@@ -137,6 +137,12 @@
         "title": "Упаковка",
         "category": "pizza-pack",
         "mainCategory": "pizza"
+    },
+    {
+        "id": "24",
+        "title": "Роли",
+        "category": "tempura",
+        "mainCategory": "rolys"
     }
   ]
 }
