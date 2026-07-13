@@ -2674,35 +2674,34 @@ function displayMenusItem(sectionItem, menuItems) {
 }
 
     let displayTitle = sectionItem.map((item) => {
-        const filteredMenuItems = menuItems.filter((oneItem) => {
-            if(oneItem.categoryIndex==item.id){
-                return oneItem;
-    }
-});
-        let displayMenusItem = filteredMenuItems.map((menuItem) => {
-            return `      
-                <div class="col-sm-12 col-lg-4 col-md-6">
-                    <div class="card-menu">
-                        <img src=${menuItem.img ? menuItem.img : "img/icons/logoTab.png"} class="${menuItem.img ? '' : 'card-img-logo'} mx-auto d-block card-img-top">
-                        <div class="card-body flex-grow-1">
-                            <p class="card-text">
-                                <p class="display-6">${menuItem.title}</p>
-                                <p class="small text-muted "><em>${menuItem.weight}</em></p>
-                                <p class="Category">${menuItem.description}</p>
-                                <p class="price">${menuItem.price}</p>
-                            </p>
-                            <div class="d-flex justify-content-end align-items-center" id="select__btn">
+    const filteredMenuItems = menuItems.filter((oneItem) => {
+        return String(oneItem.categoryIndex) === String(item.id);
+    });
+
+    let displayMenusItem = filteredMenuItems.map((menuItem) => {
+        return `
+            <div class="col-sm-12 col-lg-4 col-md-6">
+                <div class="card-menu">
+                    <img src="${menuItem.img ? menuItem.img : 'img/icons/logoTab.png'}" class="${menuItem.img ? '' : 'card-img-logo'} mx-auto d-block card-img-top">
+                    <div class="card-body flex-grow-1">
+                        <div class="card-text">
+                            <h3 class="display-6">${menuItem.title}</h3>
+                            <p class="small text-muted"><em>${menuItem.weight || ""}</em></p>
+                            <p class="Category">${menuItem.description || ""}</p>
+                            <p class="price">${menuItem.price || ""}</p>
+                        </div>
+                        <div class="d-flex justify-content-end align-items-center">
                             <button class="btn" onclick="toggleSelectionMenu('${menuItem.id}')">
-                            <i class="${menuItem.selected ? 'fas' : 'far'} fa-heart fa-2x p-2"></i>
+                                <i class="${menuItem.selected ? 'fas' : 'far'} fa-heart fa-2x p-2"></i>
                             </button>
-                            </div>
                         </div>
                     </div>
-                </div>`;
-        });
-        displayMenusItem = displayMenusItem.join("");
-        return `<div id="${item.category}"></div><h2 class="recommended__title" style="margin-top:50px;">${item.title}</h2>${displayMenusItem}<br>`;
-    });
+                </div>
+            </div>`;
+    }).join("");
+
+    return `<div id="${item.category}"></div><h2 class="recommended__title" style="margin-top:50px;">${item.title}</h2>${displayMenusItem}<br>`;
+});
 
     displayTitle = displayTitle.join("");
     sectionCenter.innerHTML = `<nav class="d-flex justify-content-center">${subMenuContainer.outerHTML}</nav><br>${displayTitle}`;
