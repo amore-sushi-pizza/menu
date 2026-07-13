@@ -2786,7 +2786,7 @@ function displaySelectedItem(menuItems){
                             <p class="price">${menuItem.price}</p>
                         </p>
                     </div>
-                    <div class="d-flex justify-content-center align-items-center p-2" style="max-width: 27%;"><img src=${menuItem.img ? menuItem.img : "img/icons/logoTab.png"} class="card-img-top"></div>
+                    <div class="d-flex justify-content-center align-items-center p-2" style="max-width: 27%;"><img src="${menuItem.img ? menuItem.img : "/img/icons/logoTab.png"}" class="card-img-top"></div>
                     </div>
                     <div class="d-flex justify-content-end align-items-center" id="select__btn">
                     <button class="btn" onclick="toggleSelection('${menuItem.id}')">
