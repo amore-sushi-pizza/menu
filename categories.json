@@ -114,18 +114,7 @@
         "category": "frytur",
         "mainCategory": "frytur"
     },
-    {
-        "id": "20",
-        "title": "Послуга відкоркуй",
-        "category": "open-service",
-        "mainCategory": "drinks"
-    },
-    {
-        "id": "21",
-        "title": "Упаковка",
-        "category": "sushi-pack",
-        "mainCategory": "rolys"
-    },
+   
     {
         "id": "22",
         "title": "Паста",
@@ -142,6 +131,18 @@
         "id": "24",
         "title": "Роли темпура",
         "category": "tempura",
+        "mainCategory": "rolys"
+    },
+     {
+        "id": "20",
+        "title": "Послуга відкоркуй",
+        "category": "open-service",
+        "mainCategory": "drinks"
+    },
+    {
+        "id": "21",
+        "title": "Упаковка",
+        "category": "sushi-pack",
         "mainCategory": "rolys"
     }
   ]
