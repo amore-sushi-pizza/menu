@@ -371,16 +371,7 @@
       "description": "",
       "Category": "pizza"
     },
-    {
-      "id": "329",
-      "title": "Упаковка для піци",
-      "Category": "pizza",
-      "article": "Упаковка",
-      "description": "",
-      "price": "Діаметр 32см - 15UAH <br>Діаметр 50см - 20UAH",
-      "categoryIndex": "23",
-      "weight": ""
-    },
+    
     {
       "id": "30",
       "title": "Паляниця",
@@ -2002,16 +1993,7 @@
       "categoryIndex": "18",
       "weight": ""
     },
-    {
-      "id": "192",
-      "title": "Упаковка",
-      "Category": "burgers",
-      "article": "Бургери",
-      "description": "",
-      "price": "20UAH",
-      "categoryIndex": "18",
-      "weight": ""
-    },
+   
     {
       "img": "img/products/frytur/fri.png",
       "price": "100UAH",
@@ -2155,37 +2137,7 @@
       "description": "Фрі, сирні палички 6 шт., цибулеві кільця 6 шт., нагетси 6 шт., соус \"Айолі\", соління, кетчуп",
       "Category": "frytur"
     },
-    {
-      "id": "201",
-      "title": "Послуга відкоркуй",
-      "Category": "drinks",
-      "article": "Послуга відкоркуй",
-      "description": "За вашу пляшку та наші склянки",
-      "price": "100UAH",
-      "categoryIndex": "20",
-      "weight": ""
-    },
-    {
-      "id": "202",
-      "title": "Упаковка сет",
-      "Category": "rolys",
-      "article": "Упаковка",
-      "description": "",
-      "price": "20UAH",
-      "categoryIndex": "21",
-      "weight": ""
-    },
-    {
-      "id": "203",
-      "title": "Упаковка мала",
-      "Category": "rolys",
-      "article": "Упаковка",
-      "description": "",
-      "price": "15UAH",
-      "categoryIndex": "21",
-      "weight": ""
-    },
-    {
+       {
       "img": "img/products/salads/cezar_shrimp.png",
       "price": "220UAH",
       "categoryIndex": "15",
@@ -2409,7 +2361,59 @@
       "id": "1233",
       "description": "Рис, печений лосось, норі, сир Філадельфія, огірок, кунжут",
       "Category": "roly"
+    },
+    {
+      "id": "329",
+      "title": "Упаковка для піци",
+      "Category": "pizza",
+      "article": "Упаковка",
+      "description": "",
+      "price": "Діаметр 32см - 15UAH <br>Діаметр 50см - 20UAH",
+      "categoryIndex": "23",
+      "weight": ""
+    },
+     {
+      "id": "203",
+      "title": "Упаковка мала",
+      "Category": "rolys",
+      "article": "Упаковка",
+      "description": "",
+      "price": "15UAH",
+      "categoryIndex": "21",
+      "weight": ""
+    },
+     {
+      "id": "192",
+      "title": "Упаковка",
+      "Category": "burgers",
+      "article": "Бургери",
+      "description": "",
+      "price": "20UAH",
+      "categoryIndex": "18",
+      "weight": ""
+    },
+     {
+      "id": "201",
+      "title": "Послуга відкоркуй",
+      "Category": "drinks",
+      "article": "Послуга відкоркуй",
+      "description": "За вашу пляшку та наші склянки",
+      "price": "100UAH",
+      "categoryIndex": "20",
+      "weight": ""
+    },
+    {
+      "id": "202",
+      "title": "Упаковка сет",
+      "Category": "rolys",
+      "article": "Упаковка",
+      "description": "",
+      "price": "20UAH",
+      "categoryIndex": "21",
+      "weight": ""
     }
+   
+
    
   ]
 }
