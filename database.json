@@ -659,18 +659,7 @@
       "id": "556",
       "description": "Рис, норі, сир Філадельфія, огірок, печений лосось, салат Чука",
       "Category": "roly"
-    },
-    {
-      "img": "img/products/sushi/california_eel.png",
-      "price": "200UAH",
-      "categoryIndex": "1",
-      "article": "Роли",
-      "title": "Каліфорнія з Вугрем",
-      "weight": "260г",
-      "id": "57",
-      "description": "Рис, норі, сир Філадельфія, огірок, вугор, креветки, ікра Масаго",
-      "Category": "roly"
-    },
+    }, 
     {
       "img": "img/products/sushi/pink_flamingo.png",
       "price": "200UAH",
@@ -831,17 +820,7 @@
       "categoryIndex": "1",
       "weight": "210г"
     },
-    {
-      "img": "img/products/sushi/surimi_sesame.png",
-      "price": "150UAH",
-      "categoryIndex": "1",
-      "article": "Роли",
-      "title": "Сурімі в кунжуті",
-      "weight": "210г",
-      "id": "74",
-      "description": "Рис, норі, сир Філадельфія, огірок, Сурімі, кунжут",
-      "Category": "roly"
-    },
+    
     {
       "img": "img/products/sushi/chicken_rol.png",
       "price": "200UAH",
@@ -1217,16 +1196,7 @@
       "description": "Рисовий папір, креветка, сир Філадельфія, зелень, огірок, ікра тобіко, соус Теріякі",
       "Category": "roly"
     },
-    {
-      "id": "103",
-      "title": "Спрінг рол з куркою",
-      "Category": "roly",
-      "article": "Спрінг роли",
-      "description": "Рисовий папір, перець, курка, сир Філадельфія, зелень, огірок, кунжут, соус Теріякі",
-      "price": "190UAH",
-      "categoryIndex": "4",
-      "weight": "120г"
-    },
+    
     {
       "id": "120",
       "title": "Чай фруктовий <p class=\"small\">(на 1 персону)</p>",
@@ -2202,21 +2172,10 @@
       "id": "302",
       "description": "",
       "Category": "pasta"
-    },
-    {
-      "img": "img/products/sushi/maki_salmon.png",
-      "price": "130UAH",
-      "categoryIndex": "1",
-      "article": "Роли",
-      "title": "Макі з копченим лососем",
-      "weight": "150г",
-      "id": "212",
-      "description": "Рис, норі, копчений лосось",
-      "Category": "roly"
-    },
+    }, 
     {
       "img": "img/products/sushi/maki_filadelfia.png",
-      "price": "60UAH",
+      "price": "90UAH",
       "categoryIndex": "1",
       "article": "Роли",
       "title": "Макі Філадельфія",
