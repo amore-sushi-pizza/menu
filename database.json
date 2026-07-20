@@ -1452,13 +1452,13 @@
       "Category": "drinks",
       "article": "Безалкогольні коктейлі",
       "description": "Яблучний сік, яблучний сироп, лимонний сік, спрайт, лід",
-      "price": "60UAH",
+      "price": "70UAH",
       "categoryIndex": "9",
       "weight": "300 мл"
     },
     {
       "img": "img/products/drinks/mohito.png",
-      "price": "60UAH",
+      "price": "70UAH",
       "categoryIndex": "9",
       "article": "Безалкогольні коктейлі",
       "title": "Мохіто",
@@ -1654,7 +1654,7 @@
       "Category": "drinks",
       "article": "Алкогольні напої",
       "description": "",
-      "price": "35UAH",
+      "price": "40UAH",
       "categoryIndex": "11",
       "weight": "100мл"
     },
@@ -2010,7 +2010,7 @@
     },
     {
       "img": "img/products/frytur/onion_rings.png",
-      "price": "80UAH",
+      "price": "100UAH",
       "categoryIndex": "19",
       "article": "Фритюр",
       "title": "Цибулеві кільця",
@@ -2087,7 +2087,7 @@
     },
     {
       "img": "img/products/frytur/set-fri-1.png",
-      "price": "700UAH",
+      "price": "750UAH",
       "categoryIndex": "19",
       "article": "Фритюр",
       "title": "Сет Фрі",
@@ -2120,7 +2120,7 @@
     },
     {
       "img": "img/products/salads/midia.png",
-      "price": "150UAH",
+      "price": "170UAH",
       "categoryIndex": "15",
       "article": "Салати",
       "title": "Салат з мідіями",
