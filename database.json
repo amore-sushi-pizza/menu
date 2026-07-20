@@ -1954,6 +1954,17 @@
       "Category": "burgers"
     },
     {
+      "img": "img/products/burgers/kebab_box.png",
+      "price": "200UAH",
+      "categoryIndex": "18",
+      "article": "Бургери",
+      "title": "Кебаб бокс",
+      "weight": "",
+      "id": "1189",
+      "description": "Запечена курочка, картопляні діпи,айсберг, свіжі огірочки та помідорка, соус",
+      "Category": "burgers"
+    },
+    {
       "id": "191",
       "title": "Сирна ванна",
       "Category": "burgers",
