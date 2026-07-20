@@ -974,7 +974,7 @@
       "categoryIndex": "24",
       "weight": "300г"
     },
-    {      
+    {    
       "price": "280UAH",
       "categoryIndex": "24",
       "article": "Роли темпура",
@@ -985,6 +985,7 @@
       "Category": "tempura"
     },
     {
+      "img": "img/products/sushi/tempura_cesar.png",  
       "price": "270UAH",
       "categoryIndex": "24",
       "article": "Роли темпура",
@@ -995,6 +996,7 @@
       "Category": "tempura"
     },
     {
+      "img": "img/products/sushi/tempura_shrimp.png",  
       "price": "280UAH",
       "categoryIndex": "24",
       "article": "Роли темпура",
@@ -1005,6 +1007,7 @@
       "Category": "tempura"
     },
     {
+      "img": "img/products/sushi/tempura_IV_cheese.png",  
       "price": "280UAH",
       "categoryIndex": "24",
       "article": "Роли темпура",
