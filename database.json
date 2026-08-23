@@ -371,7 +371,6 @@
       "description": "",
       "Category": "pizza"
     },
-    
     {
       "id": "30",
       "title": "Паляниця",
@@ -650,7 +649,7 @@
       "description": "Рис, норі, сир Філадельфія, огірок, креветки, ікра Масаго",
       "Category": "roly"
     },
-      {
+    {
       "price": "230UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -659,7 +658,7 @@
       "id": "556",
       "description": "Рис, норі, сир Філадельфія, огірок, печений лосось, салат Чука",
       "Category": "roly"
-    }, 
+    },
     {
       "img": "img/products/sushi/pink_flamingo.png",
       "price": "200UAH",
@@ -820,7 +819,6 @@
       "categoryIndex": "1",
       "weight": "210г"
     },
-    
     {
       "img": "img/products/sushi/chicken_rol.png",
       "price": "200UAH",
@@ -843,7 +841,7 @@
       "description": "Рис, норі, лосось",
       "Category": "roly"
     },
-     {
+    {
       "img": "img/products/sushi/nori-maki.png",
       "price": "160UAH",
       "categoryIndex": "1",
@@ -942,7 +940,7 @@
       "description": "Рис, сир Філадельфія, огірок, мідії, соус для запікання",
       "Category": "roly"
     },
-     {
+    {
       "img": "img/products/sushi/burito_salmon.png",
       "price": "280UAH",
       "categoryIndex": "24",
@@ -974,7 +972,7 @@
       "categoryIndex": "24",
       "weight": "300г"
     },
-    {    
+    {
       "price": "280UAH",
       "categoryIndex": "24",
       "article": "Роли темпура",
@@ -985,7 +983,7 @@
       "Category": "tempura"
     },
     {
-      "img": "img/products/sushi/tempura_cesar.png",  
+      "img": "img/products/sushi/tempura_cesar.png",
       "price": "270UAH",
       "categoryIndex": "24",
       "article": "Роли темпура",
@@ -996,7 +994,7 @@
       "Category": "tempura"
     },
     {
-      "img": "img/products/sushi/tempura_shrimp.png",  
+      "img": "img/products/sushi/tempura_shrimp.png",
       "price": "280UAH",
       "categoryIndex": "24",
       "article": "Роли темпура",
@@ -1007,7 +1005,7 @@
       "Category": "tempura"
     },
     {
-      "img": "img/products/sushi/tempura_IV_cheese.png",  
+      "img": "img/products/sushi/tempura_IV_cheese.png",
       "price": "280UAH",
       "categoryIndex": "24",
       "article": "Роли темпура",
@@ -1072,7 +1070,6 @@
       "Category": "roly"
     },
     {
-      
       "price": "400UAH",
       "categoryIndex": "3",
       "article": "Сети",
@@ -1199,7 +1196,6 @@
       "description": "Рисовий папір, креветка, сир Філадельфія, зелень, огірок, ікра тобіко, соус Теріякі",
       "Category": "roly"
     },
-    
     {
       "id": "120",
       "title": "Чай фруктовий <p class=\"small\">(на 1 персону)</p>",
@@ -1977,7 +1973,6 @@
       "categoryIndex": "18",
       "weight": ""
     },
-   
     {
       "img": "img/products/frytur/fri.png",
       "price": "100UAH",
@@ -2121,7 +2116,7 @@
       "description": "Фрі, сирні палички 6 шт., цибулеві кільця 6 шт., нагетси 6 шт., соус \"Айолі\", соління, кетчуп",
       "Category": "frytur"
     },
-       {
+    {
       "img": "img/products/salads/cezar_shrimp.png",
       "price": "220UAH",
       "categoryIndex": "15",
@@ -2186,7 +2181,7 @@
       "id": "302",
       "description": "",
       "Category": "pasta"
-    }, 
+    },
     {
       "img": "img/products/sushi/maki_filadelfia.png",
       "price": "90UAH",
@@ -2314,7 +2309,6 @@
       "Category": "roly"
     },
     {
-      
       "price": "180UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -2325,7 +2319,6 @@
       "Category": "roly"
     },
     {
-      
       "price": "180UAH",
       "categoryIndex": "1",
       "article": "Роли",
@@ -2345,7 +2338,7 @@
       "categoryIndex": "23",
       "weight": ""
     },
-     {
+    {
       "id": "203",
       "title": "Упаковка мала",
       "Category": "rolys",
@@ -2355,7 +2348,7 @@
       "categoryIndex": "21",
       "weight": ""
     },
-     {
+    {
       "id": "192",
       "title": "Упаковка",
       "Category": "burgers",
@@ -2365,7 +2358,7 @@
       "categoryIndex": "18",
       "weight": ""
     },
-     {
+    {
       "id": "201",
       "title": "Послуга відкоркуй",
       "Category": "drinks",
@@ -2384,9 +2377,11 @@
       "price": "20UAH",
       "categoryIndex": "21",
       "weight": ""
+    },
+    {
+      "id": "c31bfa55-e52c-4ccd-b6b0-411ecda5365a",
+      "title": "Фантазія",
+      "categoryIndex": "1"
     }
-   
-
-   
   ]
 }
