@@ -1,0 +1,148 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "title": "Роли",
+      "category": "roly",
+      "mainCategoryIndex": "1"
+    },
+    {
+      "id": "2",
+      "title": "Теплі роли",
+      "category": "warm-roly",
+      "mainCategoryIndex": "1"
+    },
+    {
+      "id": "3",
+      "title": "Сети",
+      "category": "sety",
+      "mainCategoryIndex": "1"
+    },
+    {
+      "id": "4",
+      "title": "Спрінг роли",
+      "category": "spring-roly",
+      "mainCategoryIndex": "1"
+    },
+    {
+      "id": "5",
+      "title": "Піца",
+      "category": "pizza",
+      "mainCategoryIndex": "2"
+    },
+    {
+      "id": "6",
+      "title": "Склади свою піцу",
+      "category": "own-pizza",
+      "mainCategoryIndex": "2"
+    },
+    {
+      "id": "7",
+      "title": "Безалкогольні напої",
+      "category": "free-alcohol-drinks",
+      "mainCategoryIndex": "3"
+    },
+    {
+      "id": "8",
+      "title": "Гарячі напої",
+      "category": "warm-drinks",
+      "mainCategoryIndex": "3"
+    },
+    {
+      "id": "9",
+      "title": "Безалкогольні коктейлі",
+      "category": "free-alcohol-cocteils",
+      "mainCategoryIndex": "3"
+    },
+    {
+      "id": "10",
+      "title": "Молочні коктейлі",
+      "category": "milk-cocteils",
+      "mainCategoryIndex": "3"
+    },
+    {
+      "id": "11",
+      "title": "Алкогольні напої",
+      "category": "alcohol-drinks",
+      "mainCategoryIndex": "3"
+    },
+    {
+      "id": "12",
+      "title": "Алкогольні коктейлі",
+      "category": "alcohol-cocteils",
+      "mainCategoryIndex": "3"
+    },
+    {
+      "id": "13",
+      "title": "Холодні напої",
+      "category": "cold-drinks",
+      "mainCategoryIndex": "3"
+    },
+    {
+      "id": "14",
+      "title": "Sushi bowl",
+      "category": "sushi-bowl",
+      "mainCategoryIndex": "4"
+    },
+    {
+      "id": "15",
+      "title": "Салати",
+      "category": "salads",
+      "mainCategoryIndex": "5"
+    },
+    {
+      "id": "16",
+      "title": "Морозиво",
+      "category": "ice-cream",
+      "mainCategoryIndex": "6"
+    },
+    {
+      "id": "17",
+      "title": "До пива",
+      "category": "beer-menu",
+      "mainCategoryIndex": "7"
+    },
+    {
+      "id": "18",
+      "title": "Бургери",
+      "category": "burgers",
+      "mainCategoryIndex": "8"
+    },
+    {
+      "id": "19",
+      "title": "Фритюр",
+      "category": "frytur",
+      "mainCategoryIndex": "9"
+    },
+    {
+      "id": "20",
+      "title": "Послуга відкоркуй",
+      "category": "open-service",
+      "mainCategoryIndex": "3"
+    },
+    {
+      "id": "21",
+      "title": "Упаковка",
+      "category": "sushi-pack",
+      "mainCategoryIndex": "1"
+    },
+    {
+      "id": "22",
+      "title": "Паста",
+      "category": "pasta",
+      "mainCategoryIndex": "10"
+    },
+    {
+      "id": "23",
+      "title": "Упаковка",
+      "category": "pizza-pack",
+      "mainCategoryIndex": "2"
+    },
+    {
+      "id": "24",
+      "title": "Роли темпура",
+      "category": "tempura",
+      "mainCategoryIndex": "1"
+    }
+  ]
+}
