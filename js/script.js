@@ -1,8 +1,12 @@
-const firstPage = () => {
-    document.getElementById('home__menu').classList.remove("hide__menu");
-    document.getElementById('recommended').classList.remove("active");
-    document.getElementById('backBtn').classList.remove("active");
+const firstPage = ()=>{
+    let x =document.getElementById('home__menu');
     
+    x.classList.remove("hide__menu");
+    let y=document.getElementById('recommended');
+        y.classList.remove("active");
+    
+    let z=document.getElementById('backBtn');
+    z.classList.remove("active");
     document.body.scrollTop = 0; 
     document.documentElement.scrollTop = 0;
 }
