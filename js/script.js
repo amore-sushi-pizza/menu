@@ -247,3 +247,4 @@ if (highlightedDay) {
     highlightedDay.style.fontSize = '1.2em'; 
     highlightedDay.style.fontWeight = 'bold';
 }
+console.log("Головні:", mainCategories.length, "Підкатегорії:", sections.length, "Страви:", menu.length);
