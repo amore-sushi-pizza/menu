@@ -39,17 +39,13 @@ filterBtns.forEach((btn)=>{
         y.className += " hide__menu";
         let z=document.getElementById('backBtn');
         z.className +=" active";
+       
+		const Category = String(e.currentTarget.dataset.id);
         
-        const targetMainCategory = String(e.currentTarget.dataset.id);
-        
-        const sectionCategory = sections.filter((sectionItem) => {
-            return String(sectionItem.mainCategoryIndex) === targetMainCategory || 
-                   String(sectionItem.mainCategory) === targetMainCategory;
-        });
+        const sectionCategory = sections.filter((sectionItem) => Category.includes(String(sectionItem.mainCategory)));
         const sectionCategoryIndexes = sectionCategory.map(category => String(category.id));
 
         const menuCategory = menu.filter(menuItem => sectionCategoryIndexes.includes(String(menuItem.categoryIndex)));
-        
         displayMenusItem(sectionCategory, menuCategory);
        
         const elementPosition = document.getElementById('recommended').getBoundingClientRect().top;
