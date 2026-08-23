@@ -52,6 +52,7 @@ window.addEventListener("DOMContentLoaded", () => {
         mainCategories = mainCategoriesData.items || mainCategoriesData || [];
         sections = categoriesData.items || categoriesData || [];
         menu = menuData.items || menuData || [];
+        console.log("Головні:", mainCategories.length, "Підкатегорії:", sections.length, "Страви:", menu.length);
 
         if (!Array.isArray(mainCategories)) mainCategories = [];
         if (!Array.isArray(sections)) sections = [];
@@ -247,4 +248,3 @@ if (highlightedDay) {
     highlightedDay.style.fontSize = '1.2em'; 
     highlightedDay.style.fontWeight = 'bold';
 }
-console.log("Головні:", mainCategories.length, "Підкатегорії:", sections.length, "Страви:", menu.length);
