@@ -34,16 +34,19 @@ let mainCategories = [];
 
 // 1. Логіка завантаження при відкритті сторінки
 window.addEventListener("DOMContentLoaded", () => {
+    // МАГІЯ АНТИКЕШУ: додаємо унікальну позначку часу, щоб браузер завжди качав нові файли
+    const v = new Date().getTime(); 
+    
     Promise.all([
-        fetch('mainCategories.json').then(response => {
+        fetch('mainCategories.json?v=' + v).then(response => {
             if (!response.ok) throw new Error("Помилка завантаження головних категорій");
             return response.json();
         }),
-        fetch('categories.json').then(response => {
+        fetch('categories.json?v=' + v).then(response => {
             if (!response.ok) throw new Error("Помилка завантаження підкатегорій");
             return response.json();
         }),
-        fetch('database.json').then(response => {
+        fetch('database.json?v=' + v).then(response => {
             if (!response.ok) throw new Error("Помилка завантаження меню");
             return response.json();
         })
@@ -52,26 +55,28 @@ window.addEventListener("DOMContentLoaded", () => {
         mainCategories = mainCategoriesData.items || mainCategoriesData || [];
         sections = categoriesData.items || categoriesData || [];
         menu = menuData.items || menuData || [];
-        console.log("Головні:", mainCategories.length, "Підкатегорії:", sections.length, "Страви:", menu.length);
 
         if (!Array.isArray(mainCategories)) mainCategories = [];
         if (!Array.isArray(sections)) sections = [];
         if (!Array.isArray(menu)) menu = [];
 
+        // ВИВЕДЕННЯ В КОНСОЛЬ ДЛЯ ПЕРЕВІРКИ БАЗ
+        console.log("✅ Успішно завантажено! Головних:", mainCategories.length, "Підкатегорій:", sections.length, "Страв:", menu.length);
+
         // Відновлюємо обрані товари
         const selectedItems = getSelectedItemsFromSessionStorage();
         menu.forEach(item => {
-            item.selected = selectedItems.some(selectedItem => selectedItem.id === item.id);
+            item.selected = selectedItems.some(selectedItem => String(selectedItem.id) === String(item.id));
         });
 
         displayMenusItem(sections, menu);
     })
     .catch(error => {
-        console.error("Сталася помилка при завантаженні даних:", error);
+        console.error("❌ Сталася помилка при завантаженні даних:", error);
     });
 });
 
-// 2. Логіка кліку по головних категоріях (ОНОВЛЕНО)
+// 2. Логіка кліку по головних категоріях 
 filterBtns.forEach((btn) => {
     btn.addEventListener("click", (e) => {
         let x = document.getElementById('recommended');
@@ -81,17 +86,23 @@ filterBtns.forEach((btn) => {
         let z = document.getElementById('backBtn');
         z.className += " active";
         
-        const targetMainCategory = e.currentTarget.dataset.id;
+        const targetMainCategory = String(e.currentTarget.dataset.id);
         
-        // Фільтруємо підкатегорії за новим полем mainCategoryIndex (або старим mainCategory)
+        // Фільтруємо підкатегорії (строге порівняння через String)
         const sectionCategory = sections.filter((sectionItem) => {
-            return String(sectionItem.mainCategoryIndex) === String(targetMainCategory) || 
-                   String(sectionItem.mainCategory) === String(targetMainCategory);
+            return String(sectionItem.mainCategoryIndex) === targetMainCategory || 
+                   String(sectionItem.mainCategory) === targetMainCategory;
         });
         
-        const sectionCategoryIndexes = sectionCategory.map(category => category.id);
-        const menuCategory = menu.filter(menuItem => sectionCategoryIndexes.includes(menuItem.categoryIndex));
+        // Знаходимо страви (строге порівняння через String)
+        const sectionCategoryIndexes = sectionCategory.map(category => String(category.id));
+        const menuCategory = menu.filter(menuItem => sectionCategoryIndexes.includes(String(menuItem.categoryIndex)));
         
+        // ДРУКУЄМО ЛОГИ КЛІКУ
+        console.log("👉 Клік по ID кнопки:", targetMainCategory);
+        console.log("Вкладок знайдено:", sectionCategory.length);
+        console.log("Страв знайдено:", menuCategory.length);
+
         displayMenusItem(sectionCategory, menuCategory);
        
         const elementPosition = document.getElementById('recommended').getBoundingClientRect().top;
@@ -186,12 +197,14 @@ function toggleSelectionMenu(itemId) {
     saveSelectedItemsToSessionStorage(selectedItems);
     
     const menuSection = sections.find(item => String(item.id) === String(menuItem.categoryIndex));
+    if(!menuSection) return;
+
     const targetMainCatId = menuSection.mainCategoryIndex || menuSection.mainCategory;
     
     const sectionCategory = sections.filter((sectionItem) => String(sectionItem.mainCategoryIndex || sectionItem.mainCategory) === String(targetMainCatId));
-    const sectionCategoryIndexes = sectionCategory.map(category => category.id);
+    const sectionCategoryIndexes = sectionCategory.map(category => String(category.id));
 
-    const menuCategory = menu.filter(m => sectionCategoryIndexes.includes(m.categoryIndex));
+    const menuCategory = menu.filter(m => sectionCategoryIndexes.includes(String(m.categoryIndex)));
     displayMenusItem(sectionCategory, menuCategory);
 }
 
