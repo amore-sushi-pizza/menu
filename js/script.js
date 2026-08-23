@@ -1,10 +1,8 @@
 const firstPage = () => {
-    let x = document.getElementById('home__menu');
-    x.classList.remove("hide__menu");
-    let y = document.getElementById('recommended');
-    y.classList.remove("active");
-    let z = document.getElementById('backBtn');
-    z.classList.remove("active");
+    document.getElementById('home__menu').classList.remove("hide__menu");
+    document.getElementById('recommended').classList.remove("active");
+    document.getElementById('backBtn').classList.remove("active");
+    
     document.body.scrollTop = 0; 
     document.documentElement.scrollTop = 0;
 }
@@ -65,7 +63,6 @@ window.addEventListener("DOMContentLoaded", () => {
             item.selected = selectedItems.some(selectedItem => String(selectedItem.id) === String(item.id));
         });
 
-        // Відмальовуємо категорії та меню на сайті (старий виклик)
         displayMenusItem(sections, menu);
     })
     .catch(error => {
@@ -75,16 +72,14 @@ window.addEventListener("DOMContentLoaded", () => {
 
 filterBtns.forEach((btn) => {
     btn.addEventListener("click", (e) => {
-        let x = document.getElementById('recommended');
-        x.className += " active";
-        let y = document.getElementById('home__menu');
-        y.className += " hide__menu";
-        let z = document.getElementById('backBtn');
-        z.className += " active";
+        // НАДІЙНЕ ДОДАВАННЯ КЛАСІВ ЧЕРЕЗ classList
+        document.getElementById('recommended').classList.add("active");
+        document.getElementById('home__menu').classList.add("hide__menu");
+        document.getElementById('backBtn').classList.add("active");
         
         const targetMainCategory = String(e.currentTarget.dataset.id);
         
-        // Фільтруємо підкатегорії (Нова логіка)
+        // Фільтруємо підкатегорії
         const sectionCategory = sections.filter((sectionItem) => {
             return String(sectionItem.mainCategoryIndex) === targetMainCategory || 
                    String(sectionItem.mainCategory) === targetMainCategory;
@@ -104,12 +99,9 @@ filterBtns.forEach((btn) => {
 })
 
 liked__products.onclick = () => {
-    let x = document.getElementById('recommended');
-    x.className += " active";
-    let y = document.getElementById('home__menu');
-    y.className += " hide__menu";
-    let z = document.getElementById('backBtn');
-    z.className += " active";
+    document.getElementById('recommended').classList.add("active");
+    document.getElementById('home__menu').classList.add("hide__menu");
+    document.getElementById('backBtn').classList.add("active");
     
     const menuCategory = menu.filter((menuItem) => menuItem.selected);
     displaySelectedItem(menuCategory);
@@ -121,14 +113,12 @@ liked__products.onclick = () => {
 filterBtnsBaner.forEach((btn) => {
     btn.addEventListener("click", (e) => {
         let x = document.getElementById('burg__menu');
-        x.className += " collapsed";
+        x.classList.add("collapsed");
         x.ariaExpanded = "false";
-        let y = document.getElementById('responsive');
-        y.classList.remove("show");
+        document.getElementById('responsive').classList.remove("show");
     })
 })
 
-// === ВАШЕ СТАРЕ ВІДОБРАЖЕННЯ КАРТОК (БЕЗ ЗМІН У ВЕРСТЦІ) ===
 function displayMenusItem(sectionItem, menuItems) {
     let subMenuContainer = document.createElement('div');
     if(sectionItem.length > 1) {
@@ -145,9 +135,9 @@ function displayMenusItem(sectionItem, menuItems) {
             return String(oneItem.categoryIndex) === String(item.id);
         });
 
-        if (filteredMenuItems.length === 0) return ""; // Не малюємо порожні заголовки
+        if (filteredMenuItems.length === 0) return ""; 
 
-        let displayMenusItem = filteredMenuItems.map((menuItem) => {
+        let displayHTML = filteredMenuItems.map((menuItem) => {
             return `
             <div class="col-sm-12 col-lg-4 col-md-6">
                 <div class="card-menu">
@@ -169,13 +159,12 @@ function displayMenusItem(sectionItem, menuItems) {
             </div>`;
         }).join("");
 
-        return `<div id="${item.category}"></div><h2 class="recommended__title" style="margin-top:50px;">${item.title}</h2>${displayMenusItem}<br>`;
+        return `<div id="${item.category}"></div><h2 class="recommended__title" style="margin-top:50px;">${item.title}</h2>${displayHTML}<br>`;
     }).join("");
 
     sectionCenter.innerHTML = `<nav class="d-flex justify-content-center">${subMenuContainer.outerHTML}</nav><br>${displayTitle}`;
 }
 
-// === ЛОГІКА ДОДАВАННЯ В УЛЮБЛЕНЕ ===
 function toggleSelectionMenu(itemId) {
     const menuItem = menu.find(item => String(item.id) === String(itemId));
     if (!menuItem) return;
@@ -197,9 +186,8 @@ function toggleSelectionMenu(itemId) {
     displayMenusItem(sectionCategory, menuCategory);
 }
 
-// === ВАШЕ СТАРЕ ВІДОБРАЖЕННЯ ДЛЯ ОБРАНОГО ===
 function displaySelectedItem(menuItems){
-    let displayMenusItem = menuItems.map((menuItem) => {
+    let displayHTML = menuItems.map((menuItem) => {
         return `      
             <div class="col-sm-12 col-lg-6 col-md-12">
                 <div class="selected-item">
@@ -222,7 +210,7 @@ function displaySelectedItem(menuItems){
                 </div>
             </div>`;
     }).join("");
-    sectionCenter.innerHTML = `<h2 class="recommended__title" style="margin-top:50px;">Обране</h2><br>${displayMenusItem}`;
+    sectionCenter.innerHTML = `<h2 class="recommended__title" style="margin-top:50px;">Обране</h2><br>${displayHTML}`;
 }
 
 function toggleSelection(itemId) {
@@ -240,7 +228,6 @@ window.onload = function () {
     document.documentElement.scrollTop = 0;
 };
 
-// Дні тижня
 const currentDay = new Date().getDay();
 const daysOfWeek = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
 const highlightedDay = document.getElementById(daysOfWeek[currentDay]);
