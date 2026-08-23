@@ -6,27 +6,56 @@ media_folder: "img/products" # Папка, куди зберігатимутьс
 public_folder: "./img/products"
 
 collections:
-  - name: "categories_list"
-    label: "Категорії"
+  # --- 1. ГОЛОВНІ КАТЕГОРІЇ (Новий файл mainCategories.json) ---
+  - name: "main_categories_list"
+    label: "Головні розділи (Кнопки)"
     files:
-      - label: "Налаштування категорій"
-        name: "categories"
-        file: "categories.json"
+      - label: "Головні категорії"
+        name: "mainCategories"
+        file: "mainCategories.json"
         fields:
-          - label: "Список категорій"
+          - label: "Список головних категорій"
             name: "items"
             widget: "list"
             show_add_top: true
             sortable: true
             summary: "{{fields.title}}"
             fields:
-              - {label: "ID (генерується автоматично)", name: "id", widget: "uuid"}
+              - {label: "ID", name: "id", widget: "uuid"}
               - {label: "Назва (напр. Піца)", name: "title", widget: "string"}
-              - {label: "Посилання (напр. drinks)", name: "category", widget: "string"}
-              - {label: "Головна група (напр. free-alcohol-drinks)", name: "mainCategory", widget: "string"}
+              - {label: "Аліас (напр. pizza)", name: "alias", widget: "string"}
 
+  # --- 2. ПІДКАТЕГОРІЇ (categories.json) ---
+  - name: "categories_list"
+    label: "Підкатегорії (Вкладки)"
+    files:
+      - label: "Налаштування підкатегорій"
+        name: "categories"
+        file: "categories.json"
+        fields:
+          - label: "Список підкатегорій"
+            name: "items"
+            widget: "list"
+            show_add_top: true
+            sortable: true
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "ID", name: "id", widget: "uuid"}
+              - {label: "Назва (напр. Теплі роли)", name: "title", widget: "string"}
+              - {label: "Посилання (напр. warm-roly)", name: "category", widget: "string"}
+              # ТЕПЕР ЦЕ ЗВ'ЯЗОК: Вибираємо головну категорію з першого файлу
+              - label: "Головна група"
+                name: "mainCategoryIndex"
+                widget: "relation"
+                collection: "main_categories_list"
+                file: "mainCategories"
+                search_fields: ["items.title"]
+                display_fields: ["items.title"]
+                value_field: "items.id"
+
+  # --- 3. МЕНЮ СТРАВ (database.json) ---
   - name: "menu"
-    label: "Меню закладу"
+    label: "Меню закладу (Страви)"
     files:
       - label: "Усі страви"
         name: "database"
@@ -39,19 +68,22 @@ collections:
             sortable: true
             summary: "{{fields.article}} : {{fields.title}}"
             fields:
-              - {label: "ID (генерується автоматично)", name: "id", widget: "uuid"}
+              - {label: "ID", name: "id", widget: "uuid"}
               - {label: "Назва", name: "title", widget: "string"}
-              - {label: "Категорія (англ, напр. pizza)", name: "Category", widget: "string", required: false}
-              - {label: "Тег (напр. Піца, Роли)", name: "article", widget: "string", required: false}
+              - {label: "Категорія (Застаріле, можна не вводити)", name: "Category", widget: "string", required: false}
+              - {label: "Тег (напр. Піца)", name: "article", widget: "string", required: false}
               - {label: "Опис", name: "description", widget: "text", required: false}
               - {label: "Ціна", name: "price", widget: "string", required: false}
-              - label: "Розділ меню (ID категорії)"
+              
+              # ЗВ'ЯЗОК З ПІДКАТЕГОРІЯМИ (без зірочок)
+              - label: "Розділ меню (Підкатегорія)"
                 name: "categoryIndex"
                 widget: "relation"
                 collection: "categories_list"
                 file: "categories"
-                search_fields: ["items.*.title"]
-                display_fields: ["items.*.title"]
-                value_field: "items.*.id"
+                search_fields: ["items.title"]
+                display_fields: ["items.title"]
+                value_field: "items.id"
+                
               - {label: "Вага", name: "weight", widget: "string", required: false}
               - {label: "Фото", name: "img", widget: "image", required: false}
