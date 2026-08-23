@@ -49,6 +49,11 @@
       "id": "10",
       "title": "Паста",
       "alias": "pasta"
+    },
+    {
+      "id": "c335eae6-3007-4cd0-b1d3-79d09dcb02c4",
+      "title": "страва",
+      "alias": "dish"
     }
   ]
 }
