@@ -164,8 +164,8 @@ function displayMenusItem(sectionItem, menuItems) {
         }).join("");
 
         return `<div id="${item.category}"></div><h2 class="recommended__title" style="margin-top:50px;">${item.title}</h2>${displayHTML}<br>`;
-    }).join("");
-
+    });
+    displayTitle = displayTitle.join("");
     sectionCenter.innerHTML = `<nav class="d-flex justify-content-center">${subMenuContainer.outerHTML}</nav><br>${displayTitle}`;
 }
 
@@ -213,7 +213,8 @@ function displaySelectedItem(menuItems){
             </div>
                 </div>
             </div>`;
-    }).join("");
+    });
+    displayHTML = displayHTML.join("");
     sectionCenter.innerHTML = `<h2 class="recommended__title" style="margin-top:50px;">Обране</h2><br>${displayHTML}`;
 }
 
