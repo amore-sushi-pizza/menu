@@ -66,12 +66,10 @@ collections:
             widget: "list"
             show_add_top: true
             sortable: true
-            summary: "{{fields.article}} : {{fields.title}}"
+            summary: "{{fields.title}}"
             fields:
               - {label: "ID", name: "id", widget: "uuid"}
               - {label: "Назва", name: "title", widget: "string"}
-              - {label: "Категорія (Застаріле, можна не вводити)", name: "Category", widget: "string", required: false}
-              - {label: "Тег (напр. Піца)", name: "article", widget: "string", required: false}
               - {label: "Опис", name: "description", widget: "text", required: false}
               - {label: "Ціна", name: "price", widget: "string", required: false}
               
