@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "title": "Суші та Роли",
+      "alias": "rolys"
+    },
+    {
+      "id": "2",
+      "title": "Піца",
+      "alias": "pizza"
+    },
+    {
+      "id": "3",
+      "title": "Напої",
+      "alias": "drinks"
+    },
+    {
+      "id": "4",
+      "title": "Суші боул",
+      "alias": "sushi-bowl"
+    },
+    {
+      "id": "5",
+      "title": "Салати",
+      "alias": "salads"
+    },
+    {
+      "id": "6",
+      "title": "Морозиво",
+      "alias": "ice-cream"
+    },
+    {
+      "id": "7",
+      "title": "До пива",
+      "alias": "beer-menu"
+    },
+    {
+      "id": "8",
+      "title": "Бургери",
+      "alias": "burgers"
+    },
+    {
+      "id": "9",
+      "title": "Фритюр",
+      "alias": "frytur"
+    },
+    {
+      "id": "10",
+      "title": "Паста",
+      "alias": "pasta"
+    }
+  ]
+}
