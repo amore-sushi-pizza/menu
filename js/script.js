@@ -40,14 +40,16 @@ filterBtns.forEach((btn)=>{
         let z=document.getElementById('backBtn');
         z.className +=" active";
        
-		const Category = String(e.currentTarget.dataset.id);
-		const sectionCategory = sections.filter((sectionItem) => {
-		    return Category.includes(String(sectionItem.mainCategory)) || 
-		           Category === String(sectionItem.mainCategoryIndex);
-		});
-		const sectionCategoryIndexes = sectionCategory.map(category => String(category.id));
+		const targetMainCategory = String(e.currentTarget.dataset.id);
+        
+        const sectionCategory = sections.filter((sectionItem) => {
+            return String(sectionItem.mainCategoryIndex) === targetMainCategory || 
+                   String(sectionItem.mainCategory) === targetMainCategory;
+        });
+        const sectionCategoryIndexes = sectionCategory.map(category => String(category.id));
 
         const menuCategory = menu.filter(menuItem => sectionCategoryIndexes.includes(String(menuItem.categoryIndex)));
+        
         displayMenusItem(sectionCategory, menuCategory);
        
         const elementPosition = document.getElementById('recommended').getBoundingClientRect().top;
