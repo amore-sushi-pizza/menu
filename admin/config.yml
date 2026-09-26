@@ -23,7 +23,7 @@ collections:
             fields:
               - {label: "ID", name: "id", widget: "uuid"}
               - {label: "Назва (напр. Піца)", name: "title", widget: "string"}
-              - {label: "Аліас (напр. pizza)", name: "alias", widget: "string"}
+              - {label: "Категорія (напр. pizza)", name: "alias", widget: "string"}
 
   # --- 2. ПІДКАТЕГОРІЇ (categories.json) ---
   - name: "categories_list"
@@ -42,7 +42,7 @@ collections:
             fields:
               - {label: "ID", name: "id", widget: "uuid"}
               - {label: "Назва (напр. Теплі роли)", name: "title", widget: "string"}
-              - {label: "Посилання (напр. warm-roly)", name: "category", widget: "string"}
+              - {label: "Категорія (напр. warm-roly)", name: "category", widget: "string"}
               # ТЕПЕР ЦЕ ЗВ'ЯЗОК: Вибираємо головну категорію з першого файлу
               - label: "Головна група"
                 name: "mainCategoryIndex"
