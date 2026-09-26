@@ -693,17 +693,6 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/white_dragon.png",
-      "price": "220UAH",
-      "categoryIndex": "1",
-      "article": "Роли",
-      "title": "Білий дракон",
-      "weight": "275г",
-      "id": "62",
-      "description": "Рис, норі, сир Філадельфія, лосось, тостерний сир, кунжут, соус Унагі",
-      "Category": "roly"
-    },
-    {
       "img": "img/products/sushi/red_dragon.png",
       "price": "230UAH",
       "categoryIndex": "1",
@@ -725,14 +714,36 @@
       "weight": "260г"
     },
     {
-      "img": "img/products/sushi/cheese.png",
-      "price": "160UAH",
+      "img": "img/products/sushi/white_dragon.png",
+      "price": "220UAH",
       "categoryIndex": "1",
       "article": "Роли",
-      "title": "Рол сирний",
-      "weight": "317г",
-      "id": "65",
-      "description": "Рис, норі, сир Філадельфія, сир Чеддер, кунжут",
+      "title": "Білий дракон",
+      "weight": "275г",
+      "id": "62",
+      "description": "Рис, норі, сир Філадельфія, лосось, тостерний сир, кунжут, соус Унагі",
+      "Category": "roly"
+    },
+    {
+      "img": "img/products/sushi/cheese_shrimp.png",
+      "price": "220UAH",
+      "categoryIndex": "1",
+      "article": "Роли",
+      "title": "Сирний з креветкою",
+      "weight": "315г",
+      "id": "67",
+      "description": "Рис, норі, огірок, креветки, сир Філадельфія, тостерний сир, пармезан, соус Унагі",
+      "Category": "roly"
+    },
+    {
+      "img": "img/products/sushi/cheese_midia.png",
+      "price": "200UAH",
+      "categoryIndex": "1",
+      "article": "Роли",
+      "title": "Сирні з мідією",
+      "weight": "320г",
+      "id": "98",
+      "description": "Рис, норі, мідія, сир Філадельфія, тостерний сир, пармезан, соус Унагі",
       "Category": "roly"
     },
     {
@@ -747,14 +758,25 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/cheese_shrimp.png",
-      "price": "220UAH",
+      "img": "img/products/sushi/cheese.png",
+      "price": "160UAH",
       "categoryIndex": "1",
       "article": "Роли",
-      "title": "Сирний з креветкою",
-      "weight": "315г",
-      "id": "67",
-      "description": "Рис, норі, огірок, креветки, сир Філадельфія, тостерний сир, пармезан, соус Унагі",
+      "title": "Рол сирний",
+      "weight": "317г",
+      "id": "65",
+      "description": "Рис, норі, сир Філадельфія, сир Чеддер, кунжут",
+      "Category": "roly"
+    },
+    {
+      "img": "img/products/sushi/cheese_pear.png",
+      "price": "200UAH",
+      "categoryIndex": "1",
+      "article": "Роли",
+      "title": "Чотири сири з грушею",
+      "weight": "310г",
+      "id": "96",
+      "description": "Рис, норі, груша, сир Філадельфія, горгонзола, тостерний сир, пармезан, соус Унагі",
       "Category": "roly"
     },
     {
@@ -853,6 +875,17 @@
       "Category": "roly"
     },
     {
+      "img": "img/products/sushi/maki_filadelfia.png",
+      "price": "90UAH",
+      "categoryIndex": "1",
+      "article": "Роли",
+      "title": "Макі Філадельфія",
+      "weight": "160г",
+      "id": "214",
+      "description": "Рис, норі, філадельфія",
+      "Category": "roly"
+    },
+    {
       "img": "img/products/sushi/maky_cucumber.png",
       "price": "80UAH",
       "categoryIndex": "1",
@@ -894,6 +927,70 @@
       "weight": "220г",
       "id": "80",
       "description": "Рис, норі, сир Філадельфія, огірок, Сурімі",
+      "Category": "roly"
+    },
+    {
+      "img": "img/products/sushi/origami.png",
+      "price": "210UAH",
+      "categoryIndex": "1",
+      "article": "Роли",
+      "title": "Рол Орігамі",
+      "weight": "290г",
+      "id": "100",
+      "description": "Рис, соєвий папір, лосось, сир Філадельфія, огірок, ікра масаго, авокадо",
+      "Category": "roly"
+    },
+    {
+      "img": "img/products/sushi/sakura.png",
+      "price": "250UAH",
+      "categoryIndex": "1",
+      "article": "Роли",
+      "title": "Рол Сакура",
+      "weight": "270г",
+      "id": "230",
+      "description": "Рис, сир Філадельфія, огірок, копчений лосось, рисові кульки",
+      "Category": "roly"
+    },
+    {
+      "img": "img/products/sushi/creamy_midia.png",
+      "price": "180UAH",
+      "categoryIndex": "1",
+      "article": "Роли",
+      "title": "Вершковий з мідією",
+      "weight": "260г",
+      "id": "231",
+      "description": "Рис, норі, сурімі, сир Філадельфія, огірок, мідія, соус Унагі",
+      "Category": "roly"
+    },
+    {
+      "img": "img/products/sushi/tokio.png",
+      "price": "280UAH",
+      "categoryIndex": "1",
+      "article": "Роли",
+      "title": "Рол Токіо",
+      "weight": "330г",
+      "id": "232",
+      "description": "Рис, норі, сир Філадельфія, огірок, копчений лосось, креветка, ікра тобіко",
+      "Category": "roly"
+    },
+    {
+      "price": "180UAH",
+      "categoryIndex": "1",
+      "article": "Роли",
+      "title": "Спайсі рол",
+      "weight": "300г",
+      "id": "1232",
+      "description": "Рис, печений лосось, норі, сир Філадельфія, огірок, кунжут, спайсі соус",
+      "Category": "roly"
+    },
+    {
+      "price": "180UAH",
+      "categoryIndex": "1",
+      "article": "Роли",
+      "title": "Ебі рол",
+      "weight": "250г",
+      "id": "1233",
+      "description": "Рис, печений лосось, норі, сир Філадельфія, огірок, кунжут",
       "Category": "roly"
     },
     {
@@ -1027,6 +1124,16 @@
       "Category": "roly"
     },
     {
+      "id": "88",
+      "title": "Сет міні Мікс",
+      "Category": "roly",
+      "article": "Сети",
+      "description": "Рол Філадельфія/рол Філадельфія з вугрем/Філадельфія Масаго/Мон рол/Білий дракон/рол Боніто",
+      "price": "600UAH",
+      "categoryIndex": "3",
+      "weight": "1005г (24 шматки)"
+    },
+    {
       "img": "img/products/sushi/set_filadelfiia.png",
       "price": "750UAH",
       "categoryIndex": "3",
@@ -1047,16 +1154,6 @@
       "id": "87",
       "description": "Рол Філадельфія/рол Філадельфія з вугрем у кунжуті/рол Боніто/рол Каліфорнія/рол Норі макі",
       "Category": "roly"
-    },
-    {
-      "id": "88",
-      "title": "Сет міні Мікс",
-      "Category": "roly",
-      "article": "Сети",
-      "description": "Рол Філадельфія/рол Філадельфія з вугрем/Філадельфія Масаго/Мон рол/Білий дракон/рол Боніто",
-      "price": "600UAH",
-      "categoryIndex": "3",
-      "weight": "1005г (24 шматки)"
     },
     {
       "img": "img/products/sushi/set_warm.jpg",
@@ -1143,39 +1240,6 @@
       "Category": "roly"
     },
     {
-      "img": "img/products/sushi/cheese_pear.png",
-      "price": "200UAH",
-      "categoryIndex": "1",
-      "article": "Роли",
-      "title": "Чотири сири з грушею",
-      "weight": "310г",
-      "id": "96",
-      "description": "Рис, норі, груша, сир Філадельфія, горгонзола, тостерний сир, пармезан, соус Унагі",
-      "Category": "roly"
-    },
-    {
-      "img": "img/products/sushi/cheese_midia.png",
-      "price": "200UAH",
-      "categoryIndex": "1",
-      "article": "Роли",
-      "title": "Сирні з мідією",
-      "weight": "320г",
-      "id": "98",
-      "description": "Рис, норі, мідія, сир Філадельфія, тостерний сир, пармезан, соус Унагі",
-      "Category": "roly"
-    },
-    {
-      "img": "img/products/sushi/origami.png",
-      "price": "210UAH",
-      "categoryIndex": "1",
-      "article": "Роли",
-      "title": "Рол Орігамі",
-      "weight": "290г",
-      "id": "100",
-      "description": "Рис, соєвий папір, лосось, сир Філадельфія, огірок, ікра масаго, авокадо",
-      "Category": "roly"
-    },
-    {
       "id": "101",
       "title": "Спрінг рол з лососем",
       "Category": "roly",
@@ -1215,6 +1279,26 @@
       "price": "50UAH",
       "categoryIndex": "8",
       "weight": "400 мл"
+    },
+    {
+      "id": "224",
+      "title": "Яблуневий пиріг",
+      "Category": "drinks",
+      "article": "Гарячі напої",
+      "description": "",
+      "price": "60UAH",
+      "categoryIndex": "8",
+      "weight": "230 мл"
+    },
+    {
+      "id": "225",
+      "title": "Мульти Чіл",
+      "Category": "drinks",
+      "article": "Гарячі напої",
+      "description": "",
+      "price": "60UAH",
+      "categoryIndex": "8",
+      "weight": "230 мл"
     },
     {
       "id": "122",
@@ -1668,22 +1752,22 @@
       "weight": "200мл"
     },
     {
-      "id": "166",
-      "title": "Коньяк",
-      "Category": "drinks",
-      "article": "Алкогольні напої",
-      "description": "",
-      "price": "40UAH",
-      "categoryIndex": "11",
-      "weight": "50мл"
-    },
-    {
       "id": "167",
       "title": "Ром",
       "Category": "drinks",
       "article": "Алкогольні напої",
       "description": "",
       "price": "50UAH",
+      "categoryIndex": "11",
+      "weight": "50мл"
+    },
+    {
+      "id": "166",
+      "title": "Коньяк",
+      "Category": "drinks",
+      "article": "Алкогольні напої",
+      "description": "",
+      "price": "40UAH",
       "categoryIndex": "11",
       "weight": "50мл"
     },
@@ -1710,6 +1794,17 @@
       "Category": "sushi-bowl"
     },
     {
+      "img": "img/products/bowls/creamy_shrimp.png",
+      "price": "320UAH",
+      "categoryIndex": "14",
+      "article": "Суші боул",
+      "title": "Вершкові креветки",
+      "weight": "300г",
+      "id": "218",
+      "description": "Креветки, часник, помідорка, зелень, вершки, фокача",
+      "Category": "sushi-bowl"
+    },
+    {
       "img": "img/products/bowls/bento-shrimp.png",
       "price": "600UAH",
       "categoryIndex": "14",
@@ -1729,6 +1824,17 @@
       "weight": "620г",
       "id": "307",
       "description": "Рис, норі, сир Філадельфія, огірок, авокадо, лосось, ікра",
+      "Category": "sushi-bowl"
+    },
+    {
+      "img": "img/products/salads/tartar.png",
+      "price": "200UAH",
+      "categoryIndex": "14",
+      "article": "Суші боул",
+      "title": "Тартар з лососем",
+      "weight": "160г",
+      "id": "223",
+      "description": "Лосось, огірок, авокадо, філадельфія, соус Теріякі, рисові чипси",
       "Category": "sushi-bowl"
     },
     {
@@ -1762,6 +1868,50 @@
       "weight": "250г",
       "id": "172",
       "description": "Філе курки, шинка, помідор, огірок, сухарики, майонез, часник",
+      "Category": "salads"
+    },
+    {
+      "img": "img/products/salads/cezar_shrimp.png",
+      "price": "220UAH",
+      "categoryIndex": "15",
+      "article": "Салати",
+      "title": "Салат Цезар \"Креветка\"",
+      "weight": "350г",
+      "id": "183",
+      "description": "Айзберг, крутони, креветка, помідор, яйце, соус \"Цезар\", пармезан",
+      "Category": "salads"
+    },
+    {
+      "img": "img/products/salads/hamon.png",
+      "price": "220UAH",
+      "categoryIndex": "15",
+      "article": "Салати",
+      "title": "Салат з хамоном",
+      "weight": "300г",
+      "id": "58",
+      "description": "Зелень, груша, хамон, помідор, сир дор-Блю, соус гірчично-медовий",
+      "Category": "salads"
+    },
+    {
+      "img": "img/products/salads/midia.png",
+      "price": "170UAH",
+      "categoryIndex": "15",
+      "article": "Салати",
+      "title": "Салат з мідіями",
+      "weight": "220г",
+      "id": "208",
+      "description": "Зелень, помідор, перець, мідії, фета, кисло-солодкий соус",
+      "Category": "salads"
+    },
+    {
+      "img": "img/products/salads/cezar.png",
+      "price": "180UAH",
+      "categoryIndex": "15",
+      "article": "Салати",
+      "title": "Салат Цезар \"Курка\"",
+      "weight": "350г",
+      "id": "173",
+      "description": "Айзберг, крутони, курка, помідор, яйце, соус \"Цезар\", пармезан",
       "Category": "salads"
     },
     {
@@ -1864,38 +2014,6 @@
       "price": "50UAH",
       "categoryIndex": "17",
       "weight": "50г"
-    },
-    {
-      "img": "img/products/salads/cezar.png",
-      "price": "180UAH",
-      "categoryIndex": "15",
-      "article": "Салати",
-      "title": "Салат Цезар \"Курка\"",
-      "weight": "350г",
-      "id": "173",
-      "description": "Айзберг, крутони, курка, помідор, яйце, соус \"Цезар\", пармезан",
-      "Category": "salads"
-    },
-    {
-      "img": "img/products/salads/hamon.png",
-      "price": "220UAH",
-      "categoryIndex": "15",
-      "article": "Салати",
-      "title": "Салат з хамоном",
-      "weight": "300г",
-      "id": "58",
-      "description": "Зелень, груша, хамон, помідор, сир дор-Блю, соус гірчично-медовий",
-      "Category": "salads"
-    },
-    {
-      "id": "184",
-      "title": "Патріот",
-      "Category": "drinks",
-      "article": "Алкогольні коктейлі",
-      "description": "Сік персиковий, 7up, горілка, Blue Curacao, лід",
-      "price": "95UAH",
-      "categoryIndex": "12",
-      "weight": "300 мл"
     },
     {
       "img": "img/products/burgers/burger_rancho.png",
@@ -2029,6 +2147,17 @@
       "Category": "frytur"
     },
     {
+      "img": "img/products/frytur/squid_rings.png",
+      "price": "130UAH",
+      "categoryIndex": "19",
+      "article": "Фритюр",
+      "title": "Кільця кальмару",
+      "weight": "8шт",
+      "id": "234",
+      "description": "Подаються з соусом Айолі",
+      "Category": "frytur"
+    },
+    {
       "img": "img/products/frytur/potato_sausage.png",
       "price": "150UAH",
       "categoryIndex": "19",
@@ -2037,6 +2166,17 @@
       "weight": "350г",
       "id": "197",
       "description": "З ковбаскою, часником, солінням та кетчупом",
+      "Category": "frytur"
+    },
+    {
+      "img": "img/products/frytur/potato-myslyvski-kovbasky.png",
+      "price": "150UAH",
+      "categoryIndex": "19",
+      "article": "Фритюр",
+      "title": "Картопля з мисливською ковбаскою",
+      "weight": "350г",
+      "id": "233",
+      "description": "Картопля, мисливські ковбаски, квашений огірок, сирний соус, кукурудза, цибулеві кріспі",
       "Category": "frytur"
     },
     {
@@ -2062,17 +2202,6 @@
       "Category": "frytur"
     },
     {
-      "img": "img/products/frytur/potato-myslyvski-kovbasky.png",
-      "price": "150UAH",
-      "categoryIndex": "19",
-      "article": "Фритюр",
-      "title": "Картопля з мисливською ковбаскою",
-      "weight": "350г",
-      "id": "233",
-      "description": "Картопля, мисливські ковбаски, квашений огірок, сирний соус, кукурудза, цибулеві кріспі",
-      "Category": "frytur"
-    },
-    {
       "img": "img/products/frytur/chicken_sweet.png",
       "price": "180UAH",
       "categoryIndex": "19",
@@ -2081,17 +2210,6 @@
       "weight": "400г",
       "id": "198",
       "description": "Куряче філе в соусі, паровий рис, кунжут, зелена цибулька",
-      "Category": "frytur"
-    },
-    {
-      "img": "img/products/frytur/squid_rings.png",
-      "price": "130UAH",
-      "categoryIndex": "19",
-      "article": "Фритюр",
-      "title": "Кільця кальмару",
-      "weight": "8шт",
-      "id": "234",
-      "description": "Подаються з соусом Айолі",
       "Category": "frytur"
     },
     {
@@ -2115,28 +2233,6 @@
       "id": "200",
       "description": "Фрі, сирні палички 6 шт., цибулеві кільця 6 шт., нагетси 6 шт., соус \"Айолі\", соління, кетчуп",
       "Category": "frytur"
-    },
-    {
-      "img": "img/products/salads/cezar_shrimp.png",
-      "price": "220UAH",
-      "categoryIndex": "15",
-      "article": "Салати",
-      "title": "Салат Цезар \"Креветка\"",
-      "weight": "350г",
-      "id": "183",
-      "description": "Айзберг, крутони, креветка, помідор, яйце, соус \"Цезар\", пармезан",
-      "Category": "salads"
-    },
-    {
-      "img": "img/products/salads/midia.png",
-      "price": "170UAH",
-      "categoryIndex": "15",
-      "article": "Салати",
-      "title": "Салат з мідіями",
-      "weight": "220г",
-      "id": "208",
-      "description": "Зелень, помідор, перець, мідії, фета, кисло-солодкий соус",
-      "Category": "salads"
     },
     {
       "img": "img/products/pasta/pasta_shrimp.png",
@@ -2183,59 +2279,6 @@
       "Category": "pasta"
     },
     {
-      "img": "img/products/sushi/maki_filadelfia.png",
-      "price": "90UAH",
-      "categoryIndex": "1",
-      "article": "Роли",
-      "title": "Макі Філадельфія",
-      "weight": "160г",
-      "id": "214",
-      "description": "Рис, норі, філадельфія",
-      "Category": "roly"
-    },
-    {
-      "img": "img/products/bowls/creamy_shrimp.png",
-      "price": "320UAH",
-      "categoryIndex": "14",
-      "article": "Суші боул",
-      "title": "Вершкові креветки",
-      "weight": "300г",
-      "id": "218",
-      "description": "Креветки, часник, помідорка, зелень, вершки, фокача",
-      "Category": "sushi-bowl"
-    },
-    {
-      "img": "img/products/salads/tartar.png",
-      "price": "200UAH",
-      "categoryIndex": "14",
-      "article": "Суші боул",
-      "title": "Тартар з лососем",
-      "weight": "160г",
-      "id": "223",
-      "description": "Лосось, огірок, авокадо, філадельфія, соус Теріякі, рисові чипси",
-      "Category": "sushi-bowl"
-    },
-    {
-      "id": "224",
-      "title": "Яблуневий пиріг",
-      "Category": "drinks",
-      "article": "Гарячі напої",
-      "description": "",
-      "price": "60UAH",
-      "categoryIndex": "8",
-      "weight": "230 мл"
-    },
-    {
-      "id": "225",
-      "title": "Мульти Чіл",
-      "Category": "drinks",
-      "article": "Гарячі напої",
-      "description": "",
-      "price": "60UAH",
-      "categoryIndex": "8",
-      "weight": "230 мл"
-    },
-    {
       "id": "226",
       "title": "Полуничний",
       "Category": "drinks",
@@ -2256,6 +2299,16 @@
       "weight": "220 мл"
     },
     {
+      "id": "184",
+      "title": "Патріот",
+      "Category": "drinks",
+      "article": "Алкогольні коктейлі",
+      "description": "Сік персиковий, 7up, горілка, Blue Curacao, лід",
+      "price": "95UAH",
+      "categoryIndex": "12",
+      "weight": "300 мл"
+    },
+    {
       "id": "228",
       "title": "Виноградний глінтвейн",
       "Category": "drinks",
@@ -2274,59 +2327,6 @@
       "price": "80UAH",
       "categoryIndex": "12",
       "weight": "230 мл"
-    },
-    {
-      "img": "img/products/sushi/sakura.png",
-      "price": "250UAH",
-      "categoryIndex": "1",
-      "article": "Роли",
-      "title": "Рол Сакура",
-      "weight": "270г",
-      "id": "230",
-      "description": "Рис, сир Філадельфія, огірок, копчений лосось, рисові кульки",
-      "Category": "roly"
-    },
-    {
-      "img": "img/products/sushi/creamy_midia.png",
-      "price": "180UAH",
-      "categoryIndex": "1",
-      "article": "Роли",
-      "title": "Вершковий з мідією",
-      "weight": "260г",
-      "id": "231",
-      "description": "Рис, норі, сурімі, сир Філадельфія, огірок, мідія, соус Унагі",
-      "Category": "roly"
-    },
-    {
-      "img": "img/products/sushi/tokio.png",
-      "price": "280UAH",
-      "categoryIndex": "1",
-      "article": "Роли",
-      "title": "Рол Токіо",
-      "weight": "330г",
-      "id": "232",
-      "description": "Рис, норі, сир Філадельфія, огірок, копчений лосось, креветка, ікра тобіко",
-      "Category": "roly"
-    },
-    {
-      "price": "180UAH",
-      "categoryIndex": "1",
-      "article": "Роли",
-      "title": "Спайсі рол",
-      "weight": "300г",
-      "id": "1232",
-      "description": "Рис, печений лосось, норі, сир Філадельфія, огірок, кунжут, спайсі соус",
-      "Category": "roly"
-    },
-    {
-      "price": "180UAH",
-      "categoryIndex": "1",
-      "article": "Роли",
-      "title": "Ебі рол",
-      "weight": "250г",
-      "id": "1233",
-      "description": "Рис, печений лосось, норі, сир Філадельфія, огірок, кунжут",
-      "Category": "roly"
     },
     {
       "id": "329",
@@ -2380,4 +2380,3 @@
     }
   ]
 }
-
