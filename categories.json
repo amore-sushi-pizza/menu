@@ -149,6 +149,12 @@
       "title": "щось смачне",
       "category": "smth",
       "mainCategoryIndex": "fab40f5e-5fe1-4ea6-b74c-2dd7c3a2720d"
+    },
+    {
+      "id": "acb90079-2f90-4d42-a142-067ddd79f12f",
+      "title": "новинки",
+      "category": "newcomers",
+      "mainCategoryIndex": "4"
     }
   ]
 }
