@@ -2329,6 +2329,16 @@
       "weight": "230 мл"
     },
     {
+      "id": "201",
+      "title": "Послуга відкоркуй",
+      "Category": "drinks",
+      "article": "Послуга відкоркуй",
+      "description": "За вашу пляшку та наші склянки",
+      "price": "100UAH",
+      "categoryIndex": "20",
+      "weight": ""
+    },
+    {
       "id": "329",
       "title": "Упаковка для піци",
       "Category": "pizza",
@@ -2359,16 +2369,6 @@
       "weight": ""
     },
     {
-      "id": "201",
-      "title": "Послуга відкоркуй",
-      "Category": "drinks",
-      "article": "Послуга відкоркуй",
-      "description": "За вашу пляшку та наші склянки",
-      "price": "100UAH",
-      "categoryIndex": "20",
-      "weight": ""
-    },
-    {
       "id": "202",
       "title": "Упаковка сет",
       "Category": "rolys",
@@ -2377,12 +2377,6 @@
       "price": "20UAH",
       "categoryIndex": "21",
       "weight": ""
-    },
-    {
-      "id": "cd67c658-6679-4726-966f-6b102b9a1f0b",
-      "categoryIndex": "acb90079-2f90-4d42-a142-067ddd79f12f",
-      "title": "нове",
-      "img": "img/products/photo_2026-09-18_18-35-34.jpg"
     }
   ]
 }
