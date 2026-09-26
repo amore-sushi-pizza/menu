@@ -13,6 +13,12 @@
       "mainCategoryIndex": "1"
     },
     {
+      "id": "24",
+      "title": "Роли темпура",
+      "category": "tempura",
+      "mainCategoryIndex": "1"
+    },
+    {
       "id": "3",
       "title": "Сети",
       "category": "sety",
@@ -109,6 +115,12 @@
       "mainCategoryIndex": "8"
     },
     {
+      "id": "22",
+      "title": "Паста",
+      "category": "pasta",
+      "mainCategoryIndex": "10"
+    },
+    {
       "id": "19",
       "title": "Фритюр",
       "category": "frytur",
@@ -127,34 +139,10 @@
       "mainCategoryIndex": "1"
     },
     {
-      "id": "22",
-      "title": "Паста",
-      "category": "pasta",
-      "mainCategoryIndex": "10"
-    },
-    {
       "id": "23",
       "title": "Упаковка",
       "category": "pizza-pack",
       "mainCategoryIndex": "2"
-    },
-    {
-      "id": "24",
-      "title": "Роли темпура",
-      "category": "tempura",
-      "mainCategoryIndex": "1"
-    },
-    {
-      "id": "fc244489-18cb-48d8-a59f-e00e4344644a",
-      "title": "щось смачне",
-      "category": "smth",
-      "mainCategoryIndex": "fab40f5e-5fe1-4ea6-b74c-2dd7c3a2720d"
-    },
-    {
-      "id": "acb90079-2f90-4d42-a142-067ddd79f12f",
-      "title": "новинки",
-      "category": "newcomers",
-      "mainCategoryIndex": "4"
     }
   ]
 }
