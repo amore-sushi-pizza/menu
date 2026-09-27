@@ -1,100 +1,39 @@
 const firstPage = ()=>{
     let x =document.getElementById('home__menu');
-    
     x.classList.remove("hide__menu");
     let y=document.getElementById('recommended');
-        y.classList.remove("active");
+    y.classList.remove("active");
     
     let z=document.getElementById('backBtn');
     z.classList.remove("active");
     document.body.scrollTop = 0; 
     document.documentElement.scrollTop = 0;
 }
+
 btn__home.onclick=()=>{
     firstPage();
 }
+
 backBtn.onclick=()=>{
     firstPage();
 }
-// Зберегти обрані товари в Session Storage
+
 function saveSelectedItemsToSessionStorage(selectedItems) {
     sessionStorage.setItem('selectedItems', JSON.stringify(selectedItems));
-  }
+}
   
-  // Отримати обрані товари з Session Storage
-  function getSelectedItemsFromSessionStorage() {
+function getSelectedItemsFromSessionStorage() {
     const selectedItemsString = sessionStorage.getItem('selectedItems');
     return selectedItemsString ? JSON.parse(selectedItemsString) : [];
-  }
+}
 
 const sectionCenter = document.querySelector('.recommended');
-const filterBtns = document.querySelectorAll('.main__link');
-const filterBtnsBaner = document.querySelectorAll('.nav__link');
 
-filterBtns.forEach((btn)=>{
-	btn.addEventListener("click", (e)=>{
-    	let x=document.getElementById('recommended');
-        x.className += " active";
-        let y = document.getElementById('home__menu');
-        y.className += " hide__menu";
-        let z=document.getElementById('backBtn');
-        z.className +=" active";
-       
-		const targetMainCategory = String(e.currentTarget.dataset.id);
-        
-        const sectionCategory = sections.filter((sectionItem) => {
-            return String(sectionItem.mainCategoryIndex) === targetMainCategory || 
-                   String(sectionItem.mainCategory) === targetMainCategory;
-        });
-        const sectionCategoryIndexes = sectionCategory.map(category => String(category.id));
-
-        const menuCategory = menu.filter(menuItem => sectionCategoryIndexes.includes(String(menuItem.categoryIndex)));
-        
-        displayMenusItem(sectionCategory, menuCategory);
-       
-        const elementPosition = document.getElementById('recommended').getBoundingClientRect().top;
-        window.scrollTo({
-            top: window.scrollY + elementPosition - 150,
-            behavior: 'smooth'
-        });
-    })
-})
-
-liked__products.onclick=()=>{
-    let x=document.getElementById('recommended');
-    x.className += " active";
-    let y = document.getElementById('home__menu');
-    y.className += " hide__menu";
-    let z=document.getElementById('backBtn');
-    z.className +=" active";
-    const menuCategory = menu.filter((menuItem) => {
-        if(menuItem.selected){
-            return menuItem;
-        }});
-    displaySelectedItem(menuCategory);
-    
-    document.body.scrollTop = 0; 
-    document.documentElement.scrollTop = 0;
-        
-}
-filterBtnsBaner.forEach((btn)=>{
-    btn.addEventListener("click", (e)=>{
-        let x=document.getElementById('burg__menu');
-        x.className += " collapsed";
-        x.ariaExpanded = "false";
-        let y = document.getElementById('responsive');
-        y.classList.remove("show");
-        
-    })
-})
-
-// Оголошуємо глобальну змінну для меню
-// Оголошуємо глобальну змінну для меню
 let menu = [];
 let sections = [];
 let mainCategories = [];
 
-// 2. Логіка завантаження при відкритті сторінки
+// Логіка завантаження при відкритті сторінки
 window.addEventListener("DOMContentLoaded", () => {
     const v = new Date().getTime(); // Антикеш
     Promise.all([
@@ -120,67 +59,145 @@ window.addEventListener("DOMContentLoaded", () => {
         if (!Array.isArray(sections)) sections = [];
         if (!Array.isArray(menu)) menu = [];
 
+        // 1. ДИНАМІЧНО СТВОРЮЄМО КНОПКИ БУРГЕР-МЕНЮ (ШАПКА) - ДОДАНО data-alias
+        const navContainer = document.querySelector('#responsive .navbar-nav');
+        if (navContainer) {
+            navContainer.innerHTML = mainCategories.map(cat => 
+                `<button type="button" href="#${cat.alias}" class="nav__link main__link" data-id="${cat.id}" data-alias="${cat.alias}">${cat.title}</button>`
+            ).join("");
+        }
+
+        // 2. ДИНАМІЧНО СТВОРЮЄМО ВЕЛИКІ ПЛИТКИ ГОЛОВНОГО МЕНЮ - ДОДАНО data-alias
+        const homeMenuContainer = document.getElementById('home__menu');
+        if (homeMenuContainer) {
+            homeMenuContainer.innerHTML = mainCategories.map(cat => 
+                `<div class="col-sm-12 col-lg-4 col-md-6 my-4">
+                    <button type="button" href="#${cat.alias}" class="btn btn-info btn-lg border-0 btun main__link" data-id="${cat.id}" data-alias="${cat.alias}">${cat.title}</button>
+                </div>`
+            ).join("");
+        }
+
         const selectedItems = getSelectedItemsFromSessionStorage();
         menu.forEach(item => {
             item.selected = selectedItems.some(selectedItem => String(selectedItem.id) === String(item.id));
         });
 
         displayMenusItem(sections, menu);
+
+        // 3. ДОДАЄМО КЛІКИ ТІЛЬКИ ПІСЛЯ ТОГО, ЯК КНОПКИ З'ЯВИЛИСЯ
+        const filterBtns = document.querySelectorAll('.main__link');
+        filterBtns.forEach((btn)=>{
+            btn.addEventListener("click", (e)=>{
+                let x=document.getElementById('recommended');
+                x.className += " active";
+                let y = document.getElementById('home__menu');
+                y.className += " hide__menu";
+                let z=document.getElementById('backBtn');
+                z.className +=" active";
+               
+                // ВИПРАВЛЕНИЙ ФІЛЬТР: БЕРЕМО І НОВИЙ ID, І СТАРУ НАЗВУ (ALIAS)
+                const targetId = String(e.currentTarget.dataset.id);
+                const targetAlias = String(e.currentTarget.dataset.alias);
+                
+                const sectionCategory = sections.filter((sectionItem) => {
+                    return String(sectionItem.mainCategoryIndex) === targetId || 
+                           String(sectionItem.mainCategory) === targetAlias ||
+                           String(sectionItem.mainCategory) === targetId ||
+                           targetAlias.includes(String(sectionItem.mainCategory));
+                });
+                
+                const sectionCategoryIndexes = sectionCategory.map(category => String(category.id));
+
+                const menuCategory = menu.filter(menuItem => sectionCategoryIndexes.includes(String(menuItem.categoryIndex)));
+                
+                displayMenusItem(sectionCategory, menuCategory);
+               
+                const elementPosition = document.getElementById('recommended').getBoundingClientRect().top;
+                window.scrollTo({
+                    top: window.scrollY + elementPosition - 150,
+                    behavior: 'smooth'
+                });
+            })
+        });
+
+        const filterBtnsBaner = document.querySelectorAll('.nav__link');
+        filterBtnsBaner.forEach((btn)=>{
+            btn.addEventListener("click", (e)=>{
+                let x=document.getElementById('burg__menu');
+                x.className += " collapsed";
+                x.ariaExpanded = "false";
+                let y = document.getElementById('responsive');
+                y.classList.remove("show");
+            })
+        });
+
     })
     .catch(error => {
         console.error("Сталася помилка при завантаженні даних:", error);
     });
 });
-function displayMenusItem(sectionItem, menuItems) {
-    let subMenu;
+
+liked__products.onclick=()=>{
+    let x=document.getElementById('recommended');
+    x.className += " active";
+    let y = document.getElementById('home__menu');
+    y.className += " hide__menu";
+    let z=document.getElementById('backBtn');
+    z.className +=" active";
+    const menuCategory = menu.filter((menuItem) => {
+        if(menuItem.selected){
+            return menuItem;
+        }});
+    displaySelectedItem(menuCategory);
     
-    let subMenuContainer = document.createElement('div');
-    if(sectionItem.length > 1) {
-        subMenu = sectionItem.map((item) => {
-        return `<a class="btn btn-coffee" href="#${item.category}">${item.title}</a>`;
-    });
-    subMenu = subMenu.join(" ");
-   
-    subMenuContainer.classList.add('sub-menu-container');
-    subMenuContainer.innerHTML = subMenu;
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0;
 }
 
-   let displayTitle = sectionItem.map((item) => {
-    const filteredMenuItems = menuItems.filter((oneItem) => {
-        return String(oneItem.categoryIndex) === String(item.id);
-    });
-    
-    // Щоб не виводити пусті заголовки
-    if (filteredMenuItems.length === 0) return ""; 
+function displayMenusItem(sectionItem, menuItems) {
+    let subMenuContainer = document.createElement('div');
+    if(sectionItem.length > 1) {
+        let subMenu = sectionItem.map((item) => {
+            return `<a class="btn btn-coffee" href="#${item.category}">${item.title}</a>`;
+        }).join(" ");
+   
+        subMenuContainer.classList.add('sub-menu-container');
+        subMenuContainer.innerHTML = subMenu;
+    }
 
-    let displayMenusItem = filteredMenuItems.map((menuItem) => {
-        return `
-            <div class="col-sm-12 col-lg-4 col-md-6">
-                <div class="card-menu">
-                    <img src="${menuItem.img ? menuItem.img : 'img/icons/logoTab.png'}" class="${menuItem.img ? '' : 'card-img-logo'} mx-auto d-block card-img-top">
-                    <div class="card-body flex-grow-1">
-                        <div class="card-text">
-                            <h3 class="display-6">${menuItem.title}</h3>
-                            <p class="small text-muted"><em>${menuItem.weight || ""}</em></p>
-                            <p class="Category">${menuItem.description || ""}</p>
-                            <p class="price">${menuItem.price || ""}</p>
-                        </div>
-                        <div class="d-flex justify-content-end align-items-center">
-                            <button class="btn" onclick="toggleSelectionMenu('${menuItem.id}')">
-                                <i class="${menuItem.selected ? 'fas' : 'far'} fa-heart fa-2x p-2"></i>
-                            </button>
+    let displayTitle = sectionItem.map((item) => {
+        const filteredMenuItems = menuItems.filter((oneItem) => {
+            return String(oneItem.categoryIndex) === String(item.id);
+        });
+        
+        if (filteredMenuItems.length === 0) return ""; 
+
+        let displayMenusItem = filteredMenuItems.map((menuItem) => {
+            return `
+                <div class="col-sm-12 col-lg-4 col-md-6">
+                    <div class="card-menu">
+                        <img src="${menuItem.img ? menuItem.img : 'img/icons/logoTab.png'}" class="${menuItem.img ? '' : 'card-img-logo'} mx-auto d-block card-img-top">
+                        <div class="card-body flex-grow-1">
+                            <div class="card-text">
+                                <h3 class="display-6">${menuItem.title}</h3>
+                                <p class="small text-muted"><em>${menuItem.weight || ""}</em></p>
+                                <p class="Category">${menuItem.description || ""}</p>
+                                <p class="price">${menuItem.price || ""}</p>
+                            </div>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <button class="btn" onclick="toggleSelectionMenu('${menuItem.id}')">
+                                    <i class="${menuItem.selected ? 'fas' : 'far'} fa-heart fa-2x p-2"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>`;
+                </div>`;
+        }).join("");
+
+        return `<div id="${item.category}"></div><h2 class="recommended__title" style="margin-top:50px;">${item.title}</h2>${displayMenusItem}<br>`;
     }).join("");
 
-    return `<div id="${item.category}"></div><h2 class="recommended__title" style="margin-top:50px;">${item.title}</h2>${displayMenusItem}<br>`;
-});
-
-    displayTitle = displayTitle.join("");
     sectionCenter.innerHTML = `<nav class="d-flex justify-content-center">${subMenuContainer.outerHTML}</nav><br>${displayTitle}`;
-    
 }
 
 function toggleSelectionMenu(itemId) {
@@ -203,20 +220,20 @@ function toggleSelectionMenu(itemId) {
     const menuCategory = menu.filter(m => sectionCategoryIndexes.includes(String(m.categoryIndex)));
     displayMenusItem(sectionCategory, menuCategory);
 }
+
 function displaySelectedItem(menuItems){
     let displayMenusItem = menuItems.map((menuItem) => {
         return `      
             <div class="col-sm-12 col-lg-6 col-md-12">
                 <div class="selected-item">
-                    
                    <div class=" d-flex justify-content-between">
                     <div class="card-body flex-grow-1">
-                        <p class="card-text">
+                        <div class="card-text">
                             <p class="display-6">${menuItem.title}</p>
-                            <p class="small text-muted"><em>${menuItem.weight}</em></p>
-                            <p class="Category">${menuItem.description}</p>
-                            <p class="price">${menuItem.price}</p>
-                        </p>
+                            <p class="small text-muted"><em>${menuItem.weight || ""}</em></p>
+                            <p class="Category">${menuItem.description || ""}</p>
+                            <p class="price">${menuItem.price || ""}</p>
+                        </div>
                     </div>
                     <div class="d-flex justify-content-center align-items-center p-2" style="max-width: 27%;"><img src="${menuItem.img ? menuItem.img : "img/icons/logoTab.png"}" class="card-img-top"></div>
                     </div>
@@ -226,10 +243,8 @@ function displaySelectedItem(menuItems){
                 </button>
             </div>
                 </div>
-                
             </div>`;
-    });
-    displayMenusItem = displayMenusItem.join("");
+    }).join("");
     sectionCenter.innerHTML = `<h2 class="recommended__title" style="margin-top:50px;">Обране</h2><br>${displayMenusItem}`;
 }
 
@@ -242,22 +257,17 @@ function toggleSelection(itemId) {
     saveSelectedItemsToSessionStorage(selectedItems);
     displaySelectedItem(selectedItems);
 }
+
 window.onload = function () {
-    
     document.body.scrollTop = 0; 
     document.documentElement.scrollTop = 0;
-    
-  };
-// Отримати поточний день тижня (від 0 до 6, де 0 - неділя, 1 - понеділок, і так далі)
+};
+
 const currentDay = new Date().getDay();
-
-// Створити масив днів тижня
 const daysOfWeek = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
-
-// Знайти елемент дня тижня за ідентифікатором і підсвітити його
 const highlightedDay = document.getElementById(daysOfWeek[currentDay]);
+
 if (highlightedDay) {
     highlightedDay.style.fontSize = '1.2em'; 
     highlightedDay.style.fontWeight = 'bold';
-
 }
