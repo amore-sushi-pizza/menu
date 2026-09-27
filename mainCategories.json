@@ -1,24 +1,9 @@
 {
   "items": [
     {
-      "id": "1",
-      "title": "Роли",
-      "alias": "rolys"
-    },
-    {
       "id": "2",
       "title": "Піца",
       "alias": "pizza"
-    },
-    {
-      "id": "3",
-      "title": "Напої",
-      "alias": "drinks"
-    },
-    {
-      "id": "4",
-      "title": "Sushi Bowl",
-      "alias": "sushi-bowl"
     },
     {
       "id": "5",
@@ -26,14 +11,19 @@
       "alias": "salads"
     },
     {
-      "id": "6",
-      "title": "Морозиво",
-      "alias": "ice-cream"
+      "id": "1",
+      "title": "Роли",
+      "alias": "rolys"
     },
     {
-      "id": "7",
-      "title": "До пива",
-      "alias": "beer-menu"
+      "id": "4",
+      "title": "Sushi Bowl",
+      "alias": "sushi-bowl"
+    },
+    {
+      "id": "3",
+      "title": "Напої",
+      "alias": "drinks"
     },
     {
       "id": "8",
@@ -51,9 +41,14 @@
       "alias": "pasta"
     },
     {
-      "id": "fab40f5e-5fe1-4ea6-b74c-2dd7c3a2720d",
-      "title": "закуски",
-      "alias": "adds"
+      "id": "6",
+      "title": "Морозиво",
+      "alias": "ice-cream"
+    },
+    {
+      "id": "7",
+      "title": "До пива",
+      "alias": "beer-menu"
     }
   ]
 }
