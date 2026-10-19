@@ -49,6 +49,11 @@
       "id": "7",
       "title": "До пива",
       "alias": "beer-menu"
+    },
+    {
+      "id": "5c2c9eb1-c9b8-4b83-8016-2414f6ea7b8d",
+      "title": "Теплі страви",
+      "alias": "warm_dishes"
     }
   ]
 }
