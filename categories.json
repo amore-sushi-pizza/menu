@@ -143,12 +143,6 @@
       "title": "Упаковка",
       "category": "pizza-pack",
       "mainCategoryIndex": "2"
-    },
-    {
-      "id": "23adb17e-fbc6-410a-851f-5df95cdb43c2",
-      "title": "Теплі страви",
-      "category": "warm-dishes",
-      "mainCategoryIndex": "5c2c9eb1-c9b8-4b83-8016-2414f6ea7b8d"
     }
   ]
 }
