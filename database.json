@@ -2377,13 +2377,6 @@
       "price": "20UAH",
       "categoryIndex": "21",
       "weight": ""
-    },
-    {
-      "id": "cdc30e2a-67c7-4c45-8353-706bfcc061f2",
-      "title": "Новинка",
-      "price": "50",
-      "categoryIndex": "2",
-      "img": "img/products/chicken_mushroom_pasta.png"
     }
   ]
 }
