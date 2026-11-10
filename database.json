@@ -1266,7 +1266,7 @@
       "Category": "drinks",
       "article": "Гарячі напої",
       "description": "Подається з апельсином або лимоном",
-      "price": "35UAH",
+      "price": "50UAH",
       "categoryIndex": "8",
       "weight": "300 мл"
     },
@@ -1283,16 +1283,6 @@
     {
       "id": "224",
       "title": "Яблуневий пиріг",
-      "Category": "drinks",
-      "article": "Гарячі напої",
-      "description": "",
-      "price": "60UAH",
-      "categoryIndex": "8",
-      "weight": "230 мл"
-    },
-    {
-      "id": "225",
-      "title": "Мульти Чіл",
       "Category": "drinks",
       "article": "Гарячі напої",
       "description": "",
