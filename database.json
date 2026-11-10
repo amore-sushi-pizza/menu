@@ -1915,17 +1915,6 @@
       "Category": "salads"
     },
     {
-      "img": "img/products/salads/grilled_salmon.png",
-      "price": "270UAH",
-      "categoryIndex": "15",
-      "article": "Салати",
-      "title": "Запечений лосось",
-      "weight": "250г",
-      "id": "207",
-      "description": "Лосось, зелень, помідор, сир Філадельфія",
-      "Category": "salads"
-    },
-    {
       "id": "174",
       "title": "Морозиво з соусом",
       "Category": "ice-cream",
@@ -1974,16 +1963,6 @@
       "price": "50UAH",
       "categoryIndex": "17",
       "weight": "100г"
-    },
-    {
-      "id": "178",
-      "title": "Сухарики \"Хруст team\"",
-      "Category": "beer-menu",
-      "article": "До пива",
-      "description": "",
-      "price": "25UAH",
-      "categoryIndex": "17",
-      "weight": "60г"
     },
     {
       "id": "179",
